@@ -1,0 +1,855 @@
+ERROR 2024-10-28 19:39:08 root Unexpected error during user registration: create_user() missing 1 required positional argument: 'background_tasks'
+ERROR 2024-10-28 19:39:08 root Unexpected error: 500: Internal Server Error
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 25, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password, background_tasks)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: create_user() missing 1 required positional argument: 'background_tasks'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 53, in register_user
+    raise HTTPException(status_code=500, detail="Internal Server Error")
+fastapi.exceptions.HTTPException: 500: Internal Server Error
+ERROR 2024-10-28 19:42:06 app.core.logging This is an error message
+ERROR 2024-10-28 19:42:39 app.core.logging This is an error message
+ERROR 2024-10-28 19:42:53 root Unexpected error during user registration: create_user() missing 1 required positional argument: 'background_tasks'
+ERROR 2024-10-28 19:42:53 root Unexpected error: 500: Internal Server Error
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password, background_tasks)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: create_user() missing 1 required positional argument: 'background_tasks'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 54, in register_user
+    raise HTTPException(status_code=500, detail="Internal Server Error")
+fastapi.exceptions.HTTPException: 500: Internal Server Error
+ERROR 2024-10-28 19:46:52 app.core.logging This is an error message
+ERROR 2024-10-28 19:47:11 app.core.logging This is an error message
+ERROR 2024-10-28 19:51:43 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 19:51:43 root HTTP Exception during user registration: Email already exists
+ERROR 2024-10-28 19:51:43 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+ERROR 2024-10-28 20:10:10 app.core.logging This is an error message
+ERROR 2024-10-28 21:07:11 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:07:11 root HTTP Exception during user registration: Email already exists
+ERROR 2024-10-28 21:07:11 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+ERROR 2024-10-28 21:15:24 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:15:24 root HTTP Exception during user registration: Email already exists
+ERROR 2024-10-28 21:15:24 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+ERROR 2024-10-28 21:18:51 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:18:51 root HTTP Exception during user registration: Email already exists
+ERROR 2024-10-28 21:18:51 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+ERROR 2024-10-28 21:19:41 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:19:41 root HTTP Exception during user registration: Email already exists
+ERROR 2024-10-28 21:19:41 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+ERROR 2024-10-28 21:19:45 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:19:45 root HTTP Exception during user registration: Email already exists
+ERROR 2024-10-28 21:19:45 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+ERROR 2024-10-28 21:29:20 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:29:20 root HTTP Exception during user registration: Email already exists
+ERROR 2024-10-28 21:29:20 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+ERROR 2024-10-28 21:29:45 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:29:45 root HTTP Exception during user registration: Email already exists
+ERROR 2024-10-28 21:29:45 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+ERROR 2024-10-28 21:31:07 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:31:07 root HTTP Exception during user registration: Email already exists
+ERROR 2024-10-28 21:31:07 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+ERROR 2024-10-28 21:50:53 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:50:53 root HTTP Exception during user registration: Email already exists
+ERROR 2024-10-28 21:50:53 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+ERROR 2024-10-28 21:56:16 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:56:16 root HTTP Exception during user registration: Email already exists
+ERROR 2024-10-28 21:56:16 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+ERROR 2024-10-28 21:56:29 root HTTP Exception occurred: 400: Mobile number already exists
+ERROR 2024-10-28 21:56:29 root HTTP Exception during user registration: Mobile number already exists
+ERROR 2024-10-28 21:56:29 root Unexpected error: 400: Mobile number already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 41, in create_user
+    raise HTTPException(status_code=400, detail="Mobile number already exists")
+fastapi.exceptions.HTTPException: 400: Mobile number already exists
+ERROR 2024-10-28 22:14:05 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 22:14:05 root HTTP Exception during user registration: Email already exists
+ERROR 2024-10-28 22:14:05 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+ERROR 2024-10-28 22:14:46 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 22:14:46 root HTTP Exception during user registration: Email already exists
+ERROR 2024-10-28 22:14:46 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+ERROR 2024-10-28 22:39:03 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 22:39:03 root HTTP Exception during user registration: Email already exists
+ERROR 2024-10-28 22:39:03 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+ERROR 2024-10-28 22:46:08 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 22:46:08 root HTTP Exception during user registration: Email already exists
+ERROR 2024-10-28 22:46:08 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+ERROR 2024-10-28 22:50:32 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 22:50:32 root HTTP Exception during user registration: Email already exists
+ERROR 2024-10-28 22:50:32 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+ERROR 2024-10-28 23:25:22 app.core.logging This is an error message
+ERROR 2024-10-29 11:18:39 app.core.logging This is an error message
+ERROR 2024-10-29 11:29:04 root Unexpected error during OTP verification for user_id 11: Multiple exceptions: [Errno 10061] Connect call failed ('::1', 5432, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 5432)
+ERROR 2024-10-29 11:29:04 root Unexpected error: 500: An unexpected error occurred during OTP verification
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 60, in verify_user_otp
+    user = await db.execute(select(User).filter(User.id == id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\ext\asyncio\session.py", line 461, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2237, in _execute_internal
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2106, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 3278, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 3302, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\create.py", line 643, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 621, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 953, in connect
+    await_only(creator_fn(*arg, **kw)),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 2329, in connect
+    return await connect_utils._connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connect_utils.py", line 1017, in _connect
+    raise last_error or exceptions.TargetServerAttributeNotMatched(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connect_utils.py", line 991, in _connect
+    conn = await _connect_addr(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connect_utils.py", line 828, in _connect_addr
+    return await __connect_addr(params, True, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connect_utils.py", line 873, in __connect_addr
+    tr, pr = await connector
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connect_utils.py", line 744, in _create_ssl_connection
+    tr, pr = await loop.create_connection(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\installed_software\anaconda3\envs\myenv3\Lib\asyncio\base_events.py", line 1130, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 10061] Connect call failed ('::1', 5432, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 5432)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 106, in verify_user_otp
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred during OTP verification
+ERROR 2024-10-29 11:31:58 app.core.logging This is an error message
+ERROR 2024-10-29 11:41:15 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+ERROR 2024-10-29 11:41:15 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 103, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 71, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+ERROR 2024-10-29 11:41:15 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+ERROR 2024-10-29 11:41:15 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 103, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 71, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+ERROR 2024-10-29 11:41:36 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+ERROR 2024-10-29 11:41:36 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 103, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 71, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+ERROR 2024-10-29 11:55:45 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+ERROR 2024-10-29 11:55:45 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 103, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 71, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+ERROR 2024-10-29 11:59:54 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+ERROR 2024-10-29 11:59:54 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 103, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 71, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+ERROR 2024-10-29 12:10:56 app.core.logging This is an error message
+ERROR 2024-10-29 12:11:09 app.core.logging This is an error message
+ERROR 2024-10-29 12:14:55 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+ERROR 2024-10-29 12:14:55 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 104, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 72, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+ERROR 2024-10-29 12:15:34 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+ERROR 2024-10-29 12:15:34 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 104, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 72, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+ERROR 2024-10-29 12:15:59 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+ERROR 2024-10-29 12:15:59 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 104, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 72, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+ERROR 2024-10-29 12:19:35 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+ERROR 2024-10-29 12:19:35 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 104, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 72, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+ERROR 2024-10-29 12:23:35 app.core.logging This is an error message
+ERROR 2024-10-29 12:24:03 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+ERROR 2024-10-29 12:24:03 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 103, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 71, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+ERROR 2024-10-29 12:24:41 app.core.logging This is an error message
+ERROR 2024-10-29 12:28:45 root User not found with id: 947
+ERROR 2024-10-29 12:28:45 root HTTP Exception during OTP resend: User not found
+ERROR 2024-10-29 12:28:45 root Unexpected error: 404: User not found
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 165, in resend_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 123, in resend_otp
+    raise HTTPException(status_code=404, detail="User not found")
+fastapi.exceptions.HTTPException: 404: User not found
+ERROR 2024-10-29 12:38:04 root HTTP Exception during OTP resend: User is already active
+ERROR 2024-10-29 12:38:04 root Unexpected error: 400: User is already active
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 165, in resend_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 128, in resend_otp
+    raise HTTPException(status_code=400, detail="User is already active")
+fastapi.exceptions.HTTPException: 400: User is already active
+ERROR 2024-10-29 12:38:13 root HTTP Exception during OTP resend: User is already active
+ERROR 2024-10-29 12:38:14 root Unexpected error: 400: User is already active
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 165, in resend_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 128, in resend_otp
+    raise HTTPException(status_code=400, detail="User is already active")
+fastapi.exceptions.HTTPException: 400: User is already active
+ERROR 2024-10-29 12:42:00 root HTTP Exception during OTP resend: User is already active
+ERROR 2024-10-29 12:42:00 root Unexpected error: 400: User is already active
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 165, in resend_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 128, in resend_otp
+    raise HTTPException(status_code=400, detail="User is already active")
+fastapi.exceptions.HTTPException: 400: User is already active
+ERROR 2024-10-29 12:43:39 root HTTP Exception during OTP resend: User is already active
+ERROR 2024-10-29 12:43:39 root Unexpected error: 400: User is already active
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 165, in resend_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 128, in resend_otp
+    raise HTTPException(status_code=400, detail="User is already active")
+fastapi.exceptions.HTTPException: 400: User is already active
+ERROR 2024-10-29 12:47:19 root HTTP Exception during OTP resend: User is already active
+ERROR 2024-10-29 12:47:19 root Unexpected error: 400: User is already active
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 165, in resend_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 128, in resend_otp
+    raise HTTPException(status_code=400, detail="User is already active")
+fastapi.exceptions.HTTPException: 400: User is already active
+ERROR 2024-10-29 12:47:34 root HTTP Exception during OTP resend: User is already active
+ERROR 2024-10-29 12:47:34 root Unexpected error: 400: User is already active
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 165, in resend_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 128, in resend_otp
+    raise HTTPException(status_code=400, detail="User is already active")
+fastapi.exceptions.HTTPException: 400: User is already active
+ERROR 2024-10-29 12:49:22 root HTTP Exception during OTP resend: User is already active
+ERROR 2024-10-29 12:49:22 root Unexpected error: 400: User is already active
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 165, in resend_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 128, in resend_otp
+    raise HTTPException(status_code=400, detail="User is already active")
+fastapi.exceptions.HTTPException: 400: User is already active
+ERROR 2024-10-29 17:40:52 app.core.logging This is an error message
+ERROR 2024-10-29 18:29:44 root HTTP Exception during OTP verification for id 17: Invalid OTP
+ERROR 2024-10-29 18:29:44 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 103, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 71, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+ERROR 2024-10-29 19:50:37 app.core.logging This is an error message
+ERROR 2024-10-29 19:51:11 app.core.logging This is an error message
+ERROR 2024-10-29 19:51:24 app.core.logging This is an error message
+ERROR 2024-10-29 19:51:30 app.core.logging This is an error message

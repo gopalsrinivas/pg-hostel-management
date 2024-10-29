@@ -1,0 +1,1955 @@
+ERROR 2024-10-28 19:39:08 root Unexpected error during user registration: create_user() missing 1 required positional argument: 'background_tasks'
+ERROR 2024-10-28 19:39:08 root Unexpected error: 500: Internal Server Error
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 25, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password, background_tasks)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: create_user() missing 1 required positional argument: 'background_tasks'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 53, in register_user
+    raise HTTPException(status_code=500, detail="Internal Server Error")
+fastapi.exceptions.HTTPException: 500: Internal Server Error
+INFO 2024-10-28 19:42:03 root Shutting down application...
+DEBUG 2024-10-28 19:42:06 app.core.logging This is a debug message
+ERROR 2024-10-28 19:42:06 app.core.logging This is an error message
+DEBUG 2024-10-28 19:42:07 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-28 19:42:07 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-28 19:42:07 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-28 19:42:08 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+DEBUG 2024-10-28 19:42:39 app.core.logging This is a debug message
+ERROR 2024-10-28 19:42:39 app.core.logging This is an error message
+DEBUG 2024-10-28 19:42:40 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-28 19:42:40 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-28 19:42:40 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-28 19:42:40 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-10-28 19:42:42 root Application startup application...
+ERROR 2024-10-28 19:42:53 root Unexpected error during user registration: create_user() missing 1 required positional argument: 'background_tasks'
+ERROR 2024-10-28 19:42:53 root Unexpected error: 500: Internal Server Error
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password, background_tasks)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: create_user() missing 1 required positional argument: 'background_tasks'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 54, in register_user
+    raise HTTPException(status_code=500, detail="Internal Server Error")
+fastapi.exceptions.HTTPException: 500: Internal Server Error
+INFO 2024-10-28 19:46:49 root Shutting down application...
+DEBUG 2024-10-28 19:46:52 app.core.logging This is a debug message
+ERROR 2024-10-28 19:46:52 app.core.logging This is an error message
+DEBUG 2024-10-28 19:46:54 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-28 19:46:54 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-28 19:46:54 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-28 19:46:54 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-10-28 19:46:55 root Application startup application...
+INFO 2024-10-28 19:47:07 root Shutting down application...
+DEBUG 2024-10-28 19:47:11 app.core.logging This is a debug message
+ERROR 2024-10-28 19:47:11 app.core.logging This is an error message
+DEBUG 2024-10-28 19:47:13 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-28 19:47:13 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-28 19:47:13 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-28 19:47:13 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-10-28 19:47:15 root Application startup application...
+INFO 2024-10-28 19:47:19 sqlalchemy.engine.Engine select pg_catalog.version()
+INFO 2024-10-28 19:47:19 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-28 19:47:19 sqlalchemy.engine.Engine select current_schema()
+INFO 2024-10-28 19:47:19 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-28 19:47:19 sqlalchemy.engine.Engine show standard_conforming_strings
+INFO 2024-10-28 19:47:19 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-28 19:47:19 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 19:47:19 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 19:47:19 sqlalchemy.engine.Engine [generated in 0.00343s] ('gopalsrinivas.b@gmail.com',)
+INFO 2024-10-28 19:47:19 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-28 19:47:19 sqlalchemy.engine.Engine [generated in 0.03493s] ('1234567890',)
+INFO 2024-10-28 19:47:19 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-28 19:47:19 sqlalchemy.engine.Engine [generated in 0.00314s] (1,)
+INFO 2024-10-28 19:47:19 root Generated new user ID: user_1
+WARNING 2024-10-28 19:47:19 passlib.handlers.bcrypt (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+DEBUG 2024-10-28 19:47:19 passlib.handlers.bcrypt detected 'bcrypt' backend, version '<unknown>'
+DEBUG 2024-10-28 19:47:19 passlib.handlers.bcrypt 'bcrypt' backend lacks $2$ support, enabling workaround
+INFO 2024-10-28 19:47:20 root Password hashed successfully.
+INFO 2024-10-28 19:47:20 root Password hashed successfully for user: gopal
+INFO 2024-10-28 19:47:21 root Access token created successfully for user: user_1
+INFO 2024-10-28 19:47:21 root Refresh token created successfully for user: user_1
+INFO 2024-10-28 19:47:21 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEiLCJleHAiOjE3MzAyMTE0NDB9.dwQdOFfaH12Uu2hemgMe6wWgjF7TIhph9QqZ_ucz7aI -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEiLCJleHAiOjE3MzA3Mjk4NDF9.k9JQM6LFjv2oZfpYuRtT_AT9EAIr8k3mSyFR3G8G_ew
+INFO 2024-10-28 19:47:21 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-28 19:47:21 sqlalchemy.engine.Engine [generated in 0.00346s] ('user_1', 'gopal', None, 'Admin', None, 'gopalsrinivas.b@gmail.com', '1234567890', '$2b$12$AIqqY9mKta2aTVLY0OZX4uu1tiVLQ5McbbgUoVwuAneV44qFBM1Ay', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEiLCJleHAiOjE3MzAyMTE0NDB9.dwQdOFfaH12Uu2hemgMe6wWgjF7TIhph9QqZ_ucz7aI', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEiLCJleHAiOjE3MzA3Mjk4NDF9.k9JQM6LFjv2oZfpYuRtT_AT9EAIr8k3mSyFR3G8G_ew', '549594', False, None, None)
+INFO 2024-10-28 19:47:21 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-28 19:47:21 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 19:47:21 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-28 19:47:21 sqlalchemy.engine.Engine [generated in 0.00402s] (1,)
+INFO 2024-10-28 19:47:21 root User created successfully: <User gopal (ID: user_1) created on 2024-10-28 19:47:19.598130>
+INFO 2024-10-28 19:47:21 root Preparing to send OTP email to gopalsrinivas.b@gmail.com with code 549594
+INFO 2024-10-28 19:47:21 root OTP email sent to gopalsrinivas.b@gmail.com
+INFO 2024-10-28 19:47:21 root User registered successfully: user_1
+INFO 2024-10-28 19:47:21 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-28 19:51:43 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 19:51:43 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 19:51:43 sqlalchemy.engine.Engine [cached since 263.6s ago] ('gopalsrinivas.b@gmail.com',)
+WARNING 2024-10-28 19:51:43 root Registration attempt with existing email: gopalsrinivas.b@gmail.com
+ERROR 2024-10-28 19:51:43 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 19:51:43 root HTTP Exception during user registration: Email already exists
+INFO 2024-10-28 19:51:43 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 19:51:43 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+INFO 2024-10-28 19:57:30 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 19:57:30 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 19:57:30 sqlalchemy.engine.Engine [cached since 611.2s ago] ('gopalsrinivas1.b@gmail.com',)
+INFO 2024-10-28 19:57:30 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-28 19:57:30 sqlalchemy.engine.Engine [cached since 611.2s ago] ('1234567891',)
+INFO 2024-10-28 19:57:30 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-28 19:57:30 sqlalchemy.engine.Engine [cached since 611.2s ago] (1,)
+INFO 2024-10-28 19:57:30 root Generated new user ID: user_2
+INFO 2024-10-28 19:57:31 root Password hashed successfully.
+INFO 2024-10-28 19:57:31 root Password hashed successfully for user: gopal
+INFO 2024-10-28 19:57:31 root Access token created successfully for user: user_2
+INFO 2024-10-28 19:57:31 root Refresh token created successfully for user: user_2
+INFO 2024-10-28 19:57:31 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzIiLCJleHAiOjE3MzAyMTIwNTF9.Pn7NWj_iNePOWXWVI7Or_RsWMP6H99k4bQAKhO4HhcM -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzIiLCJleHAiOjE3MzA3MzA0NTF9.OOXoVBAfvXv-RnSaOlEeN94IdRLW56dcycWlgZ5Cq-k
+INFO 2024-10-28 19:57:31 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-28 19:57:31 sqlalchemy.engine.Engine [cached since 610.5s ago] ('user_2', 'gopal', None, 'Admin', None, 'gopalsrinivas1.b@gmail.com', '1234567891', '$2b$12$J4mtlHbtLWyrB48TZnfIZOuHLvr7y3box0c3QXLZt.WoTepkjPPXe', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzIiLCJleHAiOjE3MzAyMTIwNTF9.Pn7NWj_iNePOWXWVI7Or_RsWMP6H99k4bQAKhO4HhcM', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzIiLCJleHAiOjE3MzA3MzA0NTF9.OOXoVBAfvXv-RnSaOlEeN94IdRLW56dcycWlgZ5Cq-k', '530167', False, None, None)
+INFO 2024-10-28 19:57:31 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-28 19:57:31 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 19:57:31 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-28 19:57:31 sqlalchemy.engine.Engine [cached since 610.4s ago] (2,)
+INFO 2024-10-28 19:57:31 root User created successfully: <User gopal (ID: user_2) created on 2024-10-28 19:57:30.800350>
+INFO 2024-10-28 19:57:31 root Preparing to send OTP email to gopalsrinivas1.b@gmail.com with code 530167
+INFO 2024-10-28 19:57:31 root OTP email sent to gopalsrinivas1.b@gmail.com
+INFO 2024-10-28 19:57:31 root User registered successfully: user_2
+INFO 2024-10-28 19:57:31 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-28 20:10:03 root Shutting down application...
+DEBUG 2024-10-28 20:10:10 app.core.logging This is a debug message
+ERROR 2024-10-28 20:10:10 app.core.logging This is an error message
+DEBUG 2024-10-28 20:10:15 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-28 20:10:15 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-28 20:10:15 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-28 20:10:16 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-10-28 20:10:22 root Application startup application...
+INFO 2024-10-28 21:07:07 sqlalchemy.engine.Engine select pg_catalog.version()
+INFO 2024-10-28 21:07:07 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-28 21:07:07 sqlalchemy.engine.Engine select current_schema()
+INFO 2024-10-28 21:07:07 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-28 21:07:07 sqlalchemy.engine.Engine show standard_conforming_strings
+INFO 2024-10-28 21:07:07 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-28 21:07:07 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 21:07:07 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 21:07:07 sqlalchemy.engine.Engine [generated in 0.00387s] ('gopal1@gmail.com',)
+INFO 2024-10-28 21:07:07 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-28 21:07:07 sqlalchemy.engine.Engine [generated in 0.00342s] ('9734598274',)
+INFO 2024-10-28 21:07:07 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-28 21:07:07 sqlalchemy.engine.Engine [generated in 0.01782s] (1,)
+INFO 2024-10-28 21:07:07 root Generated new user ID: user_3
+WARNING 2024-10-28 21:07:07 passlib.handlers.bcrypt (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+DEBUG 2024-10-28 21:07:07 passlib.handlers.bcrypt detected 'bcrypt' backend, version '<unknown>'
+DEBUG 2024-10-28 21:07:07 passlib.handlers.bcrypt 'bcrypt' backend lacks $2$ support, enabling workaround
+INFO 2024-10-28 21:07:08 root Password hashed successfully.
+INFO 2024-10-28 21:07:08 root Password hashed successfully for user: Gopal
+INFO 2024-10-28 21:07:09 root Access token created successfully for user: user_3
+INFO 2024-10-28 21:07:09 root Refresh token created successfully for user: user_3
+INFO 2024-10-28 21:07:09 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzMiLCJleHAiOjE3MzAyMTYyMjh9.pLY-ot4UYBCNv_T4a1GgEcAc8dsPny1U4Aa88p85iIs -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzMiLCJleHAiOjE3MzA3MzQ2Mjl9.qTsD_Xc8IpLYAnfmSjUZUx5eWoPsHgCQzcmqhWP1olA
+INFO 2024-10-28 21:07:09 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-28 21:07:09 sqlalchemy.engine.Engine [generated in 0.00185s] ('user_3', 'Gopal', None, 'admin', None, 'gopal1@gmail.com', '9734598274', '$2b$12$ICZJAx9N1jymPeZPhw3t9OQI2MF62.6ST3IGuf5x59yPkeZiSoZe.', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzMiLCJleHAiOjE3MzAyMTYyMjh9.pLY-ot4UYBCNv_T4a1GgEcAc8dsPny1U4Aa88p85iIs', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzMiLCJleHAiOjE3MzA3MzQ2Mjl9.qTsD_Xc8IpLYAnfmSjUZUx5eWoPsHgCQzcmqhWP1olA', '155470', False, None, None)
+INFO 2024-10-28 21:07:09 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-28 21:07:09 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 21:07:09 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-28 21:07:09 sqlalchemy.engine.Engine [generated in 0.00370s] (3,)
+INFO 2024-10-28 21:07:09 root User created successfully: <User Gopal (ID: user_3) created on 2024-10-28 21:07:07.768497>
+INFO 2024-10-28 21:07:09 root Preparing to send OTP email to gopal1@gmail.com with code 155470
+INFO 2024-10-28 21:07:09 root OTP email sent to gopal1@gmail.com
+INFO 2024-10-28 21:07:09 root User registered successfully: user_3
+INFO 2024-10-28 21:07:09 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-28 21:07:11 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 21:07:11 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 21:07:11 sqlalchemy.engine.Engine [cached since 3.933s ago] ('gopal1@gmail.com',)
+WARNING 2024-10-28 21:07:11 root Registration attempt with existing email: gopal1@gmail.com
+ERROR 2024-10-28 21:07:11 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:07:11 root HTTP Exception during user registration: Email already exists
+INFO 2024-10-28 21:07:11 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 21:07:11 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+INFO 2024-10-28 21:15:24 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 21:15:24 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 21:15:24 sqlalchemy.engine.Engine [cached since 496.4s ago] ('gopal1@gmail.com',)
+WARNING 2024-10-28 21:15:24 root Registration attempt with existing email: gopal1@gmail.com
+ERROR 2024-10-28 21:15:24 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:15:24 root HTTP Exception during user registration: Email already exists
+INFO 2024-10-28 21:15:24 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 21:15:24 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+INFO 2024-10-28 21:18:51 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 21:18:51 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 21:18:51 sqlalchemy.engine.Engine [cached since 703.8s ago] ('gopal1@gmail.com',)
+WARNING 2024-10-28 21:18:51 root Registration attempt with existing email: gopal1@gmail.com
+ERROR 2024-10-28 21:18:51 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:18:51 root HTTP Exception during user registration: Email already exists
+INFO 2024-10-28 21:18:51 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 21:18:51 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+INFO 2024-10-28 21:19:41 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 21:19:41 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 21:19:41 sqlalchemy.engine.Engine [cached since 753.5s ago] ('gopal1@gmail.com',)
+WARNING 2024-10-28 21:19:41 root Registration attempt with existing email: gopal1@gmail.com
+ERROR 2024-10-28 21:19:41 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:19:41 root HTTP Exception during user registration: Email already exists
+INFO 2024-10-28 21:19:41 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 21:19:41 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+INFO 2024-10-28 21:19:45 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 21:19:45 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 21:19:45 sqlalchemy.engine.Engine [cached since 757.6s ago] ('gopal1@gmail.com',)
+WARNING 2024-10-28 21:19:45 root Registration attempt with existing email: gopal1@gmail.com
+ERROR 2024-10-28 21:19:45 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:19:45 root HTTP Exception during user registration: Email already exists
+INFO 2024-10-28 21:19:45 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 21:19:45 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+INFO 2024-10-28 21:29:20 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 21:29:20 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 21:29:20 sqlalchemy.engine.Engine [cached since 1332s ago] ('gopal1@gmail.com',)
+WARNING 2024-10-28 21:29:20 root Registration attempt with existing email: gopal1@gmail.com
+ERROR 2024-10-28 21:29:20 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:29:20 root HTTP Exception during user registration: Email already exists
+INFO 2024-10-28 21:29:20 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 21:29:20 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+INFO 2024-10-28 21:29:45 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 21:29:45 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 21:29:45 sqlalchemy.engine.Engine [cached since 1358s ago] ('gopal1@gmail.com',)
+WARNING 2024-10-28 21:29:45 root Registration attempt with existing email: gopal1@gmail.com
+ERROR 2024-10-28 21:29:45 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:29:45 root HTTP Exception during user registration: Email already exists
+INFO 2024-10-28 21:29:45 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 21:29:45 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+INFO 2024-10-28 21:31:07 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 21:31:07 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 21:31:07 sqlalchemy.engine.Engine [cached since 1440s ago] ('gopal1@gmail.com',)
+WARNING 2024-10-28 21:31:07 root Registration attempt with existing email: gopal1@gmail.com
+ERROR 2024-10-28 21:31:07 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:31:07 root HTTP Exception during user registration: Email already exists
+INFO 2024-10-28 21:31:07 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 21:31:07 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+INFO 2024-10-28 21:50:53 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 21:50:53 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 21:50:53 sqlalchemy.engine.Engine [cached since 2626s ago] ('gopal1@gmail.com',)
+WARNING 2024-10-28 21:50:53 root Registration attempt with existing email: gopal1@gmail.com
+ERROR 2024-10-28 21:50:53 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:50:53 root HTTP Exception during user registration: Email already exists
+INFO 2024-10-28 21:50:53 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 21:50:53 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+INFO 2024-10-28 21:56:16 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 21:56:16 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 21:56:16 sqlalchemy.engine.Engine [cached since 2949s ago] ('gopal1@gmail.com',)
+WARNING 2024-10-28 21:56:16 root Registration attempt with existing email: gopal1@gmail.com
+ERROR 2024-10-28 21:56:16 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 21:56:16 root HTTP Exception during user registration: Email already exists
+INFO 2024-10-28 21:56:16 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 21:56:16 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+INFO 2024-10-28 21:56:28 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 21:56:28 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 21:56:28 sqlalchemy.engine.Engine [cached since 2961s ago] ('gopal2@gmail.com',)
+INFO 2024-10-28 21:56:29 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-28 21:56:29 sqlalchemy.engine.Engine [cached since 2961s ago] ('9734598274',)
+WARNING 2024-10-28 21:56:29 root Registration attempt with existing mobile number: 9734598274
+ERROR 2024-10-28 21:56:29 root HTTP Exception occurred: 400: Mobile number already exists
+ERROR 2024-10-28 21:56:29 root HTTP Exception during user registration: Mobile number already exists
+INFO 2024-10-28 21:56:29 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 21:56:29 root Unexpected error: 400: Mobile number already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 41, in create_user
+    raise HTTPException(status_code=400, detail="Mobile number already exists")
+fastapi.exceptions.HTTPException: 400: Mobile number already exists
+INFO 2024-10-28 21:56:40 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 21:56:40 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 21:56:40 sqlalchemy.engine.Engine [cached since 2972s ago] ('gopal2@gmail.com',)
+INFO 2024-10-28 21:56:40 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-28 21:56:40 sqlalchemy.engine.Engine [cached since 2972s ago] ('9734598275',)
+INFO 2024-10-28 21:56:40 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-28 21:56:40 sqlalchemy.engine.Engine [cached since 2972s ago] (1,)
+INFO 2024-10-28 21:56:40 root Generated new user ID: user_4
+INFO 2024-10-28 21:56:40 root Password hashed successfully.
+INFO 2024-10-28 21:56:40 root Password hashed successfully for user: gopal
+INFO 2024-10-28 21:56:40 root Access token created successfully for user: user_4
+INFO 2024-10-28 21:56:40 root Refresh token created successfully for user: user_4
+INFO 2024-10-28 21:56:40 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzQiLCJleHAiOjE3MzAyMTkyMDB9.AmxJ4gVQveBTo2YSy0TImkSHMVmbs9VKJG1n5_LqUyI -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzQiLCJleHAiOjE3MzA3Mzc2MDB9.z6LYZPFE_BBCueiWQWZJ2sag5LJK4543mJJmYMVi3vM
+INFO 2024-10-28 21:56:40 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-28 21:56:40 sqlalchemy.engine.Engine [cached since 2971s ago] ('user_4', 'gopal', None, 'admin', None, 'gopal2@gmail.com', '9734598275', '$2b$12$sSDoXpCosQhWrcPVPfMGh.yNSyI8VcbMLmIi4sUY69ra3ZgAjp.Jq', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzQiLCJleHAiOjE3MzAyMTkyMDB9.AmxJ4gVQveBTo2YSy0TImkSHMVmbs9VKJG1n5_LqUyI', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzQiLCJleHAiOjE3MzA3Mzc2MDB9.z6LYZPFE_BBCueiWQWZJ2sag5LJK4543mJJmYMVi3vM', '737891', False, None, None)
+INFO 2024-10-28 21:56:40 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-28 21:56:40 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 21:56:40 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-28 21:56:40 sqlalchemy.engine.Engine [cached since 2971s ago] (4,)
+INFO 2024-10-28 21:56:40 root User created successfully: <User gopal (ID: user_4) created on 2024-10-28 21:56:40.013303>
+INFO 2024-10-28 21:56:40 root Preparing to send OTP email to gopal2@gmail.com with code 737891
+INFO 2024-10-28 21:56:40 root OTP email sent to gopal2@gmail.com
+INFO 2024-10-28 21:56:40 root User registered successfully: user_4
+INFO 2024-10-28 21:56:40 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-28 22:13:51 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:13:51 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 22:13:51 sqlalchemy.engine.Engine [cached since 4004s ago] ('gopal3@gmail.com',)
+INFO 2024-10-28 22:13:51 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-28 22:13:51 sqlalchemy.engine.Engine [cached since 4004s ago] ('9834759845',)
+INFO 2024-10-28 22:13:51 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-28 22:13:51 sqlalchemy.engine.Engine [cached since 4004s ago] (1,)
+INFO 2024-10-28 22:13:51 root Generated new user ID: user_5
+INFO 2024-10-28 22:13:52 root Password hashed successfully.
+INFO 2024-10-28 22:13:52 root Password hashed successfully for user: gopal
+INFO 2024-10-28 22:13:52 root Access token created successfully for user: user_5
+INFO 2024-10-28 22:13:52 root Refresh token created successfully for user: user_5
+INFO 2024-10-28 22:13:52 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzUiLCJleHAiOjE3MzAyMjAyMzJ9.NJJ4626vyQzHAkR0GPBICNmdWasD8e812Y3b6mYQGmw -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzUiLCJleHAiOjE3MzA3Mzg2MzJ9.QC5zVT5SLcEX3SJ8OoMy7D0mNP-8BooutXAyWlQw7N8
+INFO 2024-10-28 22:13:52 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-28 22:13:52 sqlalchemy.engine.Engine [cached since 4003s ago] ('user_5', 'gopal', None, 'admin', None, 'gopal3@gmail.com', '9834759845', '$2b$12$ul9AXPuARNqngAADs4W98.1PJ2q8GbzDupw1JAeqOOhEjk7bkH1/6', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzUiLCJleHAiOjE3MzAyMjAyMzJ9.NJJ4626vyQzHAkR0GPBICNmdWasD8e812Y3b6mYQGmw', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzUiLCJleHAiOjE3MzA3Mzg2MzJ9.QC5zVT5SLcEX3SJ8OoMy7D0mNP-8BooutXAyWlQw7N8', '285779', False, None, None)
+INFO 2024-10-28 22:13:52 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-28 22:13:52 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:13:52 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-28 22:13:52 sqlalchemy.engine.Engine [cached since 4003s ago] (5,)
+INFO 2024-10-28 22:13:52 root User created successfully: <User gopal (ID: user_5) created on 2024-10-28 22:13:51.922934>
+INFO 2024-10-28 22:13:52 root Preparing to send OTP email to gopal3@gmail.com with code 285779
+INFO 2024-10-28 22:13:52 root OTP email sent to gopal3@gmail.com
+INFO 2024-10-28 22:13:52 root User registered successfully: user_5
+INFO 2024-10-28 22:13:52 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-28 22:14:05 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:14:05 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 22:14:05 sqlalchemy.engine.Engine [cached since 4017s ago] ('gopal3@gmail.com',)
+WARNING 2024-10-28 22:14:05 root Registration attempt with existing email: gopal3@gmail.com
+ERROR 2024-10-28 22:14:05 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 22:14:05 root HTTP Exception during user registration: Email already exists
+INFO 2024-10-28 22:14:05 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 22:14:05 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+INFO 2024-10-28 22:14:46 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:14:46 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 22:14:46 sqlalchemy.engine.Engine [cached since 4059s ago] ('gopal3@gmail.com',)
+WARNING 2024-10-28 22:14:46 root Registration attempt with existing email: gopal3@gmail.com
+ERROR 2024-10-28 22:14:46 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 22:14:46 root HTTP Exception during user registration: Email already exists
+INFO 2024-10-28 22:14:46 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 22:14:46 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+INFO 2024-10-28 22:19:29 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:19:29 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 22:19:29 sqlalchemy.engine.Engine [cached since 4342s ago] ('laksjdlakjdf@gmail.com',)
+INFO 2024-10-28 22:19:29 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-28 22:19:29 sqlalchemy.engine.Engine [cached since 4342s ago] ('9234875284',)
+INFO 2024-10-28 22:19:29 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-28 22:19:29 sqlalchemy.engine.Engine [cached since 4342s ago] (1,)
+INFO 2024-10-28 22:19:29 root Generated new user ID: user_6
+INFO 2024-10-28 22:19:30 root Password hashed successfully.
+INFO 2024-10-28 22:19:30 root Password hashed successfully for user: lkajsdlkaj
+INFO 2024-10-28 22:19:30 root Access token created successfully for user: user_6
+INFO 2024-10-28 22:19:30 root Refresh token created successfully for user: user_6
+INFO 2024-10-28 22:19:30 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzYiLCJleHAiOjE3MzAyMjA1NzB9.XJJgdYHDOiPGWWCtF6sqM3rqTRxrDjT2ZdrnthQQC7c -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzYiLCJleHAiOjE3MzA3Mzg5NzB9.i6R6jiZIWz7GVmghCUkAA7NSPLuFKsfKyBZ8GQ2D3cg
+INFO 2024-10-28 22:19:30 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-28 22:19:30 sqlalchemy.engine.Engine [cached since 4341s ago] ('user_6', 'lkajsdlkaj', None, 'admin', None, 'laksjdlakjdf@gmail.com', '9234875284', '$2b$12$frMqx5hCs7POCzMIgiy9p.lQbXjiFEf4tslp/zRMMroYtogZIn0ga', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzYiLCJleHAiOjE3MzAyMjA1NzB9.XJJgdYHDOiPGWWCtF6sqM3rqTRxrDjT2ZdrnthQQC7c', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzYiLCJleHAiOjE3MzA3Mzg5NzB9.i6R6jiZIWz7GVmghCUkAA7NSPLuFKsfKyBZ8GQ2D3cg', '876902', False, None, None)
+INFO 2024-10-28 22:19:30 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-28 22:19:30 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:19:30 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-28 22:19:30 sqlalchemy.engine.Engine [cached since 4341s ago] (6,)
+INFO 2024-10-28 22:19:30 root User created successfully: <User lkajsdlkaj (ID: user_6) created on 2024-10-28 22:19:29.673880>
+INFO 2024-10-28 22:19:30 root Preparing to send OTP email to laksjdlakjdf@gmail.com with code 876902
+INFO 2024-10-28 22:19:30 root OTP email sent to laksjdlakjdf@gmail.com
+INFO 2024-10-28 22:19:30 root User registered successfully: user_6
+INFO 2024-10-28 22:19:30 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-28 22:33:00 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:33:00 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 22:33:00 sqlalchemy.engine.Engine [cached since 5152s ago] ('lkjflakdjsklajd@gmail.com',)
+INFO 2024-10-28 22:33:00 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-28 22:33:00 sqlalchemy.engine.Engine [cached since 5152s ago] ('2349528405',)
+INFO 2024-10-28 22:33:00 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-28 22:33:00 sqlalchemy.engine.Engine [cached since 5152s ago] (1,)
+INFO 2024-10-28 22:33:00 root Generated new user ID: user_7
+INFO 2024-10-28 22:33:00 root Password hashed successfully.
+INFO 2024-10-28 22:33:00 root Password hashed successfully for user: asdfaldjf
+INFO 2024-10-28 22:33:00 root Access token created successfully for user: user_7
+INFO 2024-10-28 22:33:00 root Refresh token created successfully for user: user_7
+INFO 2024-10-28 22:33:00 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzciLCJleHAiOjE3MzAyMjEzODB9.hn7xHd1RL8bVX5hbloXynrpiyW6RKLWGTziQ75y407s -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzciLCJleHAiOjE3MzA3Mzk3ODB9.zujZNF8Kz7u9F50SPwwxk0p4UaczqivjL_LwTSyCZ7M
+INFO 2024-10-28 22:33:00 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-28 22:33:00 sqlalchemy.engine.Engine [cached since 5151s ago] ('user_7', 'asdfaldjf', None, 'admin', None, 'lkjflakdjsklajd@gmail.com', '2349528405', '$2b$12$EalkvEVYvTk/7rKYli60g.MnXV.V2WoHC1KBLjcC8SPzriqnrA8Di', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzciLCJleHAiOjE3MzAyMjEzODB9.hn7xHd1RL8bVX5hbloXynrpiyW6RKLWGTziQ75y407s', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzciLCJleHAiOjE3MzA3Mzk3ODB9.zujZNF8Kz7u9F50SPwwxk0p4UaczqivjL_LwTSyCZ7M', '922723', False, None, None)
+INFO 2024-10-28 22:33:00 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-28 22:33:00 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:33:00 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-28 22:33:00 sqlalchemy.engine.Engine [cached since 5151s ago] (7,)
+INFO 2024-10-28 22:33:00 root User created successfully: <User asdfaldjf (ID: user_7) created on 2024-10-28 22:33:00.037750>
+INFO 2024-10-28 22:33:00 root Preparing to send OTP email to lkjflakdjsklajd@gmail.com with code 922723
+INFO 2024-10-28 22:33:00 root OTP email sent to lkjflakdjsklajd@gmail.com
+INFO 2024-10-28 22:33:00 root User registered successfully: user_7
+INFO 2024-10-28 22:33:00 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-28 22:39:03 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:39:03 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 22:39:03 sqlalchemy.engine.Engine [cached since 5516s ago] ('lkjflakdjsklajd@gmail.com',)
+WARNING 2024-10-28 22:39:03 root Registration attempt with existing email: lkjflakdjsklajd@gmail.com
+ERROR 2024-10-28 22:39:03 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 22:39:03 root HTTP Exception during user registration: Email already exists
+INFO 2024-10-28 22:39:03 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 22:39:03 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+INFO 2024-10-28 22:45:17 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:45:17 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 22:45:17 sqlalchemy.engine.Engine [cached since 5890s ago] ('laksdfladjfklj@gmail.com',)
+INFO 2024-10-28 22:45:17 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-28 22:45:17 sqlalchemy.engine.Engine [cached since 5890s ago] ('9384572345',)
+INFO 2024-10-28 22:45:17 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-28 22:45:17 sqlalchemy.engine.Engine [cached since 5890s ago] (1,)
+INFO 2024-10-28 22:45:17 root Generated new user ID: user_8
+INFO 2024-10-28 22:45:17 root Password hashed successfully.
+INFO 2024-10-28 22:45:17 root Password hashed successfully for user: aksdhkadf
+INFO 2024-10-28 22:45:17 root Access token created successfully for user: user_8
+INFO 2024-10-28 22:45:17 root Refresh token created successfully for user: user_8
+INFO 2024-10-28 22:45:17 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzgiLCJleHAiOjE3MzAyMjIxMTd9.5kdbOzgMAUemh5RLWxJzDXv7jdjHh6ifXZ2MhB802Sk -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzgiLCJleHAiOjE3MzA3NDA1MTd9.84_R_4BmQ67rXSBv8XOHyBcrj8iKMsHEotn-qj-jHDI
+INFO 2024-10-28 22:45:17 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-28 22:45:17 sqlalchemy.engine.Engine [cached since 5889s ago] ('user_8', 'aksdhkadf', None, 'admin', None, 'laksdfladjfklj@gmail.com', '9384572345', '$2b$12$viozOGO9/jGFlozZFgE0xetLfBHgwmTp7dDuIggVF1db8T0a04wte', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzgiLCJleHAiOjE3MzAyMjIxMTd9.5kdbOzgMAUemh5RLWxJzDXv7jdjHh6ifXZ2MhB802Sk', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzgiLCJleHAiOjE3MzA3NDA1MTd9.84_R_4BmQ67rXSBv8XOHyBcrj8iKMsHEotn-qj-jHDI', '671534', False, None, None)
+INFO 2024-10-28 22:45:17 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-28 22:45:18 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:45:18 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-28 22:45:18 sqlalchemy.engine.Engine [cached since 5889s ago] (8,)
+INFO 2024-10-28 22:45:18 root User created successfully: <User aksdhkadf (ID: user_8) created on 2024-10-28 22:45:17.452839>
+INFO 2024-10-28 22:45:18 root Preparing to send OTP email to laksdfladjfklj@gmail.com with code 671534
+INFO 2024-10-28 22:45:18 root OTP email sent to laksdfladjfklj@gmail.com
+INFO 2024-10-28 22:45:18 root User registered successfully: user_8
+INFO 2024-10-28 22:45:18 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-28 22:46:08 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:46:08 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 22:46:08 sqlalchemy.engine.Engine [cached since 5941s ago] ('laksdfladjfklj@gmail.com',)
+WARNING 2024-10-28 22:46:08 root Registration attempt with existing email: laksdfladjfklj@gmail.com
+ERROR 2024-10-28 22:46:08 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 22:46:08 root HTTP Exception during user registration: Email already exists
+INFO 2024-10-28 22:46:08 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 22:46:08 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+INFO 2024-10-28 22:46:23 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:46:23 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 22:46:23 sqlalchemy.engine.Engine [cached since 5956s ago] ('laksdfladjfkljq@gmail.com',)
+INFO 2024-10-28 22:46:23 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-28 22:46:23 sqlalchemy.engine.Engine [cached since 5956s ago] ('9384572342',)
+INFO 2024-10-28 22:46:23 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-28 22:46:23 sqlalchemy.engine.Engine [cached since 5956s ago] (1,)
+INFO 2024-10-28 22:46:23 root Generated new user ID: user_9
+INFO 2024-10-28 22:46:24 root Password hashed successfully.
+INFO 2024-10-28 22:46:24 root Password hashed successfully for user: aksdhkadf
+INFO 2024-10-28 22:46:24 root Access token created successfully for user: user_9
+INFO 2024-10-28 22:46:24 root Refresh token created successfully for user: user_9
+INFO 2024-10-28 22:46:24 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzkiLCJleHAiOjE3MzAyMjIxODR9.HrM2WKcyhLnxMtVb3Hm0THrjcCd5ucCeakrcjH6V_EY -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzkiLCJleHAiOjE3MzA3NDA1ODR9.jBG8D7ybgQHs4Pn2uOfqVa45xj8nn4aqtLgosnrV6XM
+INFO 2024-10-28 22:46:24 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-28 22:46:24 sqlalchemy.engine.Engine [cached since 5955s ago] ('user_9', 'aksdhkadf', None, 'admin', None, 'laksdfladjfkljq@gmail.com', '9384572342', '$2b$12$15oY8Wi6pZP2pQjo6J5SSubvmoapV/tBPTXdRM1jAo8nPaUMwJizq', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzkiLCJleHAiOjE3MzAyMjIxODR9.HrM2WKcyhLnxMtVb3Hm0THrjcCd5ucCeakrcjH6V_EY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzkiLCJleHAiOjE3MzA3NDA1ODR9.jBG8D7ybgQHs4Pn2uOfqVa45xj8nn4aqtLgosnrV6XM', '987529', False, None, None)
+INFO 2024-10-28 22:46:24 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-28 22:46:24 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:46:24 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-28 22:46:24 sqlalchemy.engine.Engine [cached since 5955s ago] (9,)
+INFO 2024-10-28 22:46:24 root User created successfully: <User aksdhkadf (ID: user_9) created on 2024-10-28 22:46:23.833981>
+INFO 2024-10-28 22:46:24 root Preparing to send OTP email to laksdfladjfkljq@gmail.com with code 987529
+INFO 2024-10-28 22:46:24 root OTP email sent to laksdfladjfkljq@gmail.com
+INFO 2024-10-28 22:46:24 root User registered successfully: user_9
+INFO 2024-10-28 22:46:24 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-28 22:50:28 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:50:28 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 22:50:28 sqlalchemy.engine.Engine [cached since 6201s ago] ('laksdfladjfjq@gmail.com',)
+INFO 2024-10-28 22:50:28 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-28 22:50:28 sqlalchemy.engine.Engine [cached since 6201s ago] ('9384571342',)
+INFO 2024-10-28 22:50:28 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-28 22:50:28 sqlalchemy.engine.Engine [cached since 6201s ago] (1,)
+INFO 2024-10-28 22:50:28 root Generated new user ID: user_10
+INFO 2024-10-28 22:50:28 root Password hashed successfully.
+INFO 2024-10-28 22:50:28 root Password hashed successfully for user: aksdhkadf
+INFO 2024-10-28 22:50:28 root Access token created successfully for user: user_10
+INFO 2024-10-28 22:50:28 root Refresh token created successfully for user: user_10
+INFO 2024-10-28 22:50:28 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEwIiwiZXhwIjoxNzMwMjIyNDI4fQ.8ruZJhE-pKfovl1wF1dJ3No6hPWgH__AfsSTJAYgWn8 -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEwIiwiZXhwIjoxNzMwNzQwODI4fQ.SzqR0lRJ8cjmZe76ckhP-6AJKWLV7U3WHlL2rwf0250
+INFO 2024-10-28 22:50:28 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-28 22:50:28 sqlalchemy.engine.Engine [cached since 6199s ago] ('user_10', 'aksdhkadf', None, 'admin', None, 'laksdfladjfjq@gmail.com', '9384571342', '$2b$12$46TG9P44rMv/0Ue6PFNwwuFjncIeMfAcB08PfFeo0Cw6/Yd3JT4uG', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEwIiwiZXhwIjoxNzMwMjIyNDI4fQ.8ruZJhE-pKfovl1wF1dJ3No6hPWgH__AfsSTJAYgWn8', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEwIiwiZXhwIjoxNzMwNzQwODI4fQ.SzqR0lRJ8cjmZe76ckhP-6AJKWLV7U3WHlL2rwf0250', '434079', False, None, None)
+INFO 2024-10-28 22:50:28 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-28 22:50:29 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:50:29 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-28 22:50:29 sqlalchemy.engine.Engine [cached since 6200s ago] (10,)
+INFO 2024-10-28 22:50:29 root User created successfully: <User aksdhkadf (ID: user_10) created on 2024-10-28 22:50:28.509457>
+INFO 2024-10-28 22:50:29 root Preparing to send OTP email to laksdfladjfjq@gmail.com with code 434079
+INFO 2024-10-28 22:50:29 root OTP email sent to laksdfladjfjq@gmail.com
+INFO 2024-10-28 22:50:29 root User registered successfully: user_10
+INFO 2024-10-28 22:50:29 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-28 22:50:32 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:50:32 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 22:50:32 sqlalchemy.engine.Engine [cached since 6204s ago] ('laksdfladjfjq@gmail.com',)
+WARNING 2024-10-28 22:50:32 root Registration attempt with existing email: laksdfladjfjq@gmail.com
+ERROR 2024-10-28 22:50:32 root HTTP Exception occurred: 400: Email already exists
+ERROR 2024-10-28 22:50:32 root HTTP Exception during user registration: Email already exists
+INFO 2024-10-28 22:50:32 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-28 22:50:32 root Unexpected error: 400: Email already exists
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 51, in register_user
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 27, in register_user
+    new_user = await create_user(db, user.name, user.email, user.mobile, user.password,user.user_role, background_tasks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 93, in create_user
+    raise e
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 35, in create_user
+    raise HTTPException(status_code=400, detail="Email already exists")
+fastapi.exceptions.HTTPException: 400: Email already exists
+INFO 2024-10-28 22:58:32 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:58:32 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 22:58:32 sqlalchemy.engine.Engine [cached since 6685s ago] ('laksjdflakjdf@gmail.com',)
+INFO 2024-10-28 22:58:32 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-28 22:58:32 sqlalchemy.engine.Engine [cached since 6685s ago] ('9234759280',)
+INFO 2024-10-28 22:58:32 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-28 22:58:32 sqlalchemy.engine.Engine [cached since 6685s ago] (1,)
+INFO 2024-10-28 22:58:32 root Generated new user ID: user_11
+INFO 2024-10-28 22:58:32 root Password hashed successfully.
+INFO 2024-10-28 22:58:32 root Password hashed successfully for user: lksdjlkasjd
+INFO 2024-10-28 22:58:32 root Access token created successfully for user: user_11
+INFO 2024-10-28 22:58:32 root Refresh token created successfully for user: user_11
+INFO 2024-10-28 22:58:32 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzExIiwiZXhwIjoxNzMwMjIyOTEyfQ.TR88lEmIwYn7axM2dUjUo7rayftQsvL1xqWnl-dp1Is -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzExIiwiZXhwIjoxNzMwNzQxMzEyfQ.Bk9QhJMrSFI-RRL63QBD4xCYH_ySKQ4_veP2eHZZs-o
+INFO 2024-10-28 22:58:32 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-28 22:58:32 sqlalchemy.engine.Engine [cached since 6684s ago] ('user_11', 'lksdjlkasjd', None, 'admin', None, 'laksjdflakjdf@gmail.com', '9234759280', '$2b$12$uJsV4Cp8YFVMrSscwGqs0.I4fbgmPoBCY/HrrpJwYwSYEOjfewswq', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzExIiwiZXhwIjoxNzMwMjIyOTEyfQ.TR88lEmIwYn7axM2dUjUo7rayftQsvL1xqWnl-dp1Is', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzExIiwiZXhwIjoxNzMwNzQxMzEyfQ.Bk9QhJMrSFI-RRL63QBD4xCYH_ySKQ4_veP2eHZZs-o', '419518', False, None, None)
+INFO 2024-10-28 22:58:32 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-28 22:58:32 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 22:58:32 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-28 22:58:32 sqlalchemy.engine.Engine [cached since 6683s ago] (11,)
+INFO 2024-10-28 22:58:32 root User created successfully: <User lksdjlkasjd (ID: user_11) created on 2024-10-28 22:58:32.419658>
+INFO 2024-10-28 22:58:32 root Preparing to send OTP email to laksjdflakjdf@gmail.com with code 419518
+INFO 2024-10-28 22:58:32 root OTP email sent to laksjdflakjdf@gmail.com
+INFO 2024-10-28 22:58:32 root User registered successfully: user_11
+INFO 2024-10-28 22:58:32 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-28 23:01:43 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 23:01:43 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 23:01:43 sqlalchemy.engine.Engine [cached since 6876s ago] ('laksjdflakjd@gmail.com',)
+INFO 2024-10-28 23:01:43 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-28 23:01:43 sqlalchemy.engine.Engine [cached since 6876s ago] ('9234159280',)
+INFO 2024-10-28 23:01:43 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-28 23:01:43 sqlalchemy.engine.Engine [cached since 6876s ago] (1,)
+INFO 2024-10-28 23:01:43 root Generated new user ID: user_12
+INFO 2024-10-28 23:01:44 root Password hashed successfully.
+INFO 2024-10-28 23:01:44 root Password hashed successfully for user: lksdjlkasjd
+INFO 2024-10-28 23:01:44 root Access token created successfully for user: user_12
+INFO 2024-10-28 23:01:44 root Refresh token created successfully for user: user_12
+INFO 2024-10-28 23:01:44 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEyIiwiZXhwIjoxNzMwMjIzMTA0fQ.tOq-pT_y4Bie6Y0TYnHK0fDGQe6D0OTvZWq_RaSCcTE -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEyIiwiZXhwIjoxNzMwNzQxNTA0fQ.Car8ZeVTL5DPIsUfqInlq3X_asgEkwev3nAf2lpx0iI
+INFO 2024-10-28 23:01:44 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-28 23:01:44 sqlalchemy.engine.Engine [cached since 6875s ago] ('user_12', 'lksdjlkasjd', None, 'admin', None, 'laksjdflakjd@gmail.com', '9234159280', '$2b$12$9XibOYm0wL834FbzWSmzlueR5uweWc8EVUjAVUbl39lf9E737VI1a', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEyIiwiZXhwIjoxNzMwMjIzMTA0fQ.tOq-pT_y4Bie6Y0TYnHK0fDGQe6D0OTvZWq_RaSCcTE', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEyIiwiZXhwIjoxNzMwNzQxNTA0fQ.Car8ZeVTL5DPIsUfqInlq3X_asgEkwev3nAf2lpx0iI', '231676', False, None, None)
+INFO 2024-10-28 23:01:44 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-28 23:01:44 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 23:01:44 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-28 23:01:44 sqlalchemy.engine.Engine [cached since 6875s ago] (12,)
+INFO 2024-10-28 23:01:44 root User created successfully: <User lksdjlkasjd (ID: user_12) created on 2024-10-28 23:01:43.886679>
+INFO 2024-10-28 23:01:44 root Preparing to send OTP email to laksjdflakjd@gmail.com with code 231676
+INFO 2024-10-28 23:01:44 root OTP email sent to laksjdflakjd@gmail.com
+INFO 2024-10-28 23:01:44 root User registered successfully: user_12
+INFO 2024-10-28 23:01:44 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-28 23:08:00 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 23:08:00 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 23:08:00 sqlalchemy.engine.Engine [cached since 7253s ago] ('laksjdfladkjd@gmail.com',)
+INFO 2024-10-28 23:08:00 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-28 23:08:00 sqlalchemy.engine.Engine [cached since 7252s ago] ('9233159280',)
+INFO 2024-10-28 23:08:00 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-28 23:08:00 sqlalchemy.engine.Engine [cached since 7252s ago] (1,)
+INFO 2024-10-28 23:08:00 root Generated new user ID: user_13
+INFO 2024-10-28 23:08:00 root Password hashed successfully.
+INFO 2024-10-28 23:08:00 root Password hashed successfully for user: lksdjlkasjd
+INFO 2024-10-28 23:08:00 root Access token created successfully for user: user_13
+INFO 2024-10-28 23:08:00 root Refresh token created successfully for user: user_13
+INFO 2024-10-28 23:08:00 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEzIiwiZXhwIjoxNzMwMjIzNDgwfQ.Or2sh3N4wax8qSQW6ObVM5KFLxq2TXE_StMYs34pI8Q -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEzIiwiZXhwIjoxNzMwNzQxODgwfQ.RR2Q2EDbhvdwhthYpuxiKY6iwrlsfNHSue3A_YSK4cU
+INFO 2024-10-28 23:08:00 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-28 23:08:00 sqlalchemy.engine.Engine [cached since 7251s ago] ('user_13', 'lksdjlkasjd', None, 'admin', None, 'laksjdfladkjd@gmail.com', '9233159280', '$2b$12$S0H/AUJFVhIeWKnvCZ5jE./hDA7HiOBHJ/6kUmEftH3ZqOqPjnFy6', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEzIiwiZXhwIjoxNzMwMjIzNDgwfQ.Or2sh3N4wax8qSQW6ObVM5KFLxq2TXE_StMYs34pI8Q', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzEzIiwiZXhwIjoxNzMwNzQxODgwfQ.RR2Q2EDbhvdwhthYpuxiKY6iwrlsfNHSue3A_YSK4cU', '964616', False, None, None)
+INFO 2024-10-28 23:08:00 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-28 23:08:00 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 23:08:00 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-28 23:08:00 sqlalchemy.engine.Engine [cached since 7252s ago] (13,)
+INFO 2024-10-28 23:08:00 root User created successfully: <User lksdjlkasjd (ID: user_13) created on 2024-10-28 23:08:00.281911>
+INFO 2024-10-28 23:08:00 root Preparing to send OTP email to laksjdfladkjd@gmail.com with code 964616
+INFO 2024-10-28 23:08:00 root OTP email sent to laksjdfladkjd@gmail.com
+INFO 2024-10-28 23:08:00 root User registered successfully: user_13
+INFO 2024-10-28 23:08:00 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-28 23:13:42 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 23:13:42 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-28 23:13:42 sqlalchemy.engine.Engine [cached since 7595s ago] ('lkajsdjakd@gmail.com',)
+INFO 2024-10-28 23:13:42 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-28 23:13:42 sqlalchemy.engine.Engine [cached since 7595s ago] ('98345982475',)
+INFO 2024-10-28 23:13:42 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-28 23:13:42 sqlalchemy.engine.Engine [cached since 7595s ago] (1,)
+INFO 2024-10-28 23:13:42 root Generated new user ID: user_14
+INFO 2024-10-28 23:13:43 root Password hashed successfully.
+INFO 2024-10-28 23:13:43 root Password hashed successfully for user: lkajdskjfaj
+INFO 2024-10-28 23:13:43 root Access token created successfully for user: user_14
+INFO 2024-10-28 23:13:43 root Refresh token created successfully for user: user_14
+INFO 2024-10-28 23:13:43 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE0IiwiZXhwIjoxNzMwMjIzODIzfQ.OwoB6HC9VrhHZzKbBo-EME50S5CfUiA2fOyrgoT6bQc -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE0IiwiZXhwIjoxNzMwNzQyMjIzfQ.i6U3G93Ok7l65yB9W_ostE-NZDC7DJOcXyBR22jnb88
+INFO 2024-10-28 23:13:43 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-28 23:13:43 sqlalchemy.engine.Engine [cached since 7594s ago] ('user_14', 'lkajdskjfaj', None, 'admin', None, 'lkajsdjakd@gmail.com', '98345982475', '$2b$12$7O9bI8rSBrqYtGVRlh2KnOd.pJQN0w.Fq0Z77zhdgmtxLHgmtbICu', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE0IiwiZXhwIjoxNzMwMjIzODIzfQ.OwoB6HC9VrhHZzKbBo-EME50S5CfUiA2fOyrgoT6bQc', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE0IiwiZXhwIjoxNzMwNzQyMjIzfQ.i6U3G93Ok7l65yB9W_ostE-NZDC7DJOcXyBR22jnb88', '315618', False, None, None)
+INFO 2024-10-28 23:13:43 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-28 23:13:43 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-28 23:13:43 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-28 23:13:43 sqlalchemy.engine.Engine [cached since 7594s ago] (14,)
+INFO 2024-10-28 23:13:43 root User created successfully: <User lkajdskjfaj (ID: user_14) created on 2024-10-28 23:13:42.761627>
+INFO 2024-10-28 23:13:43 root Preparing to send OTP email to lkajsdjakd@gmail.com with code 315618
+INFO 2024-10-28 23:13:43 root OTP email sent to lkajsdjakd@gmail.com
+INFO 2024-10-28 23:13:43 root User registered successfully: user_14
+INFO 2024-10-28 23:13:43 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-28 23:24:35 root Shutting down application...
+DEBUG 2024-10-28 23:25:22 app.core.logging This is a debug message
+ERROR 2024-10-28 23:25:22 app.core.logging This is an error message
+DEBUG 2024-10-28 23:25:37 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-28 23:25:37 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-28 23:25:37 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-28 23:25:41 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-10-28 23:26:01 root Application startup application...
+DEBUG 2024-10-29 11:18:39 app.core.logging This is a debug message
+ERROR 2024-10-29 11:18:39 app.core.logging This is an error message
+DEBUG 2024-10-29 11:19:01 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-29 11:19:01 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-29 11:19:01 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-29 11:19:09 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-10-29 11:19:41 root Application startup application...
+ERROR 2024-10-29 11:29:04 root Unexpected error during OTP verification for user_id 11: Multiple exceptions: [Errno 10061] Connect call failed ('::1', 5432, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 5432)
+ERROR 2024-10-29 11:29:04 root Unexpected error: 500: An unexpected error occurred during OTP verification
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 60, in verify_user_otp
+    user = await db.execute(select(User).filter(User.id == id))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\ext\asyncio\session.py", line 461, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2237, in _execute_internal
+    conn = self._connection_for_bind(bind)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2106, in _connection_for_bind
+    return trans._connection_for_bind(engine, execution_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 2, in _connection_for_bind
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 1189, in _connection_for_bind
+    conn = bind.connect()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 3278, in connect
+    return self._connection_cls(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 146, in __init__
+    self._dbapi_connection = engine.raw_connection()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 3302, in raw_connection
+    return self.pool.connect()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\base.py", line 449, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\base.py", line 1263, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\base.py", line 712, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\impl.py", line 179, in _do_get
+    with util.safe_reraise():
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\impl.py", line 177, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\base.py", line 390, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\base.py", line 674, in __init__
+    self.__connect()
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\base.py", line 900, in __connect
+    with util.safe_reraise():
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\pool\base.py", line 896, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\create.py", line 643, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 621, in connect
+    return self.loaded_dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 953, in connect
+    await_only(creator_fn(*arg, **kw)),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 2329, in connect
+    return await connect_utils._connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connect_utils.py", line 1017, in _connect
+    raise last_error or exceptions.TargetServerAttributeNotMatched(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connect_utils.py", line 991, in _connect
+    conn = await _connect_addr(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connect_utils.py", line 828, in _connect_addr
+    return await __connect_addr(params, True, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connect_utils.py", line 873, in __connect_addr
+    tr, pr = await connector
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connect_utils.py", line 744, in _create_ssl_connection
+    tr, pr = await loop.create_connection(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\installed_software\anaconda3\envs\myenv3\Lib\asyncio\base_events.py", line 1130, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 10061] Connect call failed ('::1', 5432, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 5432)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 106, in verify_user_otp
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 500: An unexpected error occurred during OTP verification
+INFO 2024-10-29 11:31:50 root Shutting down application...
+DEBUG 2024-10-29 11:31:58 app.core.logging This is a debug message
+ERROR 2024-10-29 11:31:58 app.core.logging This is an error message
+DEBUG 2024-10-29 11:32:00 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-29 11:32:00 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-29 11:32:00 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-29 11:32:01 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-10-29 11:32:04 root Application startup application...
+INFO 2024-10-29 11:41:15 sqlalchemy.engine.Engine select pg_catalog.version()
+INFO 2024-10-29 11:41:15 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-29 11:41:15 sqlalchemy.engine.Engine select current_schema()
+INFO 2024-10-29 11:41:15 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-29 11:41:15 sqlalchemy.engine.Engine show standard_conforming_strings
+INFO 2024-10-29 11:41:15 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-29 11:41:15 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 11:41:15 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 11:41:15 sqlalchemy.engine.Engine [generated in 0.00328s] (14,)
+WARNING 2024-10-29 11:41:15 root OTP not found for email: lkajsdjakd@gmail.com
+WARNING 2024-10-29 11:41:15 root Invalid OTP for user: 14
+ERROR 2024-10-29 11:41:15 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+INFO 2024-10-29 11:41:15 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 11:41:15 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 103, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 71, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+INFO 2024-10-29 11:41:15 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 11:41:15 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 11:41:15 sqlalchemy.engine.Engine [cached since 0.1656s ago] (14,)
+WARNING 2024-10-29 11:41:15 root OTP not found for email: lkajsdjakd@gmail.com
+WARNING 2024-10-29 11:41:15 root Invalid OTP for user: 14
+ERROR 2024-10-29 11:41:15 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+INFO 2024-10-29 11:41:15 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 11:41:15 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 103, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 71, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+INFO 2024-10-29 11:41:36 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 11:41:36 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 11:41:36 sqlalchemy.engine.Engine [cached since 20.63s ago] (14,)
+WARNING 2024-10-29 11:41:36 root OTP not found for email: lkajsdjakd@gmail.com
+WARNING 2024-10-29 11:41:36 root Invalid OTP for user: 14
+ERROR 2024-10-29 11:41:36 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+INFO 2024-10-29 11:41:36 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 11:41:36 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 103, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 71, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+INFO 2024-10-29 11:55:45 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 11:55:45 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 11:55:45 sqlalchemy.engine.Engine [cached since 869.4s ago] (14,)
+WARNING 2024-10-29 11:55:45 root OTP not found for email: lkajsdjakd@gmail.com
+WARNING 2024-10-29 11:55:45 root Invalid OTP for user: 14
+ERROR 2024-10-29 11:55:45 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+INFO 2024-10-29 11:55:45 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 11:55:45 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 103, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 71, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+INFO 2024-10-29 11:59:54 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 11:59:54 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 11:59:54 sqlalchemy.engine.Engine [cached since 1119s ago] (14,)
+WARNING 2024-10-29 11:59:54 root OTP not found for email: lkajsdjakd@gmail.com
+WARNING 2024-10-29 11:59:54 root Invalid OTP for user: 14
+ERROR 2024-10-29 11:59:54 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+INFO 2024-10-29 11:59:54 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 11:59:54 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 103, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 71, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+INFO 2024-10-29 12:10:49 root Shutting down application...
+DEBUG 2024-10-29 12:10:56 app.core.logging This is a debug message
+ERROR 2024-10-29 12:10:56 app.core.logging This is an error message
+DEBUG 2024-10-29 12:11:00 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-29 12:11:00 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-29 12:11:00 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-29 12:11:02 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-10-29 12:11:06 root Application startup application...
+INFO 2024-10-29 12:11:06 root Shutting down application...
+DEBUG 2024-10-29 12:11:09 app.core.logging This is a debug message
+ERROR 2024-10-29 12:11:09 app.core.logging This is an error message
+DEBUG 2024-10-29 12:11:09 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-29 12:11:09 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-29 12:11:09 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-29 12:11:10 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-10-29 12:11:11 root Application startup application...
+INFO 2024-10-29 12:14:55 sqlalchemy.engine.Engine select pg_catalog.version()
+INFO 2024-10-29 12:14:55 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-29 12:14:55 sqlalchemy.engine.Engine select current_schema()
+INFO 2024-10-29 12:14:55 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-29 12:14:55 sqlalchemy.engine.Engine show standard_conforming_strings
+INFO 2024-10-29 12:14:55 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-29 12:14:55 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:14:55 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 12:14:55 sqlalchemy.engine.Engine [generated in 0.00160s] (14,)
+WARNING 2024-10-29 12:14:55 root OTP not found for email: lkajsdjakd@gmail.com
+WARNING 2024-10-29 12:14:55 root Invalid OTP for user: 14
+ERROR 2024-10-29 12:14:55 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+INFO 2024-10-29 12:14:55 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 12:14:55 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 104, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 72, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+INFO 2024-10-29 12:15:34 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:15:34 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 12:15:34 sqlalchemy.engine.Engine [cached since 38.47s ago] (14,)
+WARNING 2024-10-29 12:15:34 root OTP not found for email: lkajsdjakd@gmail.com
+WARNING 2024-10-29 12:15:34 root Invalid OTP for user: 14
+ERROR 2024-10-29 12:15:34 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+INFO 2024-10-29 12:15:34 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 12:15:34 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 104, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 72, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+INFO 2024-10-29 12:15:59 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:15:59 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 12:15:59 sqlalchemy.engine.Engine [cached since 64.09s ago] (14,)
+WARNING 2024-10-29 12:15:59 root OTP not found for email: lkajsdjakd@gmail.com
+WARNING 2024-10-29 12:15:59 root Invalid OTP for user: 14
+ERROR 2024-10-29 12:15:59 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+INFO 2024-10-29 12:15:59 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 12:15:59 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 104, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 72, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+INFO 2024-10-29 12:19:35 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:19:35 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 12:19:35 sqlalchemy.engine.Engine [cached since 280.1s ago] (14,)
+WARNING 2024-10-29 12:19:35 root OTP not found for email: lkajsdjakd@gmail.com
+WARNING 2024-10-29 12:19:35 root Invalid OTP for user: 14
+ERROR 2024-10-29 12:19:35 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+INFO 2024-10-29 12:19:35 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 12:19:35 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 104, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 72, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+INFO 2024-10-29 12:23:25 root Shutting down application...
+DEBUG 2024-10-29 12:23:35 app.core.logging This is a debug message
+ERROR 2024-10-29 12:23:35 app.core.logging This is an error message
+DEBUG 2024-10-29 12:23:41 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-29 12:23:41 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-29 12:23:41 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-29 12:23:42 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-10-29 12:23:48 root Application startup application...
+INFO 2024-10-29 12:24:03 sqlalchemy.engine.Engine select pg_catalog.version()
+INFO 2024-10-29 12:24:03 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-29 12:24:03 sqlalchemy.engine.Engine select current_schema()
+INFO 2024-10-29 12:24:03 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-29 12:24:03 sqlalchemy.engine.Engine show standard_conforming_strings
+INFO 2024-10-29 12:24:03 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-29 12:24:03 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:24:03 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 12:24:03 sqlalchemy.engine.Engine [generated in 0.00149s] (14,)
+WARNING 2024-10-29 12:24:03 root OTP not found for email: lkajsdjakd@gmail.com
+WARNING 2024-10-29 12:24:03 root Invalid OTP for user: 14
+ERROR 2024-10-29 12:24:03 root HTTP Exception during OTP verification for user_id 14: Invalid OTP
+INFO 2024-10-29 12:24:03 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 12:24:03 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 103, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 71, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+INFO 2024-10-29 12:24:38 root Shutting down application...
+DEBUG 2024-10-29 12:24:41 app.core.logging This is a debug message
+ERROR 2024-10-29 12:24:41 app.core.logging This is an error message
+DEBUG 2024-10-29 12:24:42 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-29 12:24:42 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-29 12:24:42 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-29 12:24:42 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-10-29 12:24:43 root Application startup application...
+INFO 2024-10-29 12:26:03 sqlalchemy.engine.Engine select pg_catalog.version()
+INFO 2024-10-29 12:26:03 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-29 12:26:03 sqlalchemy.engine.Engine select current_schema()
+INFO 2024-10-29 12:26:03 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-29 12:26:03 sqlalchemy.engine.Engine show standard_conforming_strings
+INFO 2024-10-29 12:26:03 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-29 12:26:03 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:26:03 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-29 12:26:03 sqlalchemy.engine.Engine [generated in 0.00110s] ('gopal34@gmail.com',)
+INFO 2024-10-29 12:26:03 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-29 12:26:03 sqlalchemy.engine.Engine [generated in 0.00151s] ('9345728947',)
+INFO 2024-10-29 12:26:03 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-29 12:26:03 sqlalchemy.engine.Engine [generated in 0.00106s] (1,)
+INFO 2024-10-29 12:26:03 root Generated new user ID: user_15
+WARNING 2024-10-29 12:26:03 passlib.handlers.bcrypt (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+DEBUG 2024-10-29 12:26:03 passlib.handlers.bcrypt detected 'bcrypt' backend, version '<unknown>'
+DEBUG 2024-10-29 12:26:03 passlib.handlers.bcrypt 'bcrypt' backend lacks $2$ support, enabling workaround
+INFO 2024-10-29 12:26:03 root Password hashed successfully.
+INFO 2024-10-29 12:26:03 root Password hashed successfully for user: gopal
+INFO 2024-10-29 12:26:04 root Access token created successfully for user: user_15
+INFO 2024-10-29 12:26:04 root Refresh token created successfully for user: user_15
+INFO 2024-10-29 12:26:04 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE1IiwiZXhwIjoxNzMwMjcxMzYzfQ.nEU2XFSnvnEzsKCpGQtqqVh2tCIzQOHmB33P4SnQd1s -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE1IiwiZXhwIjoxNzMwNzg5NzY0fQ.5sM4Qdjw3PMGgGuk_ERNXCGVM2_yhpLlSGUMbf74koQ
+INFO 2024-10-29 12:26:04 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-29 12:26:04 sqlalchemy.engine.Engine [generated in 0.00095s] ('user_15', 'gopal', None, 'admin', None, 'gopal34@gmail.com', '9345728947', '$2b$12$GyYiE9KeHYe1.H.ruo17F.dWqBPfpqeTmz54AAThy/e7X4L0OJxKK', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE1IiwiZXhwIjoxNzMwMjcxMzYzfQ.nEU2XFSnvnEzsKCpGQtqqVh2tCIzQOHmB33P4SnQd1s', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE1IiwiZXhwIjoxNzMwNzg5NzY0fQ.5sM4Qdjw3PMGgGuk_ERNXCGVM2_yhpLlSGUMbf74koQ', '907970', False, None, None)
+INFO 2024-10-29 12:26:04 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-29 12:26:04 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:26:04 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 12:26:04 sqlalchemy.engine.Engine [generated in 0.00081s] (15,)
+INFO 2024-10-29 12:26:04 root User created successfully: <User gopal (ID: user_15) created on 2024-10-29 12:26:03.152562>
+INFO 2024-10-29 12:26:04 root Preparing to send OTP email to gopal34@gmail.com with code 907970
+INFO 2024-10-29 12:26:05 root OTP email sent to gopal34@gmail.com
+INFO 2024-10-29 12:26:05 root User registered successfully: user_15
+INFO 2024-10-29 12:26:05 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-29 12:26:30 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:26:30 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 12:26:30 sqlalchemy.engine.Engine [generated in 0.00185s] (15,)
+INFO 2024-10-29 12:26:30 root Stored OTP for gopal34@gmail.com: 907970, Expires at: 2024-10-29 07:06:04.971923
+INFO 2024-10-29 12:26:30 root OTP verified successfully for gopal34@gmail.com
+INFO 2024-10-29 12:26:30 sqlalchemy.engine.Engine UPDATE users SET is_active=$1::BOOLEAN, verified_at=$2::TIMESTAMP WITHOUT TIME ZONE, updated_on=now() WHERE users.id = $3::INTEGER
+INFO 2024-10-29 12:26:30 sqlalchemy.engine.Engine [generated in 0.00067s] (True, datetime.datetime(2024, 10, 29, 6, 56, 30, 586224), 15)
+INFO 2024-10-29 12:26:31 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-29 12:26:31 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:26:31 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 12:26:31 sqlalchemy.engine.Engine [cached since 26.58s ago] (15,)
+INFO 2024-10-29 12:26:31 root User 15 verified successfully.
+INFO 2024-10-29 12:26:31 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-29 12:28:45 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:28:45 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 12:28:45 sqlalchemy.engine.Engine [cached since 134.9s ago] (947,)
+ERROR 2024-10-29 12:28:45 root User not found with id: 947
+ERROR 2024-10-29 12:28:45 root HTTP Exception during OTP resend: User not found
+INFO 2024-10-29 12:28:45 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 12:28:45 root Unexpected error: 404: User not found
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 165, in resend_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 123, in resend_otp
+    raise HTTPException(status_code=404, detail="User not found")
+fastapi.exceptions.HTTPException: 404: User not found
+INFO 2024-10-29 12:38:04 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:38:04 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 12:38:04 sqlalchemy.engine.Engine [cached since 693.9s ago] (15,)
+WARNING 2024-10-29 12:38:04 root Attempt to resend OTP for an already active user: 15
+ERROR 2024-10-29 12:38:04 root HTTP Exception during OTP resend: User is already active
+INFO 2024-10-29 12:38:04 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 12:38:04 root Unexpected error: 400: User is already active
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 165, in resend_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 128, in resend_otp
+    raise HTTPException(status_code=400, detail="User is already active")
+fastapi.exceptions.HTTPException: 400: User is already active
+INFO 2024-10-29 12:38:13 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:38:13 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 12:38:13 sqlalchemy.engine.Engine [cached since 703.1s ago] (15,)
+WARNING 2024-10-29 12:38:13 root Attempt to resend OTP for an already active user: 15
+ERROR 2024-10-29 12:38:13 root HTTP Exception during OTP resend: User is already active
+INFO 2024-10-29 12:38:13 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 12:38:14 root Unexpected error: 400: User is already active
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 165, in resend_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 128, in resend_otp
+    raise HTTPException(status_code=400, detail="User is already active")
+fastapi.exceptions.HTTPException: 400: User is already active
+INFO 2024-10-29 12:41:59 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:41:59 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 12:42:00 sqlalchemy.engine.Engine [cached since 929.4s ago] (15,)
+WARNING 2024-10-29 12:42:00 root Attempt to resend OTP for an already active user: 15
+ERROR 2024-10-29 12:42:00 root HTTP Exception during OTP resend: User is already active
+INFO 2024-10-29 12:42:00 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 12:42:00 root Unexpected error: 400: User is already active
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 165, in resend_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 128, in resend_otp
+    raise HTTPException(status_code=400, detail="User is already active")
+fastapi.exceptions.HTTPException: 400: User is already active
+INFO 2024-10-29 12:43:39 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:43:39 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 12:43:39 sqlalchemy.engine.Engine [cached since 1029s ago] (15,)
+WARNING 2024-10-29 12:43:39 root Attempt to resend OTP for an already active user: 15
+ERROR 2024-10-29 12:43:39 root HTTP Exception during OTP resend: User is already active
+INFO 2024-10-29 12:43:39 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 12:43:39 root Unexpected error: 400: User is already active
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 165, in resend_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 128, in resend_otp
+    raise HTTPException(status_code=400, detail="User is already active")
+fastapi.exceptions.HTTPException: 400: User is already active
+INFO 2024-10-29 12:47:19 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:47:19 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 12:47:19 sqlalchemy.engine.Engine [cached since 1249s ago] (15,)
+WARNING 2024-10-29 12:47:19 root Attempt to resend OTP for an already active user: 15
+ERROR 2024-10-29 12:47:19 root HTTP Exception during OTP resend: User is already active
+INFO 2024-10-29 12:47:19 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 12:47:19 root Unexpected error: 400: User is already active
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 165, in resend_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 128, in resend_otp
+    raise HTTPException(status_code=400, detail="User is already active")
+fastapi.exceptions.HTTPException: 400: User is already active
+INFO 2024-10-29 12:47:34 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:47:34 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 12:47:34 sqlalchemy.engine.Engine [cached since 1264s ago] (15,)
+WARNING 2024-10-29 12:47:34 root Attempt to resend OTP for an already active user: 15
+ERROR 2024-10-29 12:47:34 root HTTP Exception during OTP resend: User is already active
+INFO 2024-10-29 12:47:34 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 12:47:34 root Unexpected error: 400: User is already active
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 165, in resend_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 128, in resend_otp
+    raise HTTPException(status_code=400, detail="User is already active")
+fastapi.exceptions.HTTPException: 400: User is already active
+INFO 2024-10-29 12:49:22 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 12:49:22 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 12:49:22 sqlalchemy.engine.Engine [cached since 1372s ago] (15,)
+WARNING 2024-10-29 12:49:22 root Attempt to resend OTP for an already active user: 15
+ERROR 2024-10-29 12:49:22 root HTTP Exception during OTP resend: User is already active
+INFO 2024-10-29 12:49:22 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 12:49:22 root Unexpected error: 400: User is already active
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 165, in resend_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 128, in resend_otp
+    raise HTTPException(status_code=400, detail="User is already active")
+fastapi.exceptions.HTTPException: 400: User is already active
+DEBUG 2024-10-29 17:40:52 app.core.logging This is a debug message
+ERROR 2024-10-29 17:40:52 app.core.logging This is an error message
+DEBUG 2024-10-29 17:40:57 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-29 17:40:57 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-29 17:40:57 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-29 17:40:59 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-10-29 17:41:21 root Application startup application...
+INFO 2024-10-29 18:20:11 sqlalchemy.engine.Engine select pg_catalog.version()
+INFO 2024-10-29 18:20:11 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-29 18:20:11 sqlalchemy.engine.Engine select current_schema()
+INFO 2024-10-29 18:20:11 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-29 18:20:11 sqlalchemy.engine.Engine show standard_conforming_strings
+INFO 2024-10-29 18:20:11 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-10-29 18:20:11 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 18:20:11 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-29 18:20:11 sqlalchemy.engine.Engine [generated in 0.00227s] ('gopalsrinivaslsdkjd@gmail.com',)
+INFO 2024-10-29 18:20:11 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-29 18:20:11 sqlalchemy.engine.Engine [generated in 0.00383s] ('9573498572',)
+INFO 2024-10-29 18:20:11 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-29 18:20:11 sqlalchemy.engine.Engine [generated in 0.00318s] (1,)
+INFO 2024-10-29 18:20:11 root Generated new user ID: user_16
+WARNING 2024-10-29 18:20:11 passlib.handlers.bcrypt (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+DEBUG 2024-10-29 18:20:11 passlib.handlers.bcrypt detected 'bcrypt' backend, version '<unknown>'
+DEBUG 2024-10-29 18:20:12 passlib.handlers.bcrypt 'bcrypt' backend lacks $2$ support, enabling workaround
+INFO 2024-10-29 18:20:12 root Password hashed successfully.
+INFO 2024-10-29 18:20:12 root Password hashed successfully for user: Gopal Srinivas
+INFO 2024-10-29 18:20:13 root Access token created successfully for user: user_16
+INFO 2024-10-29 18:20:13 root Refresh token created successfully for user: user_16
+INFO 2024-10-29 18:20:13 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE2IiwiZXhwIjoxNzMwMjkyNjEyfQ.nc4ccXBkuox1UI8_RxozoWlJRWOwd0qtdvk6pDAADno -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE2IiwiZXhwIjoxNzMwODExMDEzfQ.wZDXzUIkueyVEzlN_MzMyF36_Kv-PCHCj9yiavukk0M
+INFO 2024-10-29 18:20:13 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-29 18:20:13 sqlalchemy.engine.Engine [generated in 0.00269s] ('user_16', 'Gopal Srinivas', None, 'admin', None, 'gopalsrinivaslsdkjd@gmail.com', '9573498572', '$2b$12$.o.a34jAKjc51hbLXQhhLucrG6Lu7SvW3M/7Z0QUgMIj6lcEqdME6', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE2IiwiZXhwIjoxNzMwMjkyNjEyfQ.nc4ccXBkuox1UI8_RxozoWlJRWOwd0qtdvk6pDAADno', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE2IiwiZXhwIjoxNzMwODExMDEzfQ.wZDXzUIkueyVEzlN_MzMyF36_Kv-PCHCj9yiavukk0M', '192195', False, None, None)
+INFO 2024-10-29 18:20:13 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-29 18:20:13 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 18:20:13 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 18:20:13 sqlalchemy.engine.Engine [generated in 0.00167s] (16,)
+INFO 2024-10-29 18:20:13 root User created successfully: <User Gopal Srinivas (ID: user_16) created on 2024-10-29 18:20:11.578356>
+INFO 2024-10-29 18:20:13 root Preparing to send OTP email to gopalsrinivaslsdkjd@gmail.com with code 192195
+INFO 2024-10-29 18:20:14 root OTP email sent to gopalsrinivaslsdkjd@gmail.com
+INFO 2024-10-29 18:20:14 root User registered successfully: user_16
+INFO 2024-10-29 18:20:14 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-29 18:23:18 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 18:23:18 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 18:23:18 sqlalchemy.engine.Engine [generated in 0.00136s] (16,)
+INFO 2024-10-29 18:23:18 sqlalchemy.engine.Engine UPDATE users SET otp=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-10-29 18:23:18 sqlalchemy.engine.Engine [generated in 0.00068s] ('971786', 16)
+INFO 2024-10-29 18:23:19 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-29 18:23:19 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 18:23:19 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 18:23:19 sqlalchemy.engine.Engine [cached since 185.1s ago] (16,)
+INFO 2024-10-29 18:23:19 root OTP email sent to gopalsrinivaslsdkjd@gmail.com
+INFO 2024-10-29 18:23:19 root Resent OTP to gopalsrinivaslsdkjd@gmail.com
+INFO 2024-10-29 18:23:19 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-29 18:24:31 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 18:24:31 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 18:24:31 sqlalchemy.engine.Engine [cached since 72.18s ago] (16,)
+INFO 2024-10-29 18:24:31 sqlalchemy.engine.Engine UPDATE users SET otp=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-10-29 18:24:31 sqlalchemy.engine.Engine [cached since 72.18s ago] ('130787', 16)
+INFO 2024-10-29 18:24:31 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-29 18:24:31 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 18:24:31 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 18:24:31 sqlalchemy.engine.Engine [cached since 257.1s ago] (16,)
+INFO 2024-10-29 18:24:31 root OTP email sent to gopalsrinivaslsdkjd@gmail.com
+INFO 2024-10-29 18:24:31 root Resent OTP to gopalsrinivaslsdkjd@gmail.com
+INFO 2024-10-29 18:24:31 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-29 18:24:56 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 18:24:56 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 18:24:56 sqlalchemy.engine.Engine [cached since 97.46s ago] (16,)
+INFO 2024-10-29 18:24:56 root Stored OTP for gopalsrinivaslsdkjd@gmail.com: 130787, Expires at: 2024-10-29 13:04:31.036992
+INFO 2024-10-29 18:24:56 root OTP verified successfully for gopalsrinivaslsdkjd@gmail.com
+INFO 2024-10-29 18:24:56 sqlalchemy.engine.Engine UPDATE users SET is_active=$1::BOOLEAN, verified_at=$2::TIMESTAMP WITHOUT TIME ZONE, updated_on=now() WHERE users.id = $3::INTEGER
+INFO 2024-10-29 18:24:56 sqlalchemy.engine.Engine [generated in 0.00120s] (True, datetime.datetime(2024, 10, 29, 12, 54, 56, 296334), 16)
+INFO 2024-10-29 18:24:56 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-29 18:24:56 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 18:24:56 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 18:24:56 sqlalchemy.engine.Engine [cached since 282.7s ago] (16,)
+INFO 2024-10-29 18:24:56 root User 16 verified successfully.
+INFO 2024-10-29 18:24:56 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-29 18:28:57 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 18:28:57 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-10-29 18:28:57 sqlalchemy.engine.Engine [cached since 525.9s ago] ('alskdjlajdflkjas@gmail.com',)
+INFO 2024-10-29 18:28:57 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-10-29 18:28:57 sqlalchemy.engine.Engine [cached since 525.3s ago] ('9237459874',)
+INFO 2024-10-29 18:28:57 sqlalchemy.engine.Engine SELECT users.id 
+FROM users ORDER BY users.id DESC 
+ LIMIT $1::INTEGER
+INFO 2024-10-29 18:28:57 sqlalchemy.engine.Engine [cached since 525.3s ago] (1,)
+INFO 2024-10-29 18:28:57 root Generated new user ID: user_17
+INFO 2024-10-29 18:28:57 root Password hashed successfully.
+INFO 2024-10-29 18:28:57 root Password hashed successfully for user: alskdjlajdflkjas
+INFO 2024-10-29 18:28:57 root Access token created successfully for user: user_17
+INFO 2024-10-29 18:28:57 root Refresh token created successfully for user: user_17
+INFO 2024-10-29 18:28:57 root Tokens created: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE3IiwiZXhwIjoxNzMwMjkzMTM3fQ.X4ixnP00tFFVSKgvIREAN-As98kjBYTAwF_1JwhqzNk -- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE3IiwiZXhwIjoxNzMwODExNTM3fQ.kSDuqLQTdKjeuZBSguKm2hOuDDbeZnbUdcKxZG0MZPY
+INFO 2024-10-29 18:28:57 sqlalchemy.engine.Engine INSERT INTO users (user_id, name, profile_image, user_role, bio, email, mobile, password, access_token, refresh_token, otp, is_active, verified_at, created_on, updated_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR, $7::VARCHAR, $8::VARCHAR, $9::VARCHAR, $10::VARCHAR, $11::VARCHAR, $12::BOOLEAN, $13::TIMESTAMP WITHOUT TIME ZONE, now(), $14::TIMESTAMP WITHOUT TIME ZONE) RETURNING users.id, users.created_on
+INFO 2024-10-29 18:28:57 sqlalchemy.engine.Engine [cached since 523.5s ago] ('user_17', 'alskdjlajdflkjas', None, 'admin', None, 'alskdjlajdflkjas@gmail.com', '9237459874', '$2b$12$AIvosvDDRxc9dKo7wPKcXefTDS3Ut/Uf9VBUzt89ZYTlZ7wl5iz3W', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE3IiwiZXhwIjoxNzMwMjkzMTM3fQ.X4ixnP00tFFVSKgvIREAN-As98kjBYTAwF_1JwhqzNk', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE3IiwiZXhwIjoxNzMwODExNTM3fQ.kSDuqLQTdKjeuZBSguKm2hOuDDbeZnbUdcKxZG0MZPY', '543004', False, None, None)
+INFO 2024-10-29 18:28:57 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-29 18:28:57 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 18:28:57 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 18:28:57 sqlalchemy.engine.Engine [cached since 523.5s ago] (17,)
+INFO 2024-10-29 18:28:57 root User created successfully: <User alskdjlajdflkjas (ID: user_17) created on 2024-10-29 18:28:57.178789>
+INFO 2024-10-29 18:28:57 root Preparing to send OTP email to alskdjlajdflkjas@gmail.com with code 543004
+INFO 2024-10-29 18:28:57 root OTP email sent to alskdjlajdflkjas@gmail.com
+INFO 2024-10-29 18:28:57 root User registered successfully: user_17
+INFO 2024-10-29 18:28:57 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-29 18:29:26 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 18:29:26 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 18:29:26 sqlalchemy.engine.Engine [cached since 367.9s ago] (17,)
+INFO 2024-10-29 18:29:26 sqlalchemy.engine.Engine UPDATE users SET otp=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-10-29 18:29:26 sqlalchemy.engine.Engine [cached since 367.9s ago] ('291452', 17)
+INFO 2024-10-29 18:29:26 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-29 18:29:27 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 18:29:27 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 18:29:27 sqlalchemy.engine.Engine [cached since 553.5s ago] (17,)
+INFO 2024-10-29 18:29:27 root OTP email sent to alskdjlajdflkjas@gmail.com
+INFO 2024-10-29 18:29:27 root Resent OTP to alskdjlajdflkjas@gmail.com
+INFO 2024-10-29 18:29:27 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-29 18:29:44 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 18:29:44 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 18:29:44 sqlalchemy.engine.Engine [cached since 385.8s ago] (17,)
+INFO 2024-10-29 18:29:44 root Stored OTP for alskdjlajdflkjas@gmail.com: 291452, Expires at: 2024-10-29 13:09:27.492703
+WARNING 2024-10-29 18:29:44 root OTP expired or invalid for email: alskdjlajdflkjas@gmail.com
+WARNING 2024-10-29 18:29:44 root Invalid OTP for user: 17
+ERROR 2024-10-29 18:29:44 root HTTP Exception during OTP verification for id 17: Invalid OTP
+INFO 2024-10-29 18:29:44 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-10-29 18:29:44 root Unexpected error: 400: Invalid OTP
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 103, in verify_user_otp
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 71, in verify_user_otp
+    raise HTTPException(status_code=400, detail="Invalid OTP")
+fastapi.exceptions.HTTPException: 400: Invalid OTP
+INFO 2024-10-29 18:29:50 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 18:29:50 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 18:29:50 sqlalchemy.engine.Engine [cached since 391.7s ago] (17,)
+INFO 2024-10-29 18:29:50 root Stored OTP for alskdjlajdflkjas@gmail.com: 291452, Expires at: 2024-10-29 13:09:27.492703
+INFO 2024-10-29 18:29:50 root OTP verified successfully for alskdjlajdflkjas@gmail.com
+INFO 2024-10-29 18:29:50 sqlalchemy.engine.Engine UPDATE users SET is_active=$1::BOOLEAN, verified_at=$2::TIMESTAMP WITHOUT TIME ZONE, updated_on=now() WHERE users.id = $3::INTEGER
+INFO 2024-10-29 18:29:50 sqlalchemy.engine.Engine [cached since 294.2s ago] (True, datetime.datetime(2024, 10, 29, 12, 59, 50, 522723), 17)
+INFO 2024-10-29 18:29:50 sqlalchemy.engine.Engine COMMIT
+INFO 2024-10-29 18:29:50 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-10-29 18:29:50 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-10-29 18:29:50 sqlalchemy.engine.Engine [cached since 576.6s ago] (17,)
+INFO 2024-10-29 18:29:50 root User 17 verified successfully.
+INFO 2024-10-29 18:29:50 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-10-29 19:49:38 root Shutting down application...
+DEBUG 2024-10-29 19:50:37 app.core.logging This is a debug message
+ERROR 2024-10-29 19:50:37 app.core.logging This is an error message
+DEBUG 2024-10-29 19:50:50 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-29 19:50:50 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-29 19:50:50 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-29 19:50:52 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-10-29 19:51:07 root Application startup application...
+INFO 2024-10-29 19:51:07 root Shutting down application...
+DEBUG 2024-10-29 19:51:11 app.core.logging This is a debug message
+ERROR 2024-10-29 19:51:11 app.core.logging This is an error message
+DEBUG 2024-10-29 19:51:12 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-29 19:51:12 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-29 19:51:12 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-29 19:51:12 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-10-29 19:51:13 root Application startup application...
+INFO 2024-10-29 19:51:21 root Shutting down application...
+DEBUG 2024-10-29 19:51:24 app.core.logging This is a debug message
+ERROR 2024-10-29 19:51:24 app.core.logging This is an error message
+DEBUG 2024-10-29 19:51:24 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-29 19:51:24 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-29 19:51:24 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-29 19:51:25 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-10-29 19:51:26 root Application startup application...
+INFO 2024-10-29 19:51:28 root Shutting down application...
+DEBUG 2024-10-29 19:51:30 app.core.logging This is a debug message
+ERROR 2024-10-29 19:51:30 app.core.logging This is an error message
+DEBUG 2024-10-29 19:51:31 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-10-29 19:51:31 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-10-29 19:51:31 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-10-29 19:51:31 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-10-29 19:51:32 root Application startup application...
+INFO 2024-10-29 19:52:15 root Shutting down application...
