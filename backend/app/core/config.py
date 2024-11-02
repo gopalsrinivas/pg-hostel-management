@@ -8,6 +8,7 @@ import os
 # Load Media files
 MEDIA_DIR = Path(__file__).resolve().parent.parent.parent / 'media'
 
+
 # Load environment variables from .env file
 env_path = Path(__file__).resolve().parent.parent.parent / '.env'
 load_dotenv(dotenv_path=env_path)

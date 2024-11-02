@@ -1,15 +1,34 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Col, Row, Image, Modal, Button, Form } from 'react-bootstrap';
+import { useRouter } from 'next/router';
+import axios from 'axios';
+import toast, { Toaster } from "react-hot-toast";
 
 const ProfileHeader = () => {
   const [showModal, setShowModal] = useState(false);
   const [profileData, setProfileData] = useState({
-    fullName: 'Jitu Chauhan',
+    name: '',
     bio: '',
-    email: 'jituchauhan@example.com',
-    mobile: '123-456-7890',
+    email: '',
+    mobile: '',
+    profileImage: null,
   });
+  const [error, setError] = useState('');
+  const router = useRouter();
+
+  useEffect(() => {
+    const userData = localStorage.getItem('user_data');
+    if (!userData) {
+      router.push('/');
+    } else {
+      const parsedData = JSON.parse(userData);
+      setProfileData({
+        ...parsedData,
+        bio: parsedData.bio || '',
+      });
+    }
+  }, []);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -21,20 +40,57 @@ const ProfileHeader = () => {
 
   const handleImageChange = (e) => {
     const file = e.target.files[0];
-    setFormData({ ...formData, profileImage: file });
+    setProfileData({ ...profileData, profileImage: file });
   };
 
-  
-  const handleSaveChanges = () => {
-    // Save the changes to the profile
-    setShowModal(false);
+  const handleSaveChanges = async () => {
+    if (!profileData.name || !profileData.bio) {
+      toast.error('Please fill in all fields'); // Use toast for error
+      return;
+    }
+
+    const formData = new FormData();
+    formData.append('name', profileData.name);
+    formData.append('bio', profileData.bio);
+    formData.append('email', profileData.email);
+    formData.append('mobile', profileData.mobile);
+    formData.append('is_active', true);
+    if (profileData.profileImage) {
+      formData.append('profileImage', profileData.profileImage);
+    }
+
+    try {
+      const access_token = localStorage.getItem('access_token');
+      const response = await axios.put(
+        `${process.env.NEXT_PUBLIC_API_URL}/api/v1/newuserregister/update_me/`,
+        formData,
+        {
+          headers: {
+            'Authorization': `Bearer ${access_token}`,
+            'Content-Type': 'multipart/form-data',
+          },
+        }
+      );
+
+      if (response.status !== 200) throw new Error('Failed to update profile');
+
+      // Update user_data in localStorage
+      const existingUserData = JSON.parse(localStorage.getItem('user_data')) || {};
+      const updatedUserData = { ...existingUserData, ...profileData };
+      localStorage.setItem('user_data', JSON.stringify(updatedUserData));
+
+      toast.success('Profile updated successfully');
+      setShowModal(false);
+    } catch (err) {
+      toast.error(err.response?.data?.message || err.message); // Use toast for error
+    }
   };
 
   return (
     <>
+      <Toaster />
       <Row className="align-items-center">
         <Col xl={12} lg={12} md={12} xs={12}>
-          {/* Bg */}
           <div
             className="pt-20 rounded-top"
             style={{
@@ -42,13 +98,12 @@ const ProfileHeader = () => {
               backgroundSize: 'cover',
             }}
           ></div>
-          <div className="bg-white rounded-bottom smooth-shadow-sm ">
+          <div className="bg-white rounded-bottom smooth-shadow-sm">
             <div className="d-flex align-items-center justify-content-between pt-4 pb-6 px-4">
               <div className="d-flex align-items-center">
-                {/* avatar */}
                 <div className="avatar-xxl avatar-indicators avatar-online me-2 position-relative d-flex justify-content-end align-items-end mt-n10">
                   <Image
-                    src="/images/avatar/avatar-1.jpg"
+                    src=""
                     className="avatar-xxl rounded-circle border border-4 border-white-color-40"
                     alt=""
                   />
@@ -67,19 +122,9 @@ const ProfileHeader = () => {
                     />
                   </Link>
                 </div>
-                {/* text */}
                 <div className="lh-1">
-                  <h2 className="mb-0">
-                    {profileData.fullName}
-                    <Link
-                      href="#!"
-                      className="text-decoration-none"
-                      data-bs-toggle="tooltip"
-                      data-placement="top"
-                      title="Beginner"
-                    ></Link>
-                  </h2>
-                  <p className="mb-0 d-block">@imjituchauhan</p>
+                  <h2 className="mb-0">{profileData.name}</h2>
+                  <p className="mb-0 d-block">@{profileData.email}</p>
                 </div>
               </div>
               <div>
@@ -90,10 +135,8 @@ const ProfileHeader = () => {
                 >
                   Edit Profile
                 </Button>
-
               </div>
             </div>
-            {/* nav */}
             <ul className="nav nav-lt-tab px-4" id="pills-tab" role="tablist">
               <li className="nav-item">
                 <Link className="nav-link active" href="#">
@@ -105,7 +148,6 @@ const ProfileHeader = () => {
         </Col>
       </Row>
 
-      {/* Modal for editing profile */}
       <Modal show={showModal} onHide={() => setShowModal(false)} centered>
         <Modal.Header closeButton>
           <Modal.Title>Edit Profile</Modal.Title>
@@ -125,20 +167,28 @@ const ProfileHeader = () => {
               <Form.Label>Full Name</Form.Label>
               <Form.Control
                 type="text"
-                name="fullName"
-                value={profileData.fullName}
+                name="name"
+                value={profileData.name}
                 onChange={handleInputChange}
+                isInvalid={!profileData.name}
               />
+              <Form.Control.Feedback type="invalid">
+                Full Name is required.
+              </Form.Control.Feedback>
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Bio</Form.Label>
               <Form.Control
                 as="textarea"
                 name="bio"
-                value={profileData.bio}
+                value={profileData.bio || ''}
                 onChange={handleInputChange}
                 rows={3}
+                isInvalid={!profileData.bio}
               />
+              <Form.Control.Feedback type="invalid">
+                Bio is required.
+              </Form.Control.Feedback>
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Email</Form.Label>

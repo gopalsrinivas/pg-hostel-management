@@ -24,3 +24,8 @@ alembic revision --autogenerate -m "Initial migration"
 
 # Apply the migration to the database
 alembic upgrade head
+
+
+Deploying a FastAPI Application with CI/CD Using GitHub Actions, Docker, Kubernetes, and Argo CD
+-------------------------------------------------------------------------------------------------
+1. https://youtu.be/zmUAz7GDDtg?si=CEE4IZdUJYkBcsKr

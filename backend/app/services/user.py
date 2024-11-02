@@ -1,13 +1,21 @@
+import os
+from pathlib import Path
 from app.core.logging import logging
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
-from fastapi import Request, HTTPException, BackgroundTasks, Depends
+from fastapi import Request, HTTPException, BackgroundTasks, Depends, UploadFile
 from app.core.security import verify_password, hash_password, create_access_token, create_refresh_token
 from sqlalchemy import func, select, or_, desc, cast, String
 from app.utils.send_notifications.send_otp import send_otp_email, send_reset_password_email
 import random
 from sqlalchemy.exc import SQLAlchemyError
 from app.models.user import User
+from app.core.config import MEDIA_DIR
+from typing import Optional
+import shutil
+
+
+DEFAULT_IMAGE = "default_profile.jpg" 
 
 async def generate_user_id(db: AsyncSession) -> str:
     try:
@@ -140,3 +148,67 @@ async def authenticate_user(db: AsyncSession, username: str, password: str):
     except Exception as ex:
         logging.error(f"Error during user authentication: {str(ex)}")
         raise HTTPException(status_code=500, detail="Internal Server Error")
+    
+    
+async def get_user_details(db: AsyncSession, user_id: str) -> User:
+    try:
+        user_result = await db.execute(select(User).filter(User.user_id == user_id))
+        user = user_result.scalar_one_or_none()
+
+        if not user:
+            logging.warning(f"User not found: {user_id}.")
+            raise HTTPException(status_code=404, detail="User not found")
+
+        return user
+    except Exception as ex:
+        logging.error(f"Error fetching user details: {str(ex)}")
+        raise HTTPException(status_code=500, detail="Internal Server Error")
+
+
+async def update_user_details(db: AsyncSession, user_id: str, user_data: dict, file: Optional[UploadFile] = None) -> User:
+    try:
+        # Retrieve user details from DB
+        user = await get_user_details(db, user_id)
+        if not user:
+            logging.warning(f"User not found for update: {user_id}")
+            raise HTTPException(status_code=404, detail="User not found")
+
+        # Update user fields
+        for key, value in user_data.items():
+            logging.info(f"Updating field: {key} with value: {value}")
+            setattr(user, key, value)
+
+        # Handle the file upload if provided
+        if file and file.filename:
+            file_name = f"{user_id}_{file.filename}"
+            logging.info(f"File Name: {file_name}")
+
+            # Ensure MEDIA_DIR exists
+            MEDIA_DIR.mkdir(parents=True, exist_ok=True)
+            file_location = MEDIA_DIR / file_name
+            logging.info(f"File Location: {file_location}")
+
+            # Write file to media directory
+            with open(file_location, "wb") as f:
+                shutil.copyfileobj(file.file, f)
+
+            # Store the filename in the database
+            user.profile_image = file_name
+        else:
+            logging.info(
+                f"No new profile image provided for user_id: {user_id}")
+            if not user.profile_image:
+                # Set a default image if none provided
+                user.profile_image = "default_profile_image.jpg"
+
+        # Commit changes and refresh user data
+        await db.commit()
+        await db.refresh(user)
+
+        logging.info(f"User details updated for user_id: {user_id}")
+        return user
+
+    except Exception as ex:
+        logging.error(f"Error updating user details: {str(ex)}")
+        raise HTTPException(
+            status_code=500, detail="Error updating user details")

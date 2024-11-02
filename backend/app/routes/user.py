@@ -1,14 +1,16 @@
+from pathlib import Path
+import os
 import logging
-from fastapi import APIRouter, HTTPException, Depends, BackgroundTasks, status, Request, Query
+from fastapi import APIRouter, HTTPException, Depends, BackgroundTasks, status, Request, Query, UploadFile, File, Form
 from app.core.logging import logging
 from datetime import datetime, timedelta
 from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
 from app.core.database import get_db
-from app.services.user import *
-from app.schemas.user import *
-from app.core.security import *
+from app.services.user import create_user, authenticate_user, get_user_details, update_user_details, update_user_details
+from app.schemas.user import UserCreate
+from app.core.security import create_access_token, create_refresh_token, get_current_user
 from app.utils.send_notifications.send_otp import verify_otp
 from app.models.user import User
 import random
@@ -16,6 +18,8 @@ from app.utils.send_notifications.send_otp import send_otp_email
 from fastapi.security import OAuth2PasswordRequestForm
 from jwt import ExpiredSignatureError, InvalidTokenError
 from app.core.security import *
+from app.core.config import MEDIA_DIR
+from typing import Optional
 
 
 router = APIRouter()
@@ -191,6 +195,10 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: AsyncSessi
                     "id": user.id,
                     "user_id": user.user_id,
                     "name": user.name,
+                    "profile_image": user.profile_image,
+                    "user_role": user.user_role,
+                    "bio": user.bio,
+                    "email": user.email,
                     "mobile": user.mobile,
                     "is_active": user.is_active,
                     "otp": user.otp,
@@ -218,6 +226,10 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: AsyncSessi
                 "id": user.id,
                 "user_id": user.user_id,
                 "name": user.name,
+                "profile_image": user.profile_image,
+                "user_role": user.user_role,
+                "bio": user.bio,
+                "email": user.email,
                 "mobile": user.mobile,
                 "is_active": user.is_active,
                 "otp": user.otp,
@@ -233,3 +245,95 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: AsyncSessi
     except Exception as ex:
         logging.error(f"Unexpected error during login process: {str(ex)}")
         raise HTTPException(status_code=500, detail="Internal Server Error")
+    
+
+@router.get("/me/", response_model=dict, summary="Get details of the authenticated user")
+async def get_authenticated_user(current_user: User = Depends(get_current_user), db: AsyncSession = Depends(get_db)):
+    try:
+        user_details = await get_user_details(db, current_user.user_id)
+
+        if not user_details.is_active:
+            logging.warning(f"User {current_user.id} is inactive.")
+            raise HTTPException(status_code=403, detail="User account is inactive")
+
+        return {
+            "msg": "User details fetched successfully.",
+            "status": "success",
+            "data": {
+                "id": user_details.id,
+                "user_id": user_details.user_id,
+                "name": user_details.name,
+                "profile_image": user_details.profile_image,
+                "user_role": user_details.user_role,
+                "bio": user_details.bio,
+                "email": user_details.email,
+                "mobile": user_details.mobile,
+                "is_active": user_details.is_active,
+                "otp": user_details.otp,
+                "verified_at": user_details.verified_at.isoformat(),
+                "created_on": user_details.created_on.isoformat(),
+                "updated_on": user_details.updated_on.isoformat() if user_details.updated_on else None,
+            }
+        }
+    except HTTPException as http_ex:
+        logging.error(
+            f"HTTP Exception fetching authenticated user details: {str(http_ex)}")
+        raise http_ex
+    except Exception as ex:
+        logging.error(f"Error fetching authenticated user details: {str(ex)}")
+        raise HTTPException(status_code=500, detail="Internal Server Error")
+
+
+@router.put("/update_me/", response_model=dict, summary="Update details of the authenticated user")
+async def update_authenticated_user(
+    request: Request,
+    name: str = Form(...),
+    bio: Optional[str] = Form(None),
+    email: str = Form(...),
+    mobile: str = Form(...),
+    is_active: bool = Form(...),
+    profile_image: UploadFile = Form(...),
+    current_user: User = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db)
+):
+    # Log received input values for debugging, including profile_image
+    logging.info(f"Received input: name={name}, bio={bio}, email={email}, mobile={mobile}, is_active={is_active}, profile_image={profile_image.filename if profile_image else 'None'}")
+
+    # Ensure profile_image is provided and valid
+    if not profile_image or not profile_image.filename:
+        logging.error("Profile image is required but not provided.")
+        raise HTTPException(status_code=400, detail="Profile image is required")
+
+    # Prepare user data dictionary
+    user_data = {
+        "name": name,
+        "bio": bio,
+        "email": email,
+        "mobile": mobile,
+        "is_active": is_active
+    }
+
+    # Call the service layer function to update user details
+    updated_user = await update_user_details(db, current_user.user_id, user_data, file=profile_image)
+
+    # Construct the profile image URL using the base URL and media path
+    profile_image_url = f"{request.base_url}media/{updated_user.profile_image}"
+
+    return {
+        "msg": "User details updated successfully.",
+        "status_code": 200,
+        "data": {
+            "id": updated_user.id,
+            "user_id": updated_user.user_id,
+            "name": updated_user.name,
+            "email": updated_user.email,
+            "mobile": updated_user.mobile,
+            "user_role": updated_user.user_role,
+            "bio": updated_user.bio,
+            "is_active": updated_user.is_active,
+            "profile_image": profile_image_url,
+            "verified_at": updated_user.verified_at.isoformat() if updated_user.verified_at else None,
+            "created_on": updated_user.created_on.isoformat(),
+            "updated_on": updated_user.updated_on.isoformat(),
+        }
+    }
