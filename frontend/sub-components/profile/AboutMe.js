@@ -1,28 +1,6 @@
-// import node module libraries
 import { Col, Row, Card } from 'react-bootstrap';
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/router'; // Import useRouter from Next.js
 
-const AboutMe = () => {
-    const router = useRouter(); // Initialize router
-    const [profileData, setProfileData] = useState({
-        name: '',
-        bio: '',
-        mobile: '',
-        email: '',
-        position: '',
-    });
-
-    useEffect(() => {
-        const userData = localStorage.getItem('user_data');
-        if (userData) {
-            setProfileData(JSON.parse(userData));
-        } else {
-            // Redirect if no userData is found
-            router.push('/');
-        }
-    }, [router]); // Add router to dependency array
-
+const AboutMe = ({ profileData }) => {
     return (
         <Col xl={12} lg={12} md={12} xs={12} className="mb-6">
             {/* card */}
@@ -51,6 +29,6 @@ const AboutMe = () => {
             </Card>
         </Col>
     );
-}
+};
 
 export default AboutMe;

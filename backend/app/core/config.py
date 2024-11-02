@@ -7,7 +7,9 @@ import os
 
 # Load Media files
 MEDIA_DIR = Path(__file__).resolve().parent.parent.parent / 'media'
-
+PROFILE_IMAGES_DIR = os.path.join(MEDIA_DIR, 'profile_images')
+# Ensure the media and profile images directory exists
+os.makedirs(PROFILE_IMAGES_DIR, exist_ok=True)
 
 # Load environment variables from .env file
 env_path = Path(__file__).resolve().parent.parent.parent / '.env'

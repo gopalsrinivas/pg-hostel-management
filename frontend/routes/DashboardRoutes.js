@@ -67,7 +67,7 @@ export const DashboardMenu = [
 		children: [
 			{ id: uuid(), link: '/me/profile', name: 'Edit Profile' },
 			{ id: uuid(), link: '/me/changepassword', name: 'Change Password' },
-			{ id: uuid(), link: '/', name: 'Logout' },
+			{ id: uuid(), link: '/me/logout', name: 'Logout' },
 		]
 	},
 ];

@@ -1,34 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Col, Row, Image, Modal, Button, Form } from 'react-bootstrap';
-import { useRouter } from 'next/router';
 import axios from 'axios';
 import toast, { Toaster } from "react-hot-toast";
 
-const ProfileHeader = () => {
+const ProfileHeader = ({ profileData, setProfileData }) => {
   const [showModal, setShowModal] = useState(false);
-  const [profileData, setProfileData] = useState({
-    name: '',
-    bio: '',
-    email: '',
-    mobile: '',
-    profileImage: null,
-  });
-  const [error, setError] = useState('');
-  const router = useRouter();
-
-  useEffect(() => {
-    const userData = localStorage.getItem('user_data');
-    if (!userData) {
-      router.push('/');
-    } else {
-      const parsedData = JSON.parse(userData);
-      setProfileData({
-        ...parsedData,
-        bio: parsedData.bio || '',
-      });
-    }
-  }, []);
+  const [profileImage, setProfileImage] = useState(null);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -40,12 +18,12 @@ const ProfileHeader = () => {
 
   const handleImageChange = (e) => {
     const file = e.target.files[0];
-    setProfileData({ ...profileData, profileImage: file });
+    setProfileImage(file);
   };
 
   const handleSaveChanges = async () => {
     if (!profileData.name || !profileData.bio) {
-      toast.error('Please fill in all fields'); // Use toast for error
+      toast.error('Please fill in all fields');
       return;
     }
 
@@ -55,8 +33,8 @@ const ProfileHeader = () => {
     formData.append('email', profileData.email);
     formData.append('mobile', profileData.mobile);
     formData.append('is_active', true);
-    if (profileData.profileImage) {
-      formData.append('profileImage', profileData.profileImage);
+    if (profileImage) {
+      formData.append('profile_image', profileImage);
     }
 
     try {
@@ -72,17 +50,32 @@ const ProfileHeader = () => {
         }
       );
 
-      if (response.status !== 200) throw new Error('Failed to update profile');
+      if (response.status === 200) {
+        const updatedData = response.data.data;
 
-      // Update user_data in localStorage
-      const existingUserData = JSON.parse(localStorage.getItem('user_data')) || {};
-      const updatedUserData = { ...existingUserData, ...profileData };
-      localStorage.setItem('user_data', JSON.stringify(updatedUserData));
+        // Update profileData with the new data
+        setProfileData(prevData => ({
+          ...prevData,
+          name: updatedData.name,
+          bio: updatedData.bio,
+          email: updatedData.email,
+          mobile: updatedData.mobile,
+          profile_image: updatedData.profile_image || prevData.profile_image,
+        }));
 
-      toast.success('Profile updated successfully');
-      setShowModal(false);
+        // Clear existing user data
+        localStorage.removeItem('user_data');
+
+        // Update with new profile data
+        localStorage.setItem('user_data', JSON.stringify(updatedData));
+
+        toast.success('Profile updated successfully');
+        setShowModal(false);
+      } else {
+        throw new Error('Failed to update profile');
+      }
     } catch (err) {
-      toast.error(err.response?.data?.message || err.message); // Use toast for error
+      toast.error(err.response?.data?.message || err.message);
     }
   };
 
@@ -103,7 +96,7 @@ const ProfileHeader = () => {
               <div className="d-flex align-items-center">
                 <div className="avatar-xxl avatar-indicators avatar-online me-2 position-relative d-flex justify-content-end align-items-end mt-n10">
                   <Image
-                    src=""
+                    src={profileData.profile_image || '/images/default-profile.jpg'}
                     className="avatar-xxl rounded-circle border border-4 border-white-color-40"
                     alt=""
                   />
@@ -170,25 +163,19 @@ const ProfileHeader = () => {
                 name="name"
                 value={profileData.name}
                 onChange={handleInputChange}
-                isInvalid={!profileData.name}
+                required
               />
-              <Form.Control.Feedback type="invalid">
-                Full Name is required.
-              </Form.Control.Feedback>
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Bio</Form.Label>
               <Form.Control
                 as="textarea"
-                name="bio"
-                value={profileData.bio || ''}
-                onChange={handleInputChange}
                 rows={3}
-                isInvalid={!profileData.bio}
+                name="bio"
+                value={profileData.bio}
+                onChange={handleInputChange}
+                required
               />
-              <Form.Control.Feedback type="invalid">
-                Bio is required.
-              </Form.Control.Feedback>
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Label>Email</Form.Label>
@@ -200,7 +187,7 @@ const ProfileHeader = () => {
               />
             </Form.Group>
             <Form.Group className="mb-3">
-              <Form.Label>Mobile Number</Form.Label>
+              <Form.Label>Mobile</Form.Label>
               <Form.Control
                 type="text"
                 name="mobile"

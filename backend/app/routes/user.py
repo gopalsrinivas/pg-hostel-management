@@ -248,13 +248,21 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: AsyncSessi
     
 
 @router.get("/me/", response_model=dict, summary="Get details of the authenticated user")
-async def get_authenticated_user(current_user: User = Depends(get_current_user), db: AsyncSession = Depends(get_db)):
+async def get_authenticated_user(
+    request: Request,
+    current_user: User = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db)
+):
     try:
         user_details = await get_user_details(db, current_user.user_id)
 
         if not user_details.is_active:
             logging.warning(f"User {current_user.id} is inactive.")
             raise HTTPException(status_code=403, detail="User account is inactive")
+
+        # Construct the profile image URL
+        profile_image_url = f"{request.base_url}media/profile_images/{
+            user_details.profile_image}" if user_details.profile_image else None
 
         return {
             "msg": "User details fetched successfully.",
@@ -263,27 +271,26 @@ async def get_authenticated_user(current_user: User = Depends(get_current_user),
                 "id": user_details.id,
                 "user_id": user_details.user_id,
                 "name": user_details.name,
-                "profile_image": user_details.profile_image,
+                "profile_image": profile_image_url,
                 "user_role": user_details.user_role,
                 "bio": user_details.bio,
                 "email": user_details.email,
                 "mobile": user_details.mobile,
                 "is_active": user_details.is_active,
                 "otp": user_details.otp,
-                "verified_at": user_details.verified_at.isoformat(),
+                "verified_at": user_details.verified_at.isoformat() if user_details.verified_at else None,
                 "created_on": user_details.created_on.isoformat(),
                 "updated_on": user_details.updated_on.isoformat() if user_details.updated_on else None,
             }
         }
     except HTTPException as http_ex:
-        logging.error(
-            f"HTTP Exception fetching authenticated user details: {str(http_ex)}")
+        logging.error(f"HTTP Exception fetching authenticated user details: {str(http_ex)}")
         raise http_ex
     except Exception as ex:
         logging.error(f"Error fetching authenticated user details: {str(ex)}")
         raise HTTPException(status_code=500, detail="Internal Server Error")
-
-
+    
+    
 @router.put("/update_me/", response_model=dict, summary="Update details of the authenticated user")
 async def update_authenticated_user(
     request: Request,
@@ -296,7 +303,7 @@ async def update_authenticated_user(
     current_user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db)
 ):
-    # Log received input values for debugging, including profile_image
+    # Log received input values for debugging
     logging.info(f"Received input: name={name}, bio={bio}, email={email}, mobile={mobile}, is_active={is_active}, profile_image={profile_image.filename if profile_image else 'None'}")
 
     # Ensure profile_image is provided and valid
@@ -313,27 +320,137 @@ async def update_authenticated_user(
         "is_active": is_active
     }
 
-    # Call the service layer function to update user details
-    updated_user = await update_user_details(db, current_user.user_id, user_data, file=profile_image)
+    try:
+        # Call the service layer function to update user details
+        updated_user = await update_user_details(db, current_user.user_id, user_data, file=profile_image)
 
-    # Construct the profile image URL using the base URL and media path
-    profile_image_url = f"{request.base_url}media/{updated_user.profile_image}"
+        # Construct the profile image URL using the base URL and media path
+        profile_image_url = f"{request.base_url}media/profile_images/{updated_user.profile_image}"
 
-    return {
-        "msg": "User details updated successfully.",
-        "status_code": 200,
-        "data": {
-            "id": updated_user.id,
-            "user_id": updated_user.user_id,
-            "name": updated_user.name,
-            "email": updated_user.email,
-            "mobile": updated_user.mobile,
-            "user_role": updated_user.user_role,
-            "bio": updated_user.bio,
-            "is_active": updated_user.is_active,
-            "profile_image": profile_image_url,
-            "verified_at": updated_user.verified_at.isoformat() if updated_user.verified_at else None,
-            "created_on": updated_user.created_on.isoformat(),
-            "updated_on": updated_user.updated_on.isoformat(),
+        return {
+            "msg": "User details updated successfully.",
+            "status_code": 200,
+            "data": {
+                "id": updated_user.id,
+                "user_id": updated_user.user_id,
+                "name": updated_user.name,
+                "email": updated_user.email,
+                "mobile": updated_user.mobile,
+                "user_role": updated_user.user_role,
+                "bio": updated_user.bio,
+                "is_active": updated_user.is_active,
+                "profile_image": profile_image_url,
+                "verified_at": updated_user.verified_at.isoformat() if updated_user.verified_at else None,
+                "created_on": updated_user.created_on.isoformat(),
+                "updated_on": updated_user.updated_on.isoformat(),
+            }
         }
-    }
+    except HTTPException as ex:
+        logging.error(f"Error updating user details: {ex.detail}")
+        raise ex
+    except Exception as ex:
+        logging.error(f"Unexpected error while updating user details: {str(ex)}")
+        raise HTTPException(status_code=500, detail="Error updating user details")
+
+
+@router.post("/token/refresh", response_model=dict, summary="Refresh the access token using a valid refresh token.")
+async def refresh_access_token(refresh_token: str, db: AsyncSession = Depends(get_db)):
+    try:
+        # Decode the refresh token
+        payload = jwt.decode(refresh_token, SECRET_KEY, algorithms=[ALGORITHM])
+        user_id = payload.get("sub")
+
+        if user_id is None:
+            logging.warning(
+                "Refresh token validation failed: user_id is None.")
+            return {
+                "msg": "Could not validate credentials",
+                "status": "error",
+                "data": {
+                    "detail": "User ID is missing in token payload"
+                }
+            }
+
+        # Fetch the user from the database
+        result = await db.execute(select(User).filter(User.user_id == user_id))
+        user = result.scalar_one_or_none()
+
+        if user is None:
+            logging.warning(
+                f"Refresh token validation failed: user not found for user_id: {user_id}.")
+            return {
+                "msg": "Could not validate credentials",
+                "status": "error",
+                "data": {
+                    "detail": "User not found for user_id"
+                }
+            }
+
+        # Create a new access token
+        new_access_token = create_access_token(data={"sub": user.user_id})
+        new_refresh_token = create_refresh_token(data={"sub": user.user_id})
+
+        # Update the user's refresh token in the database
+        user.access_token = new_access_token
+        user.refresh_token = new_refresh_token
+        db.add(user)
+        await db.commit()
+
+        # Log successful token refresh
+        logging.info(
+            f"Successfully refreshed access token for user: {user_id}.")
+
+        return {
+            "msg": "Access token refreshed successfully.",
+            "status": "success",
+            "data": {
+                "access_token": new_access_token,
+                "token_type": "bearer",
+                "refresh_token": new_refresh_token
+            }
+        }
+
+    except ExpiredSignatureError:
+        logging.warning("Refresh token has expired.")
+        return {
+            "msg": "Refresh token expired",
+            "status": "error",
+            "data": {
+                "detail": "Refresh token has expired, please login again."
+            }
+        }
+    except InvalidTokenError:
+        logging.error("Invalid refresh token provided.")
+        return {
+            "msg": "Invalid refresh token",
+            "status": "error",
+            "data": {
+                "detail": "Invalid refresh token"
+            }
+        }
+    except Exception as e:
+        logging.error(
+            f"Internal server error during refresh token process: {str(e)}")
+        return {
+            "msg": "Internal server error",
+            "status": "error",
+            "data": {
+                "detail": str(e)
+            }
+        }
+
+
+@router.post("/logout", summary="User logout")
+async def logout(token: str = Depends(oauth2_scheme)):
+    try:
+        # Add the token to the blacklist
+        blacklist.add(token)
+        logging.info(f"Token blacklisted successfully: {token}")
+        return {"status_code": 200, "msg": "Logged out successfully"}
+    except JWTError as jwt_ex:
+        logging.error(f"JWT Error during logout: {str(jwt_ex)}")
+        raise HTTPException(status_code=401, detail="Invalid token")
+    except Exception as ex:
+        logging.error(f"Unexpected error during logout: {str(ex)}")
+        raise HTTPException(
+            status_code=500, detail="An unexpected error occurred during logout")

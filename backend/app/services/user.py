@@ -10,7 +10,7 @@ from app.utils.send_notifications.send_otp import send_otp_email, send_reset_pas
 import random
 from sqlalchemy.exc import SQLAlchemyError
 from app.models.user import User
-from app.core.config import MEDIA_DIR
+from app.core.config import MEDIA_DIR, PROFILE_IMAGES_DIR
 from typing import Optional
 import shutil
 
@@ -164,8 +164,7 @@ async def get_user_details(db: AsyncSession, user_id: str) -> User:
         logging.error(f"Error fetching user details: {str(ex)}")
         raise HTTPException(status_code=500, detail="Internal Server Error")
 
-
-async def update_user_details(db: AsyncSession, user_id: str, user_data: dict, file: Optional[UploadFile] = None) -> User:
+async def update_user_details(db: AsyncSession, user_id: str, user_data: dict, file: UploadFile = None) -> User:
     try:
         # Retrieve user details from DB
         user = await get_user_details(db, user_id)
@@ -180,25 +179,37 @@ async def update_user_details(db: AsyncSession, user_id: str, user_data: dict, f
 
         # Handle the file upload if provided
         if file and file.filename:
-            file_name = f"{user_id}_{file.filename}"
-            logging.info(f"File Name: {file_name}")
+            # Read the file content to check size
+            file_size = len(await file.read())
+            # Reset file pointer to the beginning for subsequent operations
+            await file.seek(0)
 
-            # Ensure MEDIA_DIR exists
-            MEDIA_DIR.mkdir(parents=True, exist_ok=True)
-            file_location = MEDIA_DIR / file_name
+            if file_size > 1 * 1024 * 1024:  # 1MB limit
+                logging.error("Uploaded file size exceeds 1MB.")
+                raise HTTPException(status_code=400, detail="Uploaded file size exceeds 1MB.")
+
+            # Define the file name and location
+            file_name = f"{user_id}_{file.filename}"
+            # Store in profile_images
+            file_location = os.path.join(PROFILE_IMAGES_DIR, file_name)
             logging.info(f"File Location: {file_location}")
 
-            # Write file to media directory
+            # If there's an existing profile image, delete it
+            if user.profile_image and user.profile_image != "default_profile_image.jpg":
+                existing_file_path = os.path.join(PROFILE_IMAGES_DIR, user.profile_image)
+                if os.path.exists(existing_file_path):
+                    os.remove(existing_file_path)
+                    logging.info(f"Deleted existing profile image: {existing_file_path}")
+
+            # Write the new file to the profile_images directory
             with open(file_location, "wb") as f:
                 shutil.copyfileobj(file.file, f)
 
-            # Store the filename in the database
+            # Store the new filename in the database
             user.profile_image = file_name
         else:
-            logging.info(
-                f"No new profile image provided for user_id: {user_id}")
+            logging.info(f"No new profile image provided for user_id: {user_id}")
             if not user.profile_image:
-                # Set a default image if none provided
                 user.profile_image = "default_profile_image.jpg"
 
         # Commit changes and refresh user data
@@ -208,7 +219,10 @@ async def update_user_details(db: AsyncSession, user_id: str, user_data: dict, f
         logging.info(f"User details updated for user_id: {user_id}")
         return user
 
+    except HTTPException as http_ex:
+        logging.error(f"HTTP error occurred: {http_ex.detail}")
+        raise http_ex
+
     except Exception as ex:
-        logging.error(f"Error updating user details: {str(ex)}")
-        raise HTTPException(
-            status_code=500, detail="Error updating user details")
+        logging.error(f"Unexpected error while updating user details: {str(ex)}")
+        raise HTTPException(status_code=500, detail="Error updating user details")
