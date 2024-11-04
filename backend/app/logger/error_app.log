@@ -2931,3 +2931,124 @@ Traceback (most recent call last):
   File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\user.py", line 150, in authenticate_user
     raise HTTPException(status_code=500, detail="Internal Server Error")
 fastapi.exceptions.HTTPException: 500: Internal Server Error
+ERROR 2024-11-04 12:25:38 app.core.logging This is an error message
+ERROR 2024-11-04 12:41:20 app.core.logging This is an error message
+ERROR 2024-11-04 12:46:21 app.core.logging This is an error message
+ERROR 2024-11-04 12:46:59 app.core.logging This is an error message
+ERROR 2024-11-04 12:47:25 app.core.logging This is an error message
+ERROR 2024-11-04 12:47:47 app.core.logging This is an error message
+ERROR 2024-11-04 12:48:02 app.core.logging This is an error message
+ERROR 2024-11-04 13:01:08 app.core.logging This is an error message
+ERROR 2024-11-04 15:05:57 app.core.logging This is an error message
+ERROR 2024-11-04 15:24:24 root HTTP error during reset password OTP: 404: User with identifier gopalsrinivas2111111.b@gmail.com not found in the database.
+ERROR 2024-11-04 15:24:24 root Forgot password error: 404: User with identifier gopalsrinivas2111111.b@gmail.com not found in the database.
+ERROR 2024-11-04 15:24:57 root HTTP error during reset password OTP: 404: User with identifier 923456789109898 not found in the database.
+ERROR 2024-11-04 15:24:57 root Forgot password error: 404: User with identifier 923456789109898 not found in the database.
+ERROR 2024-11-04 15:37:03 root HTTP error during reset password OTP: 404: User with identifier 9234567491 not found in the database.
+ERROR 2024-11-04 15:37:03 root Forgot password error: 404: User with identifier 9234567491 not found in the database.
+ERROR 2024-11-04 15:38:41 root HTTP error during reset password OTP: 404: User with identifier 9542434318 not found in the database.
+ERROR 2024-11-04 15:38:41 root Forgot password error: 404: User with identifier 9542434318 not found in the database.
+ERROR 2024-11-04 15:39:24 root HTTP error during reset password OTP: 404: User with identifier gopalsrinivas2345252.b@gmail.com not found in the database.
+ERROR 2024-11-04 15:39:24 root Forgot password error: 404: User with identifier gopalsrinivas2345252.b@gmail.com not found in the database.
+ERROR 2024-11-04 15:41:51 root HTTP error during reset password OTP: 404: User with identifier gopalsrinivas43252452.b@gmail.com not found in the database.
+ERROR 2024-11-04 15:41:51 root Forgot password error: 404: User with identifier gopalsrinivas43252452.b@gmail.com not found in the database.
+ERROR 2024-11-04 15:46:54 root HTTP error during reset password OTP: 404: User with identifier asdkfjaldkfjadjf@gmail.com not found in the database.
+ERROR 2024-11-04 15:46:54 root Forgot password error: 404: User with identifier asdkfjaldkfjadjf@gmail.com not found in the database.
+ERROR 2024-11-04 15:48:36 root HTTP error during reset password OTP: 404: User with identifier laksjdflkajdsf@gmail.com not found in the database.
+ERROR 2024-11-04 15:48:36 root Forgot password error: 404: User with identifier laksjdflkajdsf@gmail.com not found in the database.
+ERROR 2024-11-04 15:48:52 root HTTP error during reset password OTP: 404: User with identifier asdlfjaldkjfaldfjlkajdsfk@gmail.com not found in the database.
+ERROR 2024-11-04 15:48:52 root Forgot password error: 404: User with identifier asdlfjaldkjfaldfjlkajdsfk@gmail.com not found in the database.
+ERROR 2024-11-04 15:52:58 root HTTP error during reset password OTP: 404: User with identifier gopalsrinivas43252452.b@gmail.com not found in the database.
+ERROR 2024-11-04 15:52:58 root Forgot password error: 404: User with identifier gopalsrinivas43252452.b@gmail.com not found in the database.
+ERROR 2024-11-04 15:53:15 root HTTP error during reset password OTP: 404: User with identifier 9542434319 not found in the database.
+ERROR 2024-11-04 15:53:15 root Forgot password error: 404: User with identifier 9542434319 not found in the database.
+ERROR 2024-11-04 16:10:53 root HTTP error during reset password OTP: 404: User with identifier asdflkajdlajdfj@gmail.com not found in the database.
+ERROR 2024-11-04 16:10:53 root Forgot password error: 404: User with identifier asdflkajdlajdfj@gmail.com not found in the database.
+ERROR 2024-11-04 16:11:31 root HTTP error during reset password OTP: 404: User with identifier asflkasjdlfjadslfjasdjf@gmail.com not found in the database.
+ERROR 2024-11-04 16:11:31 root Forgot password error: 404: User with identifier asflkasjdlfjadslfjasdjf@gmail.com not found in the database.
+ERROR 2024-11-04 16:11:59 root HTTP error during reset password OTP: 404: User with identifier asdfasdfadsf@gmail.com not found in the database.
+ERROR 2024-11-04 16:11:59 root Forgot password error: 404: User with identifier asdfasdfadsf@gmail.com not found in the database.
+ERROR 2024-11-04 16:12:14 root HTTP error during reset password OTP: 404: User with identifier askdfhkajhdsfkjahdfkjhaskdjfhakdhf@gmail.com not found in the database.
+ERROR 2024-11-04 16:12:14 root Forgot password error: 404: User with identifier askdfhkajhdsfkjahdfkjhaskdjfhakdhf@gmail.com not found in the database.
+ERROR 2024-11-04 16:12:50 root HTTP error during reset password OTP: 404: User with identifier alsjdflajsdfljasdlfj@gmail.com not found in the database.
+ERROR 2024-11-04 16:12:50 root Forgot password error: 404: User with identifier alsjdflajsdfljasdlfj@gmail.com not found in the database.
+ERROR 2024-11-04 16:23:23 root HTTP error during reset password OTP: 404: User with identifier alsjdflajsdfljasdlfj@gmail.com not found in the database.
+ERROR 2024-11-04 16:23:23 root Forgot password error: 404: User with identifier alsjdflajsdfljasdlfj@gmail.com not found in the database.
+ERROR 2024-11-04 16:24:05 root HTTP error during reset password OTP: 404: User with identifier laskdjflkadsjflajsdlfkja@gmail.com not found in the database.
+ERROR 2024-11-04 16:24:05 root Forgot password error: 404: User with identifier laskdjflkadsjflajsdlfkja@gmail.com not found in the database.
+ERROR 2024-11-04 16:27:56 root HTTP error during reset password OTP: 404: User with identifier laskdjflkadsjflajsdlfkja@gmail.com not found in the database.
+ERROR 2024-11-04 16:27:56 root Forgot password error: 404: User with identifier laskdjflkadsjflajsdlfkja@gmail.com not found in the database.
+ERROR 2024-11-04 16:31:14 root HTTP error during reset password OTP: 404: User with identifier lasdjflakjdflajdfj@gmail.com not found in the database.
+ERROR 2024-11-04 16:31:14 root Forgot password error: 404: User with identifier lasdjflakjdflajdfj@gmail.com not found in the database.
+ERROR 2024-11-04 16:31:33 root HTTP error during reset password OTP: 404: User with identifier 0928359245 not found in the database.
+ERROR 2024-11-04 16:31:33 root Forgot password error: 404: User with identifier 0928359245 not found in the database.
+ERROR 2024-11-04 16:34:08 root HTTP error during reset password OTP: 404: User with identifier alskdjflakdjflkajdlfja@gmail.com not found in the database.
+ERROR 2024-11-04 16:34:08 root Forgot password error: 404: User with identifier alskdjflakdjflkajdlfja@gmail.com not found in the database.
+ERROR 2024-11-04 16:35:04 root HTTP error during reset password OTP: 404: User with identifier alsdjflakdjsflkjadfj@gmail.com not found in the database.
+ERROR 2024-11-04 16:35:04 root Forgot password error: 404: User with identifier alsdjflakdjsflkjadfj@gmail.com not found in the database.
+ERROR 2024-11-04 16:39:50 root HTTP error during reset password OTP: 404: User with identifier lkgjlajklja@gmail.com not found in the database.
+ERROR 2024-11-04 16:39:50 root Forgot password error: 404: User with identifier lkgjlajklja@gmail.com not found in the database.
+ERROR 2024-11-04 16:42:16 root HTTP error during reset password OTP: 404: User with identifier lkgjlajklja@gmail.com not found in the database.
+ERROR 2024-11-04 16:42:16 root Forgot password error: 404: User with identifier lkgjlajklja@gmail.com not found in the database.
+ERROR 2024-11-04 16:46:04 root HTTP error during reset password OTP: 404: User with identifier lkgjlajklja@gmail.com not found in the database.
+ERROR 2024-11-04 16:46:04 root Forgot password error: 404: User with identifier lkgjlajklja@gmail.com not found in the database.
+ERROR 2024-11-04 16:46:23 root HTTP error during reset password OTP: 404: User with identifier alsjdlajdljaj@gmail.com not found in the database.
+ERROR 2024-11-04 16:46:23 root Forgot password error: 404: User with identifier alsjdlajdljaj@gmail.com not found in the database.
+ERROR 2024-11-04 16:46:33 root HTTP error during reset password OTP: 404: User with identifier asdflajdlfkjadjf@gmail.com not found in the database.
+ERROR 2024-11-04 16:46:33 root Forgot password error: 404: User with identifier asdflajdlfkjadjf@gmail.com not found in the database.
+ERROR 2024-11-04 16:48:29 root HTTP error during reset password OTP: 404: User with identifier lkgjlajklja@gmail.com not found in the database.
+ERROR 2024-11-04 16:48:29 root Forgot password error: 404: User with identifier lkgjlajklja@gmail.com not found in the database.
+ERROR 2024-11-04 16:59:16 root Reset password error: Invalid email or mobile.
+ERROR 2024-11-04 17:13:11 root Reset password error: Invalid OTP.
+ERROR 2024-11-04 17:19:05 root Reset password error: Invalid email or mobile.
+ERROR 2024-11-04 17:23:10 root Reset password error: Invalid OTP.
+ERROR 2024-11-04 17:36:56 root Reset password error: Invalid OTP.
+ERROR 2024-11-04 17:38:13 root Reset password error: Invalid OTP.
+ERROR 2024-11-04 17:42:44 root HTTP Exception during login process: 400: Invalid password.
+ERROR 2024-11-04 17:42:44 root Unexpected error: 400: Invalid password.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 244, in login
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 183, in login
+    raise HTTPException(status_code=400, detail=auth_response['msg'])
+fastapi.exceptions.HTTPException: 400: Invalid password.
+ERROR 2024-11-04 17:43:02 root HTTP Exception during login process: 400: Invalid password.
+ERROR 2024-11-04 17:43:02 root Unexpected error: 400: Invalid password.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 244, in login
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 183, in login
+    raise HTTPException(status_code=400, detail=auth_response['msg'])
+fastapi.exceptions.HTTPException: 400: Invalid password.
+ERROR 2024-11-04 17:43:16 root HTTP Exception during login process: 400: Invalid password.
+ERROR 2024-11-04 17:43:16 root Unexpected error: 400: Invalid password.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 244, in login
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 183, in login
+    raise HTTPException(status_code=400, detail=auth_response['msg'])
+fastapi.exceptions.HTTPException: 400: Invalid password.

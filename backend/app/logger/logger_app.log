@@ -13033,3 +13033,1231 @@ FROM users
 WHERE users.user_id = $1::VARCHAR
 INFO 2024-11-02 18:24:29 sqlalchemy.engine.Engine [cached since 0.4323s ago] ('user_19',)
 INFO 2024-11-02 18:24:29 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:42:53 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:42:53 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:42:53 sqlalchemy.engine.Engine [cached since 1105s ago] ('user_19',)
+INFO 2024-11-02 18:42:53 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:42:53 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:42:53 sqlalchemy.engine.Engine [cached since 1105s ago] ('user_19',)
+INFO 2024-11-02 18:42:53 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:42:53 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:42:53 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:42:53 sqlalchemy.engine.Engine [cached since 1105s ago] ('user_19',)
+INFO 2024-11-02 18:42:53 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:42:53 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:42:53 sqlalchemy.engine.Engine [cached since 1105s ago] ('user_19',)
+INFO 2024-11-02 18:42:53 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:45:35 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:45:35 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:35 sqlalchemy.engine.Engine [cached since 1267s ago] ('user_19',)
+INFO 2024-11-02 18:45:35 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:45:35 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:35 sqlalchemy.engine.Engine [cached since 1267s ago] ('user_19',)
+INFO 2024-11-02 18:45:35 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:45:35 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:45:35 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:35 sqlalchemy.engine.Engine [cached since 1267s ago] ('user_19',)
+INFO 2024-11-02 18:45:35 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:45:35 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:35 sqlalchemy.engine.Engine [cached since 1267s ago] ('user_19',)
+INFO 2024-11-02 18:45:35 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:45:41 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:45:41 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:43 sqlalchemy.engine.Engine [cached since 1275s ago] ('user_19',)
+INFO 2024-11-02 18:45:43 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:45:43 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:43 sqlalchemy.engine.Engine [cached since 1275s ago] ('user_19',)
+INFO 2024-11-02 18:45:43 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:45:43 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:43 sqlalchemy.engine.Engine [cached since 1275s ago] ('user_19',)
+INFO 2024-11-02 18:45:43 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:45:43 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:45:43 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:43 sqlalchemy.engine.Engine [cached since 1275s ago] ('user_19',)
+INFO 2024-11-02 18:45:43 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:45:46 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:45:46 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:46 sqlalchemy.engine.Engine [cached since 1278s ago] ('user_19',)
+INFO 2024-11-02 18:45:46 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:45:46 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:46 sqlalchemy.engine.Engine [cached since 1278s ago] ('user_19',)
+INFO 2024-11-02 18:45:46 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:45:46 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:46 sqlalchemy.engine.Engine [cached since 1278s ago] ('user_19',)
+INFO 2024-11-02 18:45:46 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:45:46 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:45:46 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:46 sqlalchemy.engine.Engine [cached since 1278s ago] ('user_19',)
+INFO 2024-11-02 18:45:46 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:45:53 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:45:53 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:53 sqlalchemy.engine.Engine [cached since 1285s ago] ('user_19',)
+INFO 2024-11-02 18:45:53 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:45:53 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:53 sqlalchemy.engine.Engine [cached since 1285s ago] ('user_19',)
+INFO 2024-11-02 18:45:53 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:45:53 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:45:53 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:53 sqlalchemy.engine.Engine [cached since 1285s ago] ('user_19',)
+INFO 2024-11-02 18:45:53 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:45:53 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:53 sqlalchemy.engine.Engine [cached since 1285s ago] ('user_19',)
+INFO 2024-11-02 18:45:53 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:45:56 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:45:56 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:56 sqlalchemy.engine.Engine [cached since 1288s ago] ('user_19',)
+INFO 2024-11-02 18:45:56 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:45:56 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:56 sqlalchemy.engine.Engine [cached since 1288s ago] ('user_19',)
+INFO 2024-11-02 18:45:56 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:45:56 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:45:56 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:56 sqlalchemy.engine.Engine [cached since 1288s ago] ('user_19',)
+INFO 2024-11-02 18:45:56 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:45:56 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:45:56 sqlalchemy.engine.Engine [cached since 1288s ago] ('user_19',)
+INFO 2024-11-02 18:45:56 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:46:00 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:46:00 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:00 sqlalchemy.engine.Engine [cached since 1292s ago] ('user_19',)
+INFO 2024-11-02 18:46:00 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:46:00 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:00 sqlalchemy.engine.Engine [cached since 1292s ago] ('user_19',)
+INFO 2024-11-02 18:46:00 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:46:00 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:46:00 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:00 sqlalchemy.engine.Engine [cached since 1292s ago] ('user_19',)
+INFO 2024-11-02 18:46:00 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:46:00 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:00 sqlalchemy.engine.Engine [cached since 1292s ago] ('user_19',)
+INFO 2024-11-02 18:46:00 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:46:08 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:46:08 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:08 sqlalchemy.engine.Engine [cached since 1300s ago] ('user_19',)
+INFO 2024-11-02 18:46:08 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:46:08 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:08 sqlalchemy.engine.Engine [cached since 1300s ago] ('user_19',)
+INFO 2024-11-02 18:46:08 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:46:08 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:46:08 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:08 sqlalchemy.engine.Engine [cached since 1300s ago] ('user_19',)
+INFO 2024-11-02 18:46:08 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:46:08 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:08 sqlalchemy.engine.Engine [cached since 1300s ago] ('user_19',)
+INFO 2024-11-02 18:46:08 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:46:13 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:46:13 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:13 sqlalchemy.engine.Engine [cached since 1305s ago] ('user_19',)
+INFO 2024-11-02 18:46:13 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:46:13 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:13 sqlalchemy.engine.Engine [cached since 1305s ago] ('user_19',)
+INFO 2024-11-02 18:46:13 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:46:13 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:46:13 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:13 sqlalchemy.engine.Engine [cached since 1305s ago] ('user_19',)
+INFO 2024-11-02 18:46:13 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:46:13 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:13 sqlalchemy.engine.Engine [cached since 1305s ago] ('user_19',)
+INFO 2024-11-02 18:46:13 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:46:24 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:46:24 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:24 sqlalchemy.engine.Engine [cached since 1316s ago] ('user_19',)
+INFO 2024-11-02 18:46:24 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:46:24 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:24 sqlalchemy.engine.Engine [cached since 1316s ago] ('user_19',)
+INFO 2024-11-02 18:46:24 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:46:24 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:46:24 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:24 sqlalchemy.engine.Engine [cached since 1316s ago] ('user_19',)
+INFO 2024-11-02 18:46:24 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:46:24 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:24 sqlalchemy.engine.Engine [cached since 1316s ago] ('user_19',)
+INFO 2024-11-02 18:46:24 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:46:35 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:46:35 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:35 sqlalchemy.engine.Engine [cached since 1327s ago] ('user_19',)
+INFO 2024-11-02 18:46:35 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:46:35 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:35 sqlalchemy.engine.Engine [cached since 1327s ago] ('user_19',)
+INFO 2024-11-02 18:46:35 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:46:35 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:46:35 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:35 sqlalchemy.engine.Engine [cached since 1327s ago] ('user_19',)
+INFO 2024-11-02 18:46:35 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:46:35 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:46:35 sqlalchemy.engine.Engine [cached since 1327s ago] ('user_19',)
+INFO 2024-11-02 18:46:35 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:47:02 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:47:02 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:47:02 sqlalchemy.engine.Engine [cached since 1354s ago] ('user_19',)
+INFO 2024-11-02 18:47:02 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:47:02 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:47:02 sqlalchemy.engine.Engine [cached since 1354s ago] ('user_19',)
+INFO 2024-11-02 18:47:02 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:47:02 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:47:02 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:47:02 sqlalchemy.engine.Engine [cached since 1354s ago] ('user_19',)
+INFO 2024-11-02 18:47:02 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:47:02 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:47:02 sqlalchemy.engine.Engine [cached since 1354s ago] ('user_19',)
+INFO 2024-11-02 18:47:02 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:47:43 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:47:43 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:47:44 sqlalchemy.engine.Engine [cached since 1396s ago] ('user_19',)
+INFO 2024-11-02 18:47:44 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:47:44 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:47:44 sqlalchemy.engine.Engine [cached since 1396s ago] ('user_19',)
+INFO 2024-11-02 18:47:44 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:47:44 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:47:44 sqlalchemy.engine.Engine [cached since 1396s ago] ('user_19',)
+INFO 2024-11-02 18:47:44 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:47:44 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:47:44 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:47:44 sqlalchemy.engine.Engine [cached since 1396s ago] ('user_19',)
+INFO 2024-11-02 18:47:44 sqlalchemy.engine.Engine ROLLBACK
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_begin with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_field with data[60:79]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_value with data[81:103]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_end with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_headers_finished with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_data with data[107:126]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_end with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_begin with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_field with data[188:207]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_value with data[209:230]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_end with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_headers_finished with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_data with data[234:247]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_end with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_begin with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_field with data[309:328]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_value with data[330:353]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_end with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_headers_finished with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_data with data[357:383]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_end with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_begin with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_field with data[445:464]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_value with data[466:490]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_end with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_headers_finished with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_data with data[494:504]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_end with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_begin with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_field with data[566:585]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_value with data[587:614]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_end with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_headers_finished with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_data with data[618:622]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_end with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_begin with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_field with data[684:703]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_value with data[705:758]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_end with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_field with data[760:772]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_value with data[774:784]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_header_end with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_headers_finished with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_data with data[788:10401]
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_part_end with no data
+DEBUG 2024-11-02 18:48:27 multipart.multipart Calling on_end with no data
+INFO 2024-11-02 18:48:27 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:48:27 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:48:27 sqlalchemy.engine.Engine [cached since 1439s ago] ('user_19',)
+INFO 2024-11-02 18:48:27 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:48:27 root Received input: name=B V Gopala Srinivas, bio=I am Pg Owner, email=gopalsrinivas2.b@gmail.com, mobile=9234567891, is_active=True, profile_image=jrNTR.jpg
+INFO 2024-11-02 18:48:27 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:48:27 sqlalchemy.engine.Engine [cached since 1439s ago] ('user_19',)
+INFO 2024-11-02 18:48:27 root Updating field: name with value: B V Gopala Srinivas
+INFO 2024-11-02 18:48:27 root Updating field: bio with value: I am Pg Owner
+INFO 2024-11-02 18:48:27 root Updating field: email with value: gopalsrinivas2.b@gmail.com
+INFO 2024-11-02 18:48:27 root Updating field: mobile with value: 9234567891
+INFO 2024-11-02 18:48:27 root Updating field: is_active with value: True
+INFO 2024-11-02 18:48:27 root File Location: D:\Projects\Fast_API\pg-hostel-management\backend\media\profile_images\user_19_jrNTR.jpg
+INFO 2024-11-02 18:48:27 root Deleted existing profile image: D:\Projects\Fast_API\pg-hostel-management\backend\media\profile_images\user_19_NBK1.jpg
+INFO 2024-11-02 18:48:27 sqlalchemy.engine.Engine UPDATE users SET name=$1::VARCHAR, profile_image=$2::VARCHAR, bio=$3::VARCHAR, updated_on=now() WHERE users.id = $4::INTEGER
+INFO 2024-11-02 18:48:27 sqlalchemy.engine.Engine [generated in 0.00094s] ('B V Gopala Srinivas', 'user_19_jrNTR.jpg', 'I am Pg Owner', 19)
+INFO 2024-11-02 18:48:27 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-02 18:48:28 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:48:28 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-11-02 18:48:28 sqlalchemy.engine.Engine [generated in 0.00294s] (19,)
+INFO 2024-11-02 18:48:28 root User details updated for user_id: user_19
+INFO 2024-11-02 18:48:28 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:54:43 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:54:43 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:54:43 sqlalchemy.engine.Engine [cached since 1815s ago] ('user_19',)
+INFO 2024-11-02 18:54:43 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:54:43 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:54:43 sqlalchemy.engine.Engine [cached since 1815s ago] ('user_19',)
+INFO 2024-11-02 18:54:43 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:54:43 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:54:43 sqlalchemy.engine.Engine [cached since 1815s ago] ('user_19',)
+INFO 2024-11-02 18:54:43 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:54:43 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:54:43 sqlalchemy.engine.Engine [cached since 1815s ago] ('user_19',)
+INFO 2024-11-02 18:54:43 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:54:43 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:55:40 root Token blacklisted successfully: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE5IiwiZXhwIjoxNzMwNjE4NzA4fQ.HI2Wn1FS1UngXdk4xNVBfNrBOGLsm-FB3G69PnSOZqs
+INFO 2024-11-02 18:55:40 root Token blacklisted successfully: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE5IiwiZXhwIjoxNzMwNjE4NzA4fQ.HI2Wn1FS1UngXdk4xNVBfNrBOGLsm-FB3G69PnSOZqs
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_name with data[0:10]
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_data with data[11:19]
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_name with data[20:28]
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_data with data[29:57]
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_name with data[58:66]
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_data with data[67:82]
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_name with data[83:88]
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_data with data[89:98]
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_name with data[99:108]
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_data with data[109:115]
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_name with data[116:129]
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_data with data[130:136]
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-02 18:56:09 multipart.multipart Calling on_end with no data
+INFO 2024-11-02 18:56:09 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:56:09 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-02 18:56:09 sqlalchemy.engine.Engine [cached since 1943s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+INFO 2024-11-02 18:56:10 root Password verification successful.
+INFO 2024-11-02 18:56:10 root User gopalsrinivas2.b@gmail.com authenticated successfully.
+INFO 2024-11-02 18:56:10 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:56:25 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:56:25 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:56:25 sqlalchemy.engine.Engine [cached since 1917s ago] ('user_19',)
+INFO 2024-11-02 18:56:25 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-02 18:56:25 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:56:25 sqlalchemy.engine.Engine [cached since 1917s ago] ('user_19',)
+INFO 2024-11-02 18:56:25 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:56:25 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:56:25 sqlalchemy.engine.Engine [cached since 1917s ago] ('user_19',)
+INFO 2024-11-02 18:56:25 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:56:25 root User user_19 successfully authenticated.
+INFO 2024-11-02 18:56:25 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-02 18:56:25 sqlalchemy.engine.Engine [cached since 1917s ago] ('user_19',)
+INFO 2024-11-02 18:56:25 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-02 18:56:42 root Token blacklisted successfully: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE5IiwiZXhwIjoxNzMwNjE4NzA4fQ.HI2Wn1FS1UngXdk4xNVBfNrBOGLsm-FB3G69PnSOZqs
+INFO 2024-11-02 18:56:42 root Token blacklisted successfully: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE5IiwiZXhwIjoxNzMwNjE4NzA4fQ.HI2Wn1FS1UngXdk4xNVBfNrBOGLsm-FB3G69PnSOZqs
+DEBUG 2024-11-04 12:25:38 app.core.logging This is a debug message
+ERROR 2024-11-04 12:25:38 app.core.logging This is an error message
+DEBUG 2024-11-04 12:25:46 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-11-04 12:25:46 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-11-04 12:25:46 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-11-04 12:25:56 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-11-04 12:26:18 root Application startup application...
+INFO 2024-11-04 12:41:09 root Shutting down application...
+DEBUG 2024-11-04 12:41:20 app.core.logging This is a debug message
+ERROR 2024-11-04 12:41:20 app.core.logging This is an error message
+DEBUG 2024-11-04 12:41:28 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-11-04 12:41:28 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-11-04 12:41:28 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-11-04 12:41:28 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-11-04 12:41:30 root Application startup application...
+INFO 2024-11-04 12:46:18 root Shutting down application...
+DEBUG 2024-11-04 12:46:21 app.core.logging This is a debug message
+ERROR 2024-11-04 12:46:21 app.core.logging This is an error message
+DEBUG 2024-11-04 12:46:22 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-11-04 12:46:22 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-11-04 12:46:22 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-11-04 12:46:23 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-11-04 12:46:27 root Application startup application...
+INFO 2024-11-04 12:46:54 root Shutting down application...
+DEBUG 2024-11-04 12:46:59 app.core.logging This is a debug message
+ERROR 2024-11-04 12:46:59 app.core.logging This is an error message
+DEBUG 2024-11-04 12:47:01 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-11-04 12:47:01 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-11-04 12:47:01 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-11-04 12:47:01 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-11-04 12:47:02 root Application startup application...
+INFO 2024-11-04 12:47:21 root Shutting down application...
+DEBUG 2024-11-04 12:47:25 app.core.logging This is a debug message
+ERROR 2024-11-04 12:47:25 app.core.logging This is an error message
+DEBUG 2024-11-04 12:47:25 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-11-04 12:47:25 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-11-04 12:47:25 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-11-04 12:47:26 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-11-04 12:47:27 root Application startup application...
+INFO 2024-11-04 12:47:43 root Shutting down application...
+DEBUG 2024-11-04 12:47:47 app.core.logging This is a debug message
+ERROR 2024-11-04 12:47:47 app.core.logging This is an error message
+DEBUG 2024-11-04 12:47:48 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-11-04 12:47:48 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-11-04 12:47:48 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-11-04 12:47:48 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-11-04 12:47:50 root Application startup application...
+INFO 2024-11-04 12:47:58 root Shutting down application...
+DEBUG 2024-11-04 12:48:01 app.core.logging This is a debug message
+ERROR 2024-11-04 12:48:02 app.core.logging This is an error message
+DEBUG 2024-11-04 12:48:03 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-11-04 12:48:03 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-11-04 12:48:03 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-11-04 12:48:03 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-11-04 12:48:05 root Application startup application...
+INFO 2024-11-04 13:01:04 root Shutting down application...
+DEBUG 2024-11-04 13:01:08 app.core.logging This is a debug message
+ERROR 2024-11-04 13:01:08 app.core.logging This is an error message
+DEBUG 2024-11-04 13:01:09 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-11-04 13:01:09 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-11-04 13:01:09 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-11-04 13:01:09 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-11-04 13:01:14 root Application startup application...
+INFO 2024-11-04 13:01:14 root Shutting down application...
+DEBUG 2024-11-04 15:05:57 app.core.logging This is a debug message
+ERROR 2024-11-04 15:05:57 app.core.logging This is an error message
+DEBUG 2024-11-04 15:06:10 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-11-04 15:06:10 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-11-04 15:06:10 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-11-04 15:06:15 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-11-04 15:06:41 root Application startup application...
+INFO 2024-11-04 15:21:38 sqlalchemy.engine.Engine select pg_catalog.version()
+INFO 2024-11-04 15:21:38 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-11-04 15:21:38 sqlalchemy.engine.Engine select current_schema()
+INFO 2024-11-04 15:21:38 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-11-04 15:21:38 sqlalchemy.engine.Engine show standard_conforming_strings
+INFO 2024-11-04 15:21:38 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-11-04 15:21:38 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 15:21:38 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-11-04 15:21:38 sqlalchemy.engine.Engine [generated in 0.00223s] ('9234567891',)
+INFO 2024-11-04 15:21:38 sqlalchemy.engine.Engine UPDATE users SET otp=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-11-04 15:21:38 sqlalchemy.engine.Engine [generated in 0.00109s] ('936536', 19)
+INFO 2024-11-04 15:21:38 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 15:21:38 root Password reset email sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 15:21:38 root OTP sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 15:23:45 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 15:23:45 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 15:23:45 sqlalchemy.engine.Engine [generated in 0.00088s] ('gopalsrinivas2.b@gmail.com',)
+INFO 2024-11-04 15:23:45 sqlalchemy.engine.Engine UPDATE users SET otp=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-11-04 15:23:45 sqlalchemy.engine.Engine [cached since 127s ago] ('323260', 19)
+INFO 2024-11-04 15:23:45 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 15:23:45 root Password reset email sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 15:23:45 root OTP sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 15:23:51 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 15:23:51 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 15:23:51 sqlalchemy.engine.Engine [cached since 5.773s ago] ('gopalsrinivas2.b@gmail.com',)
+INFO 2024-11-04 15:23:51 sqlalchemy.engine.Engine UPDATE users SET otp=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-11-04 15:23:51 sqlalchemy.engine.Engine [cached since 132.8s ago] ('999361', 19)
+INFO 2024-11-04 15:23:51 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 15:23:51 root Password reset email sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 15:23:51 root OTP sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 15:24:24 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 15:24:24 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 15:24:24 sqlalchemy.engine.Engine [cached since 38.57s ago] ('gopalsrinivas2111111.b@gmail.com',)
+WARNING 2024-11-04 15:24:24 root User with identifier gopalsrinivas2111111.b@gmail.com not found
+ERROR 2024-11-04 15:24:24 root HTTP error during reset password OTP: 404: User with identifier gopalsrinivas2111111.b@gmail.com not found in the database.
+ERROR 2024-11-04 15:24:24 root Forgot password error: 404: User with identifier gopalsrinivas2111111.b@gmail.com not found in the database.
+INFO 2024-11-04 15:24:24 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 15:24:57 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 15:24:57 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-11-04 15:24:57 sqlalchemy.engine.Engine [cached since 198.9s ago] ('923456789109898',)
+WARNING 2024-11-04 15:24:57 root User with identifier 923456789109898 not found
+ERROR 2024-11-04 15:24:57 root HTTP error during reset password OTP: 404: User with identifier 923456789109898 not found in the database.
+ERROR 2024-11-04 15:24:57 root Forgot password error: 404: User with identifier 923456789109898 not found in the database.
+INFO 2024-11-04 15:24:57 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 15:25:07 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 15:25:07 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-11-04 15:25:07 sqlalchemy.engine.Engine [cached since 209.3s ago] ('9234567891',)
+INFO 2024-11-04 15:25:07 sqlalchemy.engine.Engine UPDATE users SET otp=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-11-04 15:25:07 sqlalchemy.engine.Engine [cached since 209.3s ago] ('558650', 19)
+INFO 2024-11-04 15:25:07 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 15:25:07 root Password reset email sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 15:25:07 root OTP sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 15:37:03 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 15:37:03 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-11-04 15:37:03 sqlalchemy.engine.Engine [cached since 925.2s ago] ('9234567491',)
+WARNING 2024-11-04 15:37:03 root User with identifier 9234567491 not found
+ERROR 2024-11-04 15:37:03 root HTTP error during reset password OTP: 404: User with identifier 9234567491 not found in the database.
+ERROR 2024-11-04 15:37:03 root Forgot password error: 404: User with identifier 9234567491 not found in the database.
+INFO 2024-11-04 15:37:03 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 15:38:41 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 15:38:41 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-11-04 15:38:41 sqlalchemy.engine.Engine [cached since 1023s ago] ('9542434318',)
+WARNING 2024-11-04 15:38:41 root User with identifier 9542434318 not found
+ERROR 2024-11-04 15:38:41 root HTTP error during reset password OTP: 404: User with identifier 9542434318 not found in the database.
+ERROR 2024-11-04 15:38:41 root Forgot password error: 404: User with identifier 9542434318 not found in the database.
+INFO 2024-11-04 15:38:41 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 15:39:24 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 15:39:24 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 15:39:24 sqlalchemy.engine.Engine [cached since 939.4s ago] ('gopalsrinivas2345252.b@gmail.com',)
+WARNING 2024-11-04 15:39:24 root User with identifier gopalsrinivas2345252.b@gmail.com not found
+ERROR 2024-11-04 15:39:24 root HTTP error during reset password OTP: 404: User with identifier gopalsrinivas2345252.b@gmail.com not found in the database.
+ERROR 2024-11-04 15:39:24 root Forgot password error: 404: User with identifier gopalsrinivas2345252.b@gmail.com not found in the database.
+INFO 2024-11-04 15:39:24 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 15:41:51 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 15:41:51 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 15:41:51 sqlalchemy.engine.Engine [cached since 1086s ago] ('gopalsrinivas43252452.b@gmail.com',)
+WARNING 2024-11-04 15:41:51 root User with identifier gopalsrinivas43252452.b@gmail.com not found
+ERROR 2024-11-04 15:41:51 root HTTP error during reset password OTP: 404: User with identifier gopalsrinivas43252452.b@gmail.com not found in the database.
+ERROR 2024-11-04 15:41:51 root Forgot password error: 404: User with identifier gopalsrinivas43252452.b@gmail.com not found in the database.
+INFO 2024-11-04 15:41:51 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 15:46:54 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 15:46:54 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 15:46:54 sqlalchemy.engine.Engine [cached since 1390s ago] ('asdkfjaldkfjadjf@gmail.com',)
+WARNING 2024-11-04 15:46:54 root User with identifier asdkfjaldkfjadjf@gmail.com not found
+ERROR 2024-11-04 15:46:54 root HTTP error during reset password OTP: 404: User with identifier asdkfjaldkfjadjf@gmail.com not found in the database.
+ERROR 2024-11-04 15:46:54 root Forgot password error: 404: User with identifier asdkfjaldkfjadjf@gmail.com not found in the database.
+INFO 2024-11-04 15:46:54 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 15:48:36 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 15:48:36 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 15:48:36 sqlalchemy.engine.Engine [cached since 1491s ago] ('laksjdflkajdsf@gmail.com',)
+WARNING 2024-11-04 15:48:36 root User with identifier laksjdflkajdsf@gmail.com not found
+ERROR 2024-11-04 15:48:36 root HTTP error during reset password OTP: 404: User with identifier laksjdflkajdsf@gmail.com not found in the database.
+ERROR 2024-11-04 15:48:36 root Forgot password error: 404: User with identifier laksjdflkajdsf@gmail.com not found in the database.
+INFO 2024-11-04 15:48:36 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 15:48:52 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 15:48:52 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 15:48:52 sqlalchemy.engine.Engine [cached since 1507s ago] ('asdlfjaldkjfaldfjlkajdsfk@gmail.com',)
+WARNING 2024-11-04 15:48:52 root User with identifier asdlfjaldkjfaldfjlkajdsfk@gmail.com not found
+ERROR 2024-11-04 15:48:52 root HTTP error during reset password OTP: 404: User with identifier asdlfjaldkjfaldfjlkajdsfk@gmail.com not found in the database.
+ERROR 2024-11-04 15:48:52 root Forgot password error: 404: User with identifier asdlfjaldkjfaldfjlkajdsfk@gmail.com not found in the database.
+INFO 2024-11-04 15:48:52 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 15:52:58 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 15:52:58 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 15:52:58 sqlalchemy.engine.Engine [cached since 1753s ago] ('gopalsrinivas43252452.b@gmail.com',)
+WARNING 2024-11-04 15:52:58 root User with identifier gopalsrinivas43252452.b@gmail.com not found
+ERROR 2024-11-04 15:52:58 root HTTP error during reset password OTP: 404: User with identifier gopalsrinivas43252452.b@gmail.com not found in the database.
+ERROR 2024-11-04 15:52:58 root Forgot password error: 404: User with identifier gopalsrinivas43252452.b@gmail.com not found in the database.
+INFO 2024-11-04 15:52:58 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 15:53:15 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 15:53:15 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-11-04 15:53:15 sqlalchemy.engine.Engine [cached since 1897s ago] ('9542434319',)
+WARNING 2024-11-04 15:53:15 root User with identifier 9542434319 not found
+ERROR 2024-11-04 15:53:15 root HTTP error during reset password OTP: 404: User with identifier 9542434319 not found in the database.
+ERROR 2024-11-04 15:53:15 root Forgot password error: 404: User with identifier 9542434319 not found in the database.
+INFO 2024-11-04 15:53:15 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 15:53:56 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 15:53:56 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-11-04 15:53:56 sqlalchemy.engine.Engine [cached since 1938s ago] ('9234567891',)
+INFO 2024-11-04 15:53:56 sqlalchemy.engine.Engine UPDATE users SET otp=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-11-04 15:53:56 sqlalchemy.engine.Engine [cached since 1938s ago] ('188663', 19)
+INFO 2024-11-04 15:53:56 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 15:53:56 root Password reset email sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 15:53:56 root OTP sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 16:10:53 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:10:53 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:10:53 sqlalchemy.engine.Engine [cached since 2828s ago] ('asdflkajdlajdfj@gmail.com',)
+WARNING 2024-11-04 16:10:53 root User with identifier asdflkajdlajdfj@gmail.com not found
+ERROR 2024-11-04 16:10:53 root HTTP error during reset password OTP: 404: User with identifier asdflkajdlajdfj@gmail.com not found in the database.
+ERROR 2024-11-04 16:10:53 root Forgot password error: 404: User with identifier asdflkajdlajdfj@gmail.com not found in the database.
+INFO 2024-11-04 16:10:53 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:11:31 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:11:31 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:11:31 sqlalchemy.engine.Engine [cached since 2866s ago] ('asflkasjdlfjadslfjasdjf@gmail.com',)
+WARNING 2024-11-04 16:11:31 root User with identifier asflkasjdlfjadslfjasdjf@gmail.com not found
+ERROR 2024-11-04 16:11:31 root HTTP error during reset password OTP: 404: User with identifier asflkasjdlfjadslfjasdjf@gmail.com not found in the database.
+ERROR 2024-11-04 16:11:31 root Forgot password error: 404: User with identifier asflkasjdlfjadslfjasdjf@gmail.com not found in the database.
+INFO 2024-11-04 16:11:31 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:11:59 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:11:59 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:11:59 sqlalchemy.engine.Engine [cached since 2894s ago] ('asdfasdfadsf@gmail.com',)
+WARNING 2024-11-04 16:11:59 root User with identifier asdfasdfadsf@gmail.com not found
+ERROR 2024-11-04 16:11:59 root HTTP error during reset password OTP: 404: User with identifier asdfasdfadsf@gmail.com not found in the database.
+ERROR 2024-11-04 16:11:59 root Forgot password error: 404: User with identifier asdfasdfadsf@gmail.com not found in the database.
+INFO 2024-11-04 16:11:59 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:12:14 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:12:14 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:12:14 sqlalchemy.engine.Engine [cached since 2909s ago] ('askdfhkajhdsfkjahdfkjhaskdjfhakdhf@gmail.com',)
+WARNING 2024-11-04 16:12:14 root User with identifier askdfhkajhdsfkjahdfkjhaskdjfhakdhf@gmail.com not found
+ERROR 2024-11-04 16:12:14 root HTTP error during reset password OTP: 404: User with identifier askdfhkajhdsfkjahdfkjhaskdjfhakdhf@gmail.com not found in the database.
+ERROR 2024-11-04 16:12:14 root Forgot password error: 404: User with identifier askdfhkajhdsfkjahdfkjhaskdjfhakdhf@gmail.com not found in the database.
+INFO 2024-11-04 16:12:14 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:12:50 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:12:50 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:12:50 sqlalchemy.engine.Engine [cached since 2945s ago] ('alsjdflajsdfljasdlfj@gmail.com',)
+WARNING 2024-11-04 16:12:50 root User with identifier alsjdflajsdfljasdlfj@gmail.com not found
+ERROR 2024-11-04 16:12:50 root HTTP error during reset password OTP: 404: User with identifier alsjdflajsdfljasdlfj@gmail.com not found in the database.
+ERROR 2024-11-04 16:12:50 root Forgot password error: 404: User with identifier alsjdflajsdfljasdlfj@gmail.com not found in the database.
+INFO 2024-11-04 16:12:50 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:23:23 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:23:23 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:23:23 sqlalchemy.engine.Engine [cached since 3578s ago] ('alsjdflajsdfljasdlfj@gmail.com',)
+WARNING 2024-11-04 16:23:23 root User with identifier alsjdflajsdfljasdlfj@gmail.com not found
+ERROR 2024-11-04 16:23:23 root HTTP error during reset password OTP: 404: User with identifier alsjdflajsdfljasdlfj@gmail.com not found in the database.
+ERROR 2024-11-04 16:23:23 root Forgot password error: 404: User with identifier alsjdflajsdfljasdlfj@gmail.com not found in the database.
+INFO 2024-11-04 16:23:23 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:24:05 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:24:05 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:24:05 sqlalchemy.engine.Engine [cached since 3620s ago] ('laskdjflkadsjflajsdlfkja@gmail.com',)
+WARNING 2024-11-04 16:24:05 root User with identifier laskdjflkadsjflajsdlfkja@gmail.com not found
+ERROR 2024-11-04 16:24:05 root HTTP error during reset password OTP: 404: User with identifier laskdjflkadsjflajsdlfkja@gmail.com not found in the database.
+ERROR 2024-11-04 16:24:05 root Forgot password error: 404: User with identifier laskdjflkadsjflajsdlfkja@gmail.com not found in the database.
+INFO 2024-11-04 16:24:05 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:27:56 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:27:56 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:27:56 sqlalchemy.engine.Engine [cached since 3851s ago] ('laskdjflkadsjflajsdlfkja@gmail.com',)
+WARNING 2024-11-04 16:27:56 root User with identifier laskdjflkadsjflajsdlfkja@gmail.com not found
+ERROR 2024-11-04 16:27:56 root HTTP error during reset password OTP: 404: User with identifier laskdjflkadsjflajsdlfkja@gmail.com not found in the database.
+ERROR 2024-11-04 16:27:56 root Forgot password error: 404: User with identifier laskdjflkadsjflajsdlfkja@gmail.com not found in the database.
+INFO 2024-11-04 16:27:56 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:31:14 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:31:14 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:31:14 sqlalchemy.engine.Engine [cached since 4049s ago] ('lasdjflakjdflajdfj@gmail.com',)
+WARNING 2024-11-04 16:31:14 root User with identifier lasdjflakjdflajdfj@gmail.com not found
+ERROR 2024-11-04 16:31:14 root HTTP error during reset password OTP: 404: User with identifier lasdjflakjdflajdfj@gmail.com not found in the database.
+ERROR 2024-11-04 16:31:14 root Forgot password error: 404: User with identifier lasdjflakjdflajdfj@gmail.com not found in the database.
+INFO 2024-11-04 16:31:14 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:31:33 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:31:33 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.mobile = $1::VARCHAR
+INFO 2024-11-04 16:31:33 sqlalchemy.engine.Engine [cached since 4195s ago] ('0928359245',)
+WARNING 2024-11-04 16:31:33 root User with identifier 0928359245 not found
+ERROR 2024-11-04 16:31:33 root HTTP error during reset password OTP: 404: User with identifier 0928359245 not found in the database.
+ERROR 2024-11-04 16:31:33 root Forgot password error: 404: User with identifier 0928359245 not found in the database.
+INFO 2024-11-04 16:31:33 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:34:08 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:34:08 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:34:08 sqlalchemy.engine.Engine [cached since 4223s ago] ('alskdjflakdjflkajdlfja@gmail.com',)
+WARNING 2024-11-04 16:34:08 root User with identifier alskdjflakdjflkajdlfja@gmail.com not found
+ERROR 2024-11-04 16:34:08 root HTTP error during reset password OTP: 404: User with identifier alskdjflakdjflkajdlfja@gmail.com not found in the database.
+ERROR 2024-11-04 16:34:08 root Forgot password error: 404: User with identifier alskdjflakdjflkajdlfja@gmail.com not found in the database.
+INFO 2024-11-04 16:34:08 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:35:04 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:35:04 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:35:04 sqlalchemy.engine.Engine [cached since 4279s ago] ('alsdjflakdjsflkjadfj@gmail.com',)
+WARNING 2024-11-04 16:35:04 root User with identifier alsdjflakdjsflkjadfj@gmail.com not found
+ERROR 2024-11-04 16:35:04 root HTTP error during reset password OTP: 404: User with identifier alsdjflakdjsflkjadfj@gmail.com not found in the database.
+ERROR 2024-11-04 16:35:04 root Forgot password error: 404: User with identifier alsdjflakdjsflkjadfj@gmail.com not found in the database.
+INFO 2024-11-04 16:35:04 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:37:10 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:37:10 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:37:10 sqlalchemy.engine.Engine [cached since 4405s ago] ('gopalsrinivas2.b@gmail.com',)
+INFO 2024-11-04 16:37:10 sqlalchemy.engine.Engine UPDATE users SET otp=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-11-04 16:37:10 sqlalchemy.engine.Engine [cached since 4532s ago] ('240177', 19)
+INFO 2024-11-04 16:37:10 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 16:37:10 root Password reset email sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 16:37:10 root OTP sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 16:39:50 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:39:50 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:39:50 sqlalchemy.engine.Engine [cached since 4565s ago] ('lkgjlajklja@gmail.com',)
+WARNING 2024-11-04 16:39:50 root User with identifier lkgjlajklja@gmail.com not found
+ERROR 2024-11-04 16:39:50 root HTTP error during reset password OTP: 404: User with identifier lkgjlajklja@gmail.com not found in the database.
+ERROR 2024-11-04 16:39:50 root Forgot password error: 404: User with identifier lkgjlajklja@gmail.com not found in the database.
+INFO 2024-11-04 16:39:50 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:42:16 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:42:16 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:42:16 sqlalchemy.engine.Engine [cached since 4711s ago] ('lkgjlajklja@gmail.com',)
+WARNING 2024-11-04 16:42:16 root User with identifier lkgjlajklja@gmail.com not found
+ERROR 2024-11-04 16:42:16 root HTTP error during reset password OTP: 404: User with identifier lkgjlajklja@gmail.com not found in the database.
+ERROR 2024-11-04 16:42:16 root Forgot password error: 404: User with identifier lkgjlajklja@gmail.com not found in the database.
+INFO 2024-11-04 16:42:16 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:46:04 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:46:04 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:46:04 sqlalchemy.engine.Engine [cached since 4939s ago] ('lkgjlajklja@gmail.com',)
+WARNING 2024-11-04 16:46:04 root User with identifier lkgjlajklja@gmail.com not found
+ERROR 2024-11-04 16:46:04 root HTTP error during reset password OTP: 404: User with identifier lkgjlajklja@gmail.com not found in the database.
+ERROR 2024-11-04 16:46:04 root Forgot password error: 404: User with identifier lkgjlajklja@gmail.com not found in the database.
+INFO 2024-11-04 16:46:04 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:46:23 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:46:23 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:46:23 sqlalchemy.engine.Engine [cached since 4958s ago] ('alsjdlajdljaj@gmail.com',)
+WARNING 2024-11-04 16:46:23 root User with identifier alsjdlajdljaj@gmail.com not found
+ERROR 2024-11-04 16:46:23 root HTTP error during reset password OTP: 404: User with identifier alsjdlajdljaj@gmail.com not found in the database.
+ERROR 2024-11-04 16:46:23 root Forgot password error: 404: User with identifier alsjdlajdljaj@gmail.com not found in the database.
+INFO 2024-11-04 16:46:23 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:46:33 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:46:33 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:46:33 sqlalchemy.engine.Engine [cached since 4968s ago] ('asdflajdlfkjadjf@gmail.com',)
+WARNING 2024-11-04 16:46:33 root User with identifier asdflajdlfkjadjf@gmail.com not found
+ERROR 2024-11-04 16:46:33 root HTTP error during reset password OTP: 404: User with identifier asdflajdlfkjadjf@gmail.com not found in the database.
+ERROR 2024-11-04 16:46:33 root Forgot password error: 404: User with identifier asdflajdlfkjadjf@gmail.com not found in the database.
+INFO 2024-11-04 16:46:33 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:48:29 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:48:29 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:48:29 sqlalchemy.engine.Engine [cached since 5084s ago] ('lkgjlajklja@gmail.com',)
+WARNING 2024-11-04 16:48:29 root User with identifier lkgjlajklja@gmail.com not found
+ERROR 2024-11-04 16:48:29 root HTTP error during reset password OTP: 404: User with identifier lkgjlajklja@gmail.com not found in the database.
+ERROR 2024-11-04 16:48:29 root Forgot password error: 404: User with identifier lkgjlajklja@gmail.com not found in the database.
+INFO 2024-11-04 16:48:29 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 16:48:58 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:48:58 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 16:48:58 sqlalchemy.engine.Engine [cached since 5113s ago] ('gopalsrinivas2.b@gmail.com',)
+INFO 2024-11-04 16:48:58 sqlalchemy.engine.Engine UPDATE users SET otp=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-11-04 16:48:58 sqlalchemy.engine.Engine [cached since 5240s ago] ('385036', 19)
+INFO 2024-11-04 16:48:58 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 16:48:58 root Password reset email sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 16:48:58 root OTP sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 16:59:15 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 16:59:16 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 16:59:16 sqlalchemy.engine.Engine [generated in 0.00560s] ('gopalsrinivas333@gmail.com', 'gopalsrinivas333@gmail.com')
+WARNING 2024-11-04 16:59:16 root Invalid email or mobile: gopalsrinivas333@gmail.com
+ERROR 2024-11-04 16:59:16 root Reset password error: Invalid email or mobile.
+INFO 2024-11-04 16:59:16 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 17:13:11 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:13:11 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 17:13:11 sqlalchemy.engine.Engine [cached since 835.4s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+WARNING 2024-11-04 17:13:11 root Invalid OTP for user: gopalsrinivas2.b@gmail.com
+ERROR 2024-11-04 17:13:11 root Reset password error: Invalid OTP.
+INFO 2024-11-04 17:13:11 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 17:19:05 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:19:05 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 17:19:05 sqlalchemy.engine.Engine [cached since 1189s ago] ('', '')
+WARNING 2024-11-04 17:19:05 root Invalid email or mobile: 
+ERROR 2024-11-04 17:19:05 root Reset password error: Invalid email or mobile.
+INFO 2024-11-04 17:19:05 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 17:22:29 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:22:29 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 17:22:29 sqlalchemy.engine.Engine [cached since 7124s ago] ('gopalsrinivas2.b@gmail.com',)
+INFO 2024-11-04 17:22:30 sqlalchemy.engine.Engine UPDATE users SET otp=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-11-04 17:22:30 sqlalchemy.engine.Engine [cached since 7252s ago] ('494316', 19)
+INFO 2024-11-04 17:22:30 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 17:22:30 root Password reset email sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 17:22:30 root OTP sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 17:23:10 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:23:10 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 17:23:10 sqlalchemy.engine.Engine [cached since 1434s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+WARNING 2024-11-04 17:23:10 root Invalid OTP for user: gopalsrinivas2.b@gmail.com
+ERROR 2024-11-04 17:23:10 root Reset password error: Invalid OTP.
+INFO 2024-11-04 17:23:10 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 17:24:32 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:24:32 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 17:24:32 sqlalchemy.engine.Engine [cached since 1516s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+WARNING 2024-11-04 17:24:32 passlib.handlers.bcrypt (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+DEBUG 2024-11-04 17:24:32 passlib.handlers.bcrypt detected 'bcrypt' backend, version '<unknown>'
+DEBUG 2024-11-04 17:24:32 passlib.handlers.bcrypt 'bcrypt' backend lacks $2$ support, enabling workaround
+INFO 2024-11-04 17:24:33 root Password hashed successfully.
+INFO 2024-11-04 17:24:33 sqlalchemy.engine.Engine UPDATE users SET password=$1::VARCHAR, otp=$2::VARCHAR, updated_on=now() WHERE users.id = $3::INTEGER
+INFO 2024-11-04 17:24:33 sqlalchemy.engine.Engine [generated in 0.00131s] ('$2b$12$u2FNRFXo/.PooHsZHQfSDu/ID.l0EkVkLOCMB7JLxalHgYu9vsHlG', None, 19)
+INFO 2024-11-04 17:24:33 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 17:24:33 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:24:33 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-11-04 17:24:33 sqlalchemy.engine.Engine [generated in 0.00529s] (19,)
+INFO 2024-11-04 17:24:33 root Password reset for user gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 17:24:33 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 17:33:03 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:33:03 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 17:33:03 sqlalchemy.engine.Engine [cached since 7783s ago] ('gopalsrinivas2.b@gmail.com',)
+INFO 2024-11-04 17:33:03 sqlalchemy.engine.Engine UPDATE users SET otp=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-11-04 17:33:03 sqlalchemy.engine.Engine [cached since 7910s ago] ('343512', 19)
+INFO 2024-11-04 17:33:03 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 17:33:03 root Password reset email sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 17:33:03 root OTP sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 17:33:50 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:33:50 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 17:33:50 sqlalchemy.engine.Engine [cached since 2100s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+INFO 2024-11-04 17:33:51 root Password hashed successfully.
+INFO 2024-11-04 17:33:51 sqlalchemy.engine.Engine UPDATE users SET password=$1::VARCHAR, otp=$2::VARCHAR, updated_on=now() WHERE users.id = $3::INTEGER
+INFO 2024-11-04 17:33:51 sqlalchemy.engine.Engine [cached since 582.4s ago] ('$2b$12$gLNXeJ0tmvIk/VCMckIAc.zzCqZrzo3sgO.bQFja50B8qKPPwfjP2', None, 19)
+INFO 2024-11-04 17:33:51 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 17:33:51 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:33:51 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-11-04 17:33:51 sqlalchemy.engine.Engine [cached since 582.3s ago] (19,)
+INFO 2024-11-04 17:33:51 root Password reset for user gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 17:33:51 sqlalchemy.engine.Engine ROLLBACK
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_name with data[0:10]
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_data with data[11:19]
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_name with data[20:28]
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_data with data[29:57]
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_name with data[58:66]
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_data with data[67:83]
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_name with data[84:89]
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_data with data[90:99]
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_name with data[100:109]
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_data with data[110:116]
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_name with data[117:130]
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_data with data[131:137]
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:34:23 multipart.multipart Calling on_end with no data
+INFO 2024-11-04 17:34:24 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:34:24 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 17:34:24 sqlalchemy.engine.Engine [cached since 2133s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+INFO 2024-11-04 17:34:24 root Password verification successful.
+INFO 2024-11-04 17:34:24 root User gopalsrinivas2.b@gmail.com authenticated successfully.
+INFO 2024-11-04 17:34:24 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 17:34:50 root Token blacklisted successfully: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE5IiwiZXhwIjoxNzMwNjE4NzA4fQ.HI2Wn1FS1UngXdk4xNVBfNrBOGLsm-FB3G69PnSOZqs
+INFO 2024-11-04 17:34:50 root Token blacklisted successfully: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE5IiwiZXhwIjoxNzMwNjE4NzA4fQ.HI2Wn1FS1UngXdk4xNVBfNrBOGLsm-FB3G69PnSOZqs
+INFO 2024-11-04 17:35:09 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:35:09 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 17:35:09 sqlalchemy.engine.Engine [cached since 7909s ago] ('gopalsrinivas2.b@gmail.com',)
+INFO 2024-11-04 17:35:09 sqlalchemy.engine.Engine UPDATE users SET otp=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-11-04 17:35:09 sqlalchemy.engine.Engine [cached since 8036s ago] ('308674', 19)
+INFO 2024-11-04 17:35:09 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 17:35:10 root Password reset email sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 17:35:10 root OTP sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 17:36:56 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:36:56 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 17:36:56 sqlalchemy.engine.Engine [cached since 2285s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+WARNING 2024-11-04 17:36:56 root Invalid OTP for user: gopalsrinivas2.b@gmail.com
+ERROR 2024-11-04 17:36:56 root Reset password error: Invalid OTP.
+INFO 2024-11-04 17:36:56 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 17:38:13 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:38:13 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 17:38:13 sqlalchemy.engine.Engine [cached since 2362s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+WARNING 2024-11-04 17:38:13 root Invalid OTP for user: gopalsrinivas2.b@gmail.com
+ERROR 2024-11-04 17:38:13 root Reset password error: Invalid OTP.
+INFO 2024-11-04 17:38:13 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 17:40:54 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:40:54 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 17:40:54 sqlalchemy.engine.Engine [cached since 2523s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+INFO 2024-11-04 17:40:54 root Password hashed successfully.
+INFO 2024-11-04 17:40:54 sqlalchemy.engine.Engine UPDATE users SET password=$1::VARCHAR, otp=$2::VARCHAR, updated_on=now() WHERE users.id = $3::INTEGER
+INFO 2024-11-04 17:40:54 sqlalchemy.engine.Engine [cached since 1006s ago] ('$2b$12$tY3Z6mdYqHM721gZk.jI1OmCifn2LZD7Rvp/3Jl7gW.9MoW4d7rka', None, 19)
+INFO 2024-11-04 17:40:54 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 17:40:54 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:40:54 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-11-04 17:40:54 sqlalchemy.engine.Engine [cached since 1006s ago] (19,)
+INFO 2024-11-04 17:40:54 root Password reset for user gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 17:40:54 sqlalchemy.engine.Engine ROLLBACK
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_name with data[0:10]
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_data with data[11:19]
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_name with data[20:28]
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_data with data[29:57]
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_name with data[58:66]
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_data with data[67:82]
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_name with data[83:88]
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_data with data[89:98]
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_name with data[99:108]
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_data with data[109:115]
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_name with data[116:129]
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_data with data[130:136]
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:42:42 multipart.multipart Calling on_end with no data
+INFO 2024-11-04 17:42:42 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:42:42 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 17:42:43 sqlalchemy.engine.Engine [cached since 2633s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+WARNING 2024-11-04 17:42:44 root Password verification failed.
+WARNING 2024-11-04 17:42:44 root Password verification failed for user: gopalsrinivas2.b@gmail.com.
+WARNING 2024-11-04 17:42:44 root Login failed for user: gopalsrinivas2.b@gmail.com. Invalid password.
+ERROR 2024-11-04 17:42:44 root HTTP Exception during login process: 400: Invalid password.
+INFO 2024-11-04 17:42:44 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-11-04 17:42:44 root Unexpected error: 400: Invalid password.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 244, in login
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 183, in login
+    raise HTTPException(status_code=400, detail=auth_response['msg'])
+fastapi.exceptions.HTTPException: 400: Invalid password.
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_name with data[0:10]
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_data with data[11:19]
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_name with data[20:28]
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_data with data[29:57]
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_name with data[58:66]
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_data with data[67:82]
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_name with data[83:88]
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_data with data[89:98]
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_name with data[99:108]
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_data with data[109:115]
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_name with data[116:129]
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_data with data[130:136]
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:43:02 multipart.multipart Calling on_end with no data
+INFO 2024-11-04 17:43:02 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:43:02 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 17:43:02 sqlalchemy.engine.Engine [cached since 2651s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+WARNING 2024-11-04 17:43:02 root Password verification failed.
+WARNING 2024-11-04 17:43:02 root Password verification failed for user: gopalsrinivas2.b@gmail.com.
+WARNING 2024-11-04 17:43:02 root Login failed for user: gopalsrinivas2.b@gmail.com. Invalid password.
+ERROR 2024-11-04 17:43:02 root HTTP Exception during login process: 400: Invalid password.
+INFO 2024-11-04 17:43:02 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-11-04 17:43:02 root Unexpected error: 400: Invalid password.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 244, in login
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 183, in login
+    raise HTTPException(status_code=400, detail=auth_response['msg'])
+fastapi.exceptions.HTTPException: 400: Invalid password.
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_name with data[0:10]
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_data with data[11:19]
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_name with data[20:28]
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_data with data[29:57]
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_name with data[58:66]
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_data with data[67:83]
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_name with data[84:89]
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_data with data[90:99]
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_name with data[100:109]
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_data with data[110:116]
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_name with data[117:130]
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_data with data[131:137]
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:43:16 multipart.multipart Calling on_end with no data
+INFO 2024-11-04 17:43:16 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:43:16 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 17:43:16 sqlalchemy.engine.Engine [cached since 2665s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+WARNING 2024-11-04 17:43:16 root Password verification failed.
+WARNING 2024-11-04 17:43:16 root Password verification failed for user: gopalsrinivas2.b@gmail.com.
+WARNING 2024-11-04 17:43:16 root Login failed for user: gopalsrinivas2.b@gmail.com. Invalid password.
+ERROR 2024-11-04 17:43:16 root HTTP Exception during login process: 400: Invalid password.
+INFO 2024-11-04 17:43:16 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-11-04 17:43:16 root Unexpected error: 400: Invalid password.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 244, in login
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 183, in login
+    raise HTTPException(status_code=400, detail=auth_response['msg'])
+fastapi.exceptions.HTTPException: 400: Invalid password.
+INFO 2024-11-04 17:44:37 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:44:37 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR
+INFO 2024-11-04 17:44:37 sqlalchemy.engine.Engine [cached since 8477s ago] ('gopalsrinivas2.b@gmail.com',)
+INFO 2024-11-04 17:44:37 sqlalchemy.engine.Engine UPDATE users SET otp=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-11-04 17:44:37 sqlalchemy.engine.Engine [cached since 8604s ago] ('899660', 19)
+INFO 2024-11-04 17:44:37 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 17:44:37 root Password reset email sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 17:44:37 root OTP sent to gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 17:45:16 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:45:16 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 17:45:16 sqlalchemy.engine.Engine [cached since 2786s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+INFO 2024-11-04 17:45:17 root Password hashed successfully.
+INFO 2024-11-04 17:45:17 sqlalchemy.engine.Engine UPDATE users SET password=$1::VARCHAR, otp=$2::VARCHAR, updated_on=now() WHERE users.id = $3::INTEGER
+INFO 2024-11-04 17:45:17 sqlalchemy.engine.Engine [cached since 1268s ago] ('$2b$12$qMlu3p4gcPA.VGv70h5zNOgkBg450GBP1yj2rdJ33UaCMnF6cIcYW', None, 19)
+INFO 2024-11-04 17:45:17 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 17:45:17 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:45:17 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-11-04 17:45:17 sqlalchemy.engine.Engine [cached since 1268s ago] (19,)
+INFO 2024-11-04 17:45:17 root Password reset for user gopalsrinivas2.b@gmail.com
+INFO 2024-11-04 17:45:17 sqlalchemy.engine.Engine ROLLBACK
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_name with data[0:10]
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_data with data[11:19]
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_name with data[20:28]
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_data with data[29:57]
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_name with data[58:66]
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_data with data[67:83]
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_name with data[84:89]
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_data with data[90:99]
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_name with data[100:109]
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_data with data[110:116]
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_name with data[117:130]
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_data with data[131:137]
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 17:45:35 multipart.multipart Calling on_end with no data
+INFO 2024-11-04 17:45:35 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 17:45:35 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 17:45:35 sqlalchemy.engine.Engine [cached since 2804s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+INFO 2024-11-04 17:45:35 root Password verification successful.
+INFO 2024-11-04 17:45:35 root User gopalsrinivas2.b@gmail.com authenticated successfully.
+INFO 2024-11-04 17:45:35 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 18:09:38 root Shutting down application...

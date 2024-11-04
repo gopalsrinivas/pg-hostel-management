@@ -226,3 +226,126 @@ async def update_user_details(db: AsyncSession, user_id: str, user_data: dict, f
     except Exception as ex:
         logging.error(f"Unexpected error while updating user details: {str(ex)}")
         raise HTTPException(status_code=500, detail="Error updating user details")
+    
+
+async def send_reset_password_otp(db: AsyncSession, identifier: str, background_tasks: BackgroundTasks, request: Request):
+    try:
+        # Determine if the identifier is an email or a mobile number
+        if "@" in identifier:
+            # Fetch by email
+            result = await db.execute(select(User).filter(User.email == identifier))
+        else:
+            # Fetch by mobile number
+            result = await db.execute(select(User).filter(User.mobile == identifier))
+
+        user = result.scalar_one_or_none()
+
+        # If user not found, raise an error
+        if not user:
+            logging.warning(f"User with identifier {identifier} not found")
+            raise HTTPException(status_code=404, detail=f"User with identifier {identifier} not found in the database.")
+
+        # Generate OTP code
+        otp_code = str(random.randint(100000, 999999))
+        user.otp = otp_code
+
+        # Commit OTP to the database
+        await db.commit()
+
+        # Get base URL for sending in the email
+        base_url = f"{request.url.scheme}://{request.url.hostname}{':' + str(request.url.port) if request.url.port else ''}"
+
+        # Send the email with the OTP
+        await send_reset_password_email(background_tasks, user.name, user.email, otp_code, base_url)
+        logging.info(f"OTP sent to {user.email}")
+
+        # Return the result to the router
+        return {
+            "email": user.email
+        }
+
+    except HTTPException as http_err:
+        logging.error(f"HTTP error during reset password OTP: {str(http_err)}")
+        raise http_err
+    except Exception as ex:
+        logging.error(f"Unexpected error while sending OTP: {str(ex)}")
+        raise HTTPException(status_code=500, detail="Error occurred while sending OTP.")
+
+
+async def reset_password(db: AsyncSession, identifier: str, otp: str, new_password: str):
+    try:
+        # Check if user exists with the given email or mobile
+        result = await db.execute(select(User).filter((User.email == identifier) | (User.mobile == identifier)))
+        user = result.scalar_one_or_none()
+
+        if not user:
+            logging.warning(f"Invalid email or mobile: {identifier}")
+            raise HTTPException(
+                status_code=400, detail="Invalid email or mobile.")
+
+        # Check if the OTP is valid
+        if user.otp != otp:
+            logging.warning(f"Invalid OTP for user: {identifier}")
+            raise HTTPException(status_code=400, detail="Invalid OTP.")
+
+        # Hash the new password and update the user
+        hashed_password = hash_password(new_password)
+        user.password = hashed_password
+        user.otp = None
+
+        await db.commit()
+        await db.refresh(user)
+
+        logging.info(f"Password reset for user {user.email}")
+
+        return user
+    except HTTPException as http_ex:
+        raise http_ex
+    except Exception as ex:
+        logging.error(f"Error resetting password: {str(ex)}")
+        raise HTTPException(status_code=500, detail="Error resetting password.")
+
+
+async def change_user_password(db: AsyncSession, id: int, current_password: str, new_password: str, confirm_new_password: str):
+    try:
+        # Fetch the user by ID
+        result = await db.execute(select(User).filter(User.id == id))
+        user = result.scalar_one_or_none()
+
+        if not user:
+            logging.warning(f"User with ID {id} not found.")
+            raise HTTPException(status_code=404, detail="User ID not found.")
+
+        # Verify the current password
+        if not verify_password(current_password, user.password):
+            logging.warning(
+                f"Current password verification failed for user: {id}.")
+            raise HTTPException(
+                status_code=400, detail="Current password is incorrect.")
+
+        # Check if the new password and confirm password match
+        if new_password != confirm_new_password:
+            logging.warning("New password and confirmation do not match.")
+            raise HTTPException(
+                status_code=400, detail="New password and confirmation do not match.")
+
+        # Hash the new password
+        hashed_new_password = hash_password(new_password)
+
+        # Update the user's password
+        user.password = hashed_new_password
+        await db.commit()
+        logging.info(f"Password changed successfully for user: {id}.")
+
+        # Return a response with the id and success message
+        return {"id": user.id, "message": "Password changed successfully."}
+
+    except HTTPException as ex:
+        # Log and raise the HTTPException to be caught in the route handler
+        logging.error(f"Error changing password for user {
+                      id}: {ex.status_code}: {ex.detail}")
+        raise ex
+    except Exception as e:
+        logging.error(
+            f"Unexpected error changing password for user {id}: {str(e)}")
+        raise HTTPException(status_code=500, detail="Internal Server Error")

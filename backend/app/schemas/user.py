@@ -35,7 +35,16 @@ class UserResponse(BaseModel):
     verified_at: Optional[datetime] = None
     created_on: datetime
     updated_on: Optional[datetime] = None
-
     class Config:
         from_attributes = True
 
+class ResetPasswordRequest(BaseModel):
+    identifier: str
+    otp: str
+    new_password: str
+
+class ChangePasswordRequest(BaseModel):
+    current_password: str = Field(...,description="Current password of the user")
+    new_password: str = Field(..., description="New password to be set")
+    confirm_new_password: str = Field(...,description="Confirmation of the new password")
+    

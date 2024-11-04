@@ -8,8 +8,8 @@ from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
 from app.core.database import get_db
-from app.services.user import create_user, authenticate_user, get_user_details, update_user_details, update_user_details
-from app.schemas.user import UserCreate
+from app.schemas.user import UserCreate, ChangePasswordRequest
+from app.services.user import create_user, authenticate_user, get_user_details, update_user_details, update_user_details, reset_password, send_reset_password_otp, change_user_password
 from app.core.security import create_access_token, create_refresh_token, get_current_user
 from app.utils.send_notifications.send_otp import verify_otp
 from app.models.user import User
@@ -454,3 +454,111 @@ async def logout(token: str = Depends(oauth2_scheme)):
         logging.error(f"Unexpected error during logout: {str(ex)}")
         raise HTTPException(
             status_code=500, detail="An unexpected error occurred during logout")
+
+
+@router.post("/forgot-password/", summary="Forgot password for user")
+async def forgot_password(request: Request, identifier: str, background_tasks: BackgroundTasks, db: AsyncSession = Depends(get_db)):
+    try:
+        # Call the service function for sending OTP
+        result = await send_reset_password_otp(db, identifier, background_tasks, request)
+        # Return success response
+        return {
+            "msg": "OTP sent to your registered email.",
+            "status": "success",
+            "data": {
+                "email": result.get("email")
+            }
+        }
+
+    except HTTPException as ex:
+        # Handle known errors
+        logging.error(f"Forgot password error: {str(ex)}")
+        return {
+            "msg": ex.detail,
+            "status": "error",
+            "data": {
+                "detail": str(ex)
+            }
+        }
+
+    except Exception as ex:
+        # Handle unexpected errors
+        logging.error(f"Internal server error in forgot password: {str(ex)}")
+        return {
+            "msg": "Internal server error",
+            "status": "error",
+            "data": {
+                "detail": str(ex)
+            }
+        }
+
+
+@router.post("/reset-password/", summary="Reset password using OTP")
+async def reset_password_endpoint(identifier: str, otp: str, new_password: str, db: AsyncSession = Depends(get_db)):
+    try:
+        user = await reset_password(db, identifier, otp, new_password)
+
+        # Prepare success response
+        return {
+            "msg": "Password reset successful",
+            "status_code": 200,
+            "data": {
+                "id": user.id,
+                "user_id": user.user_id,
+                "name": user.name,
+                "email": user.email,
+                "mobile": user.mobile,
+                "is_active": user.is_active,
+                "created_on": user.created_on,
+                "updated_on": user.updated_on
+            }
+        }
+
+    except HTTPException as ex:
+        # Log and return the specific error (invalid email/mobile or OTP)
+        logging.error(f"Reset password error: {str(ex.detail)}")
+        return {
+            "msg": ex.detail,
+            "status_code": ex.status_code,
+            "data": None
+        }
+
+    except Exception as ex:
+        # Handle any other unexpected errors
+        logging.error(f"Unexpected error in reset password endpoint: {str(ex)}")
+        return {
+            "msg": "Internal server error.",
+            "status_code": 500,
+            "data": None
+        }
+        
+
+@router.post("/change-password/", response_model=dict, summary="Change User Password")
+async def change_password(
+    request: ChangePasswordRequest,
+    db: AsyncSession = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    try:
+        user_id = current_user.id
+        await change_user_password(db, user_id, request.current_password, request.new_password, request.confirm_new_password)
+
+        # Return a structured response for a successful password change
+        return {
+            "status_code": 200,
+            "msg": "Password changed successfully"
+        }
+
+    except HTTPException as http_ex:
+        logging.error(f"HTTP error: {http_ex.detail}")
+        return {
+            "status_code": http_ex.status_code,
+            "msg": http_ex.detail
+        }
+
+    except Exception as ex:
+        logging.error(f"Failed to change password: {str(ex)}", exc_info=True)
+        return {
+            "status_code": 500,
+            "msg": "Failed to change password"
+        }
