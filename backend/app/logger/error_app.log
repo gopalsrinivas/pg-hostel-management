@@ -3052,3 +3052,243 @@ Traceback (most recent call last):
   File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 183, in login
     raise HTTPException(status_code=400, detail=auth_response['msg'])
 fastapi.exceptions.HTTPException: 400: Invalid password.
+ERROR 2024-11-04 18:09:51 app.core.logging This is an error message
+ERROR 2024-11-04 18:10:09 root Unexpected error: 401: Token has expired, please login again.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 105, in get_current_user
+    payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 157, in decode
+    _validate_claims(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 481, in _validate_claims
+    _validate_exp(claims, leeway=leeway)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 314, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired.")
+jose.exceptions.ExpiredSignatureError: Signature has expired.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 269, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\dependencies\utils.py", line 600, in solve_dependencies
+    solved = await call(**sub_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 136, in get_current_user
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Token has expired, please login again.
+ERROR 2024-11-04 18:10:40 root Unexpected error: 401: Token has expired, please login again.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 105, in get_current_user
+    payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 157, in decode
+    _validate_claims(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 481, in _validate_claims
+    _validate_exp(claims, leeway=leeway)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 314, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired.")
+jose.exceptions.ExpiredSignatureError: Signature has expired.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 269, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\dependencies\utils.py", line 600, in solve_dependencies
+    solved = await call(**sub_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 136, in get_current_user
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Token has expired, please login again.
+ERROR 2024-11-04 18:12:00 root Unexpected error: 401: Token has expired, please login again.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 105, in get_current_user
+    payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 157, in decode
+    _validate_claims(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 481, in _validate_claims
+    _validate_exp(claims, leeway=leeway)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 314, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired.")
+jose.exceptions.ExpiredSignatureError: Signature has expired.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 269, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\dependencies\utils.py", line 600, in solve_dependencies
+    solved = await call(**sub_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 136, in get_current_user
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Token has expired, please login again.
+ERROR 2024-11-04 18:12:35 root HTTP Exception during login process: 400: Invalid password.
+ERROR 2024-11-04 18:12:35 root Unexpected error: 400: Invalid password.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 244, in login
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 183, in login
+    raise HTTPException(status_code=400, detail=auth_response['msg'])
+fastapi.exceptions.HTTPException: 400: Invalid password.
+ERROR 2024-11-04 18:13:39 root Unexpected error: 401: Token has expired, please login again.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 105, in get_current_user
+    payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 157, in decode
+    _validate_claims(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 481, in _validate_claims
+    _validate_exp(claims, leeway=leeway)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 314, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired.")
+jose.exceptions.ExpiredSignatureError: Signature has expired.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 269, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\dependencies\utils.py", line 600, in solve_dependencies
+    solved = await call(**sub_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 136, in get_current_user
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Token has expired, please login again.
+ERROR 2024-11-04 18:14:12 root Unexpected error: 401: Token has expired, please login again.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 105, in get_current_user
+    payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 157, in decode
+    _validate_claims(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 481, in _validate_claims
+    _validate_exp(claims, leeway=leeway)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 314, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired.")
+jose.exceptions.ExpiredSignatureError: Signature has expired.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 269, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\dependencies\utils.py", line 600, in solve_dependencies
+    solved = await call(**sub_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 136, in get_current_user
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Token has expired, please login again.
+ERROR 2024-11-04 18:21:20 root Unexpected error: 401: Token has expired, please login again.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 105, in get_current_user
+    payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 157, in decode
+    _validate_claims(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 481, in _validate_claims
+    _validate_exp(claims, leeway=leeway)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 314, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired.")
+jose.exceptions.ExpiredSignatureError: Signature has expired.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 269, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\dependencies\utils.py", line 600, in solve_dependencies
+    solved = await call(**sub_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 136, in get_current_user
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Token has expired, please login again.
+ERROR 2024-11-04 18:21:21 root Invalid token provided: Not enough segments
+ERROR 2024-11-04 18:21:21 root Unexpected error: 401: Invalid token
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jws.py", line 176, in _load
+    signing_input, crypto_segment = jwt.rsplit(b".", 1)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 142, in decode
+    payload = jws.verify(token, key, algorithms, verify=verify_signature)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jws.py", line 70, in verify
+    header, payload, signing_input, signature = _load(token)
+                                                ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jws.py", line 180, in _load
+    raise JWSError("Not enough segments")
+jose.exceptions.JWSError: Not enough segments
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 105, in get_current_user
+    payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 144, in decode
+    raise JWTError(e)
+jose.exceptions.JWTError: Not enough segments
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 269, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\dependencies\utils.py", line 600, in solve_dependencies
+    solved = await call(**sub_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 141, in get_current_user
+    raise HTTPException(status_code=401, detail="Invalid token")
+fastapi.exceptions.HTTPException: 401: Invalid token
+ERROR 2024-11-04 18:24:16 root HTTP Exception during login process: 400: Invalid password.
+ERROR 2024-11-04 18:24:16 root Unexpected error: 400: Invalid password.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 244, in login
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 183, in login
+    raise HTTPException(status_code=400, detail=auth_response['msg'])
+fastapi.exceptions.HTTPException: 400: Invalid password.

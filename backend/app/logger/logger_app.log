@@ -14261,3 +14261,491 @@ INFO 2024-11-04 17:45:35 root Password verification successful.
 INFO 2024-11-04 17:45:35 root User gopalsrinivas2.b@gmail.com authenticated successfully.
 INFO 2024-11-04 17:45:35 sqlalchemy.engine.Engine ROLLBACK
 INFO 2024-11-04 18:09:38 root Shutting down application...
+DEBUG 2024-11-04 18:09:51 app.core.logging This is a debug message
+ERROR 2024-11-04 18:09:51 app.core.logging This is an error message
+DEBUG 2024-11-04 18:09:55 passlib.utils.compat loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+DEBUG 2024-11-04 18:09:55 passlib.utils.compat loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+DEBUG 2024-11-04 18:09:55 passlib.utils.compat loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+DEBUG 2024-11-04 18:09:57 passlib.registry registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+INFO 2024-11-04 18:10:09 root Application startup application...
+WARNING 2024-11-04 18:10:09 root Token has expired.
+ERROR 2024-11-04 18:10:09 root Unexpected error: 401: Token has expired, please login again.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 105, in get_current_user
+    payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 157, in decode
+    _validate_claims(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 481, in _validate_claims
+    _validate_exp(claims, leeway=leeway)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 314, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired.")
+jose.exceptions.ExpiredSignatureError: Signature has expired.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 269, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\dependencies\utils.py", line 600, in solve_dependencies
+    solved = await call(**sub_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 136, in get_current_user
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Token has expired, please login again.
+WARNING 2024-11-04 18:10:40 root Token has expired.
+ERROR 2024-11-04 18:10:40 root Unexpected error: 401: Token has expired, please login again.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 105, in get_current_user
+    payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 157, in decode
+    _validate_claims(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 481, in _validate_claims
+    _validate_exp(claims, leeway=leeway)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 314, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired.")
+jose.exceptions.ExpiredSignatureError: Signature has expired.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 269, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\dependencies\utils.py", line 600, in solve_dependencies
+    solved = await call(**sub_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 136, in get_current_user
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Token has expired, please login again.
+WARNING 2024-11-04 18:12:00 root Token has expired.
+ERROR 2024-11-04 18:12:00 root Unexpected error: 401: Token has expired, please login again.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 105, in get_current_user
+    payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 157, in decode
+    _validate_claims(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 481, in _validate_claims
+    _validate_exp(claims, leeway=leeway)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 314, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired.")
+jose.exceptions.ExpiredSignatureError: Signature has expired.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 269, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\dependencies\utils.py", line 600, in solve_dependencies
+    solved = await call(**sub_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 136, in get_current_user
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Token has expired, please login again.
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_name with data[0:10]
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_data with data[11:19]
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_name with data[20:28]
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_data with data[29:57]
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_name with data[58:66]
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_data with data[67:82]
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_name with data[83:88]
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_data with data[89:98]
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_name with data[99:112]
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_data with data[113:119]
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:12:34 multipart.multipart Calling on_end with no data
+INFO 2024-11-04 18:12:35 sqlalchemy.engine.Engine select pg_catalog.version()
+INFO 2024-11-04 18:12:35 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-11-04 18:12:35 sqlalchemy.engine.Engine select current_schema()
+INFO 2024-11-04 18:12:35 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-11-04 18:12:35 sqlalchemy.engine.Engine show standard_conforming_strings
+INFO 2024-11-04 18:12:35 sqlalchemy.engine.Engine [raw sql] ()
+INFO 2024-11-04 18:12:35 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 18:12:35 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 18:12:35 sqlalchemy.engine.Engine [generated in 0.00118s] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+WARNING 2024-11-04 18:12:35 passlib.handlers.bcrypt (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+DEBUG 2024-11-04 18:12:35 passlib.handlers.bcrypt detected 'bcrypt' backend, version '<unknown>'
+DEBUG 2024-11-04 18:12:35 passlib.handlers.bcrypt 'bcrypt' backend lacks $2$ support, enabling workaround
+WARNING 2024-11-04 18:12:35 root Password verification failed.
+WARNING 2024-11-04 18:12:35 root Password verification failed for user: gopalsrinivas2.b@gmail.com.
+WARNING 2024-11-04 18:12:35 root Login failed for user: gopalsrinivas2.b@gmail.com. Invalid password.
+ERROR 2024-11-04 18:12:35 root HTTP Exception during login process: 400: Invalid password.
+INFO 2024-11-04 18:12:35 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-11-04 18:12:35 root Unexpected error: 400: Invalid password.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 244, in login
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 183, in login
+    raise HTTPException(status_code=400, detail=auth_response['msg'])
+fastapi.exceptions.HTTPException: 400: Invalid password.
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_name with data[0:10]
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_data with data[11:19]
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_name with data[20:28]
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_data with data[29:57]
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_name with data[58:66]
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_data with data[67:83]
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_name with data[84:89]
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_data with data[90:99]
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_name with data[100:113]
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_data with data[114:120]
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:12:52 multipart.multipart Calling on_end with no data
+INFO 2024-11-04 18:12:52 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 18:12:52 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 18:12:52 sqlalchemy.engine.Engine [cached since 17.34s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+INFO 2024-11-04 18:12:52 root Password verification successful.
+INFO 2024-11-04 18:12:52 root User gopalsrinivas2.b@gmail.com authenticated successfully.
+INFO 2024-11-04 18:12:52 sqlalchemy.engine.Engine ROLLBACK
+WARNING 2024-11-04 18:13:39 root Token has expired.
+ERROR 2024-11-04 18:13:39 root Unexpected error: 401: Token has expired, please login again.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 105, in get_current_user
+    payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 157, in decode
+    _validate_claims(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 481, in _validate_claims
+    _validate_exp(claims, leeway=leeway)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 314, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired.")
+jose.exceptions.ExpiredSignatureError: Signature has expired.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 269, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\dependencies\utils.py", line 600, in solve_dependencies
+    solved = await call(**sub_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 136, in get_current_user
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Token has expired, please login again.
+WARNING 2024-11-04 18:14:12 root Token has expired.
+ERROR 2024-11-04 18:14:12 root Unexpected error: 401: Token has expired, please login again.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 105, in get_current_user
+    payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 157, in decode
+    _validate_claims(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 481, in _validate_claims
+    _validate_exp(claims, leeway=leeway)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 314, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired.")
+jose.exceptions.ExpiredSignatureError: Signature has expired.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 269, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\dependencies\utils.py", line 600, in solve_dependencies
+    solved = await call(**sub_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 136, in get_current_user
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Token has expired, please login again.
+WARNING 2024-11-04 18:21:20 root Token has expired.
+ERROR 2024-11-04 18:21:20 root Unexpected error: 401: Token has expired, please login again.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 105, in get_current_user
+    payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 157, in decode
+    _validate_claims(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 481, in _validate_claims
+    _validate_exp(claims, leeway=leeway)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 314, in _validate_exp
+    raise ExpiredSignatureError("Signature has expired.")
+jose.exceptions.ExpiredSignatureError: Signature has expired.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 269, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\dependencies\utils.py", line 600, in solve_dependencies
+    solved = await call(**sub_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 136, in get_current_user
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 401: Token has expired, please login again.
+INFO 2024-11-04 18:21:20 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 18:21:20 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-04 18:21:21 sqlalchemy.engine.Engine [generated in 0.13337s] ('user_19',)
+INFO 2024-11-04 18:21:21 root Access token created successfully for user: user_19
+INFO 2024-11-04 18:21:21 root Refresh token created successfully for user: user_19
+INFO 2024-11-04 18:21:21 sqlalchemy.engine.Engine UPDATE users SET access_token=$1::VARCHAR, refresh_token=$2::VARCHAR, updated_on=now() WHERE users.id = $3::INTEGER
+INFO 2024-11-04 18:21:21 sqlalchemy.engine.Engine [generated in 0.03157s] ('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE5IiwiZXhwIjoxNzMwODExMDgxfQ.amwbiu2j0lUHAt1ZpyZez3PGsyn0cp8H0x0yDZimOcs', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE5IiwiZXhwIjoxNzMxMzI5NDgxfQ.-CQjG5xZsztxKLhMtYmpH6AcLZYi5qOR_dvT9kM57j4', 19)
+INFO 2024-11-04 18:21:21 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 18:21:21 root Successfully refreshed access token for user: user_19.
+ERROR 2024-11-04 18:21:21 root Invalid token provided: Not enough segments
+ERROR 2024-11-04 18:21:21 root Unexpected error: 401: Invalid token
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jws.py", line 176, in _load
+    signing_input, crypto_segment = jwt.rsplit(b".", 1)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 142, in decode
+    payload = jws.verify(token, key, algorithms, verify=verify_signature)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jws.py", line 70, in verify
+    header, payload, signing_input, signature = _load(token)
+                                                ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jws.py", line 180, in _load
+    raise JWSError("Not enough segments")
+jose.exceptions.JWSError: Not enough segments
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 105, in get_current_user
+    payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\jose\jwt.py", line 144, in decode
+    raise JWTError(e)
+jose.exceptions.JWTError: Not enough segments
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 269, in app
+    solved_result = await solve_dependencies(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\dependencies\utils.py", line 600, in solve_dependencies
+    solved = await call(**sub_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\security.py", line 141, in get_current_user
+    raise HTTPException(status_code=401, detail="Invalid token")
+fastapi.exceptions.HTTPException: 401: Invalid token
+INFO 2024-11-04 18:22:31 root Token blacklisted successfully: undefined
+INFO 2024-11-04 18:22:31 root Token blacklisted successfully: undefined
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_name with data[0:10]
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_data with data[11:19]
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_name with data[20:28]
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_data with data[29:57]
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_name with data[58:66]
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_data with data[67:83]
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_name with data[84:89]
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_data with data[90:99]
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_name with data[100:109]
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_data with data[110:116]
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_name with data[117:130]
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_data with data[131:137]
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:22:55 multipart.multipart Calling on_end with no data
+INFO 2024-11-04 18:22:55 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 18:22:55 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 18:22:55 sqlalchemy.engine.Engine [cached since 620.7s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+INFO 2024-11-04 18:22:56 root Password verification successful.
+INFO 2024-11-04 18:22:56 root User gopalsrinivas2.b@gmail.com authenticated successfully.
+INFO 2024-11-04 18:22:56 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 18:23:36 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 18:23:36 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-04 18:23:36 sqlalchemy.engine.Engine [cached since 135.7s ago] ('user_19',)
+INFO 2024-11-04 18:23:36 root User user_19 successfully authenticated.
+INFO 2024-11-04 18:23:36 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-11-04 18:23:36 sqlalchemy.engine.Engine [generated in 0.00087s] (19,)
+INFO 2024-11-04 18:23:37 root Password verification successful.
+INFO 2024-11-04 18:23:37 root Password hashed successfully.
+INFO 2024-11-04 18:23:37 sqlalchemy.engine.Engine UPDATE users SET password=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-11-04 18:23:37 sqlalchemy.engine.Engine [generated in 0.00059s] ('$2b$12$OKTLctXrHjuAPoodYpFeTOCvhf3r9C6c1YOVHI8XGduoBS4xcyJmi', 19)
+INFO 2024-11-04 18:23:37 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 18:23:37 root Password changed successfully for user: 19.
+INFO 2024-11-04 18:23:59 root Token blacklisted successfully: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE5IiwiZXhwIjoxNzMwODExMDgxfQ.amwbiu2j0lUHAt1ZpyZez3PGsyn0cp8H0x0yDZimOcs
+INFO 2024-11-04 18:23:59 root Token blacklisted successfully: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzE5IiwiZXhwIjoxNzMwODExMDgxfQ.amwbiu2j0lUHAt1ZpyZez3PGsyn0cp8H0x0yDZimOcs
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_name with data[0:10]
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_data with data[11:19]
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_name with data[20:28]
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_data with data[29:57]
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_name with data[58:66]
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_data with data[67:83]
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_name with data[84:89]
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_data with data[90:99]
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_name with data[100:109]
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_data with data[110:116]
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_name with data[117:130]
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_data with data[131:137]
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:24:16 multipart.multipart Calling on_end with no data
+INFO 2024-11-04 18:24:16 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 18:24:16 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 18:24:16 sqlalchemy.engine.Engine [cached since 701.5s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+WARNING 2024-11-04 18:24:16 root Password verification failed.
+WARNING 2024-11-04 18:24:16 root Password verification failed for user: gopalsrinivas2.b@gmail.com.
+WARNING 2024-11-04 18:24:16 root Login failed for user: gopalsrinivas2.b@gmail.com. Invalid password.
+ERROR 2024-11-04 18:24:16 root HTTP Exception during login process: 400: Invalid password.
+INFO 2024-11-04 18:24:16 sqlalchemy.engine.Engine ROLLBACK
+ERROR 2024-11-04 18:24:16 root Unexpected error: 400: Invalid password.
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 244, in login
+    raise http_ex
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 183, in login
+    raise HTTPException(status_code=400, detail=auth_response['msg'])
+fastapi.exceptions.HTTPException: 400: Invalid password.
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_name with data[0:10]
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_data with data[11:19]
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_name with data[20:28]
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_data with data[29:57]
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_name with data[58:66]
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_data with data[67:82]
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_name with data[83:88]
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_data with data[89:98]
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_name with data[99:108]
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_data with data[109:115]
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_start with no data
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_name with data[116:129]
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_data with data[130:136]
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_field_end with no data
+DEBUG 2024-11-04 18:24:29 multipart.multipart Calling on_end with no data
+INFO 2024-11-04 18:24:29 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 18:24:29 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.email = $1::VARCHAR OR users.mobile = $2::VARCHAR
+INFO 2024-11-04 18:24:29 sqlalchemy.engine.Engine [cached since 714.7s ago] ('gopalsrinivas2.b@gmail.com', 'gopalsrinivas2.b@gmail.com')
+INFO 2024-11-04 18:24:30 root Password verification successful.
+INFO 2024-11-04 18:24:30 root User gopalsrinivas2.b@gmail.com authenticated successfully.
+INFO 2024-11-04 18:24:30 sqlalchemy.engine.Engine ROLLBACK
+INFO 2024-11-04 18:29:12 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 18:29:12 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-04 18:29:12 sqlalchemy.engine.Engine [cached since 471.6s ago] ('user_19',)
+INFO 2024-11-04 18:29:12 root User user_19 successfully authenticated.
+INFO 2024-11-04 18:29:12 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-11-04 18:29:12 sqlalchemy.engine.Engine [cached since 335.9s ago] (19,)
+INFO 2024-11-04 18:29:12 root Password verification successful.
+INFO 2024-11-04 18:29:13 root Password hashed successfully.
+INFO 2024-11-04 18:29:13 sqlalchemy.engine.Engine UPDATE users SET password=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-11-04 18:29:13 sqlalchemy.engine.Engine [cached since 335.8s ago] ('$2b$12$KW.wnp5CpBXVfZ0cAXmdHe6PMZIKPeq96rmFOfenQTf8SZ9X5e2iC', 19)
+INFO 2024-11-04 18:29:13 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 18:29:13 root Password changed successfully for user: 19.
+INFO 2024-11-04 18:35:33 sqlalchemy.engine.Engine BEGIN (implicit)
+INFO 2024-11-04 18:35:33 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.user_id = $1::VARCHAR
+INFO 2024-11-04 18:35:33 sqlalchemy.engine.Engine [cached since 852.6s ago] ('user_19',)
+INFO 2024-11-04 18:35:33 root User user_19 successfully authenticated.
+INFO 2024-11-04 18:35:33 sqlalchemy.engine.Engine SELECT users.id, users.user_id, users.name, users.profile_image, users.user_role, users.bio, users.email, users.mobile, users.password, users.access_token, users.refresh_token, users.otp, users.is_active, users.verified_at, users.created_on, users.updated_on 
+FROM users 
+WHERE users.id = $1::INTEGER
+INFO 2024-11-04 18:35:33 sqlalchemy.engine.Engine [cached since 716.9s ago] (19,)
+INFO 2024-11-04 18:35:34 root Password verification successful.
+INFO 2024-11-04 18:35:34 root Password hashed successfully.
+INFO 2024-11-04 18:35:34 sqlalchemy.engine.Engine UPDATE users SET password=$1::VARCHAR, updated_on=now() WHERE users.id = $2::INTEGER
+INFO 2024-11-04 18:35:34 sqlalchemy.engine.Engine [cached since 717.2s ago] ('$2b$12$NVEyiQC/E.ccIoMQSSPp/.YVxTmTH2QwVR/pBA2853dcm6zjMoFM6', 19)
+INFO 2024-11-04 18:35:34 sqlalchemy.engine.Engine COMMIT
+INFO 2024-11-04 18:35:34 root Password changed successfully for user: 19.
