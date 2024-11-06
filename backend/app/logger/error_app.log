@@ -3292,3 +3292,2006 @@ Traceback (most recent call last):
   File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\user.py", line 183, in login
     raise HTTPException(status_code=400, detail=auth_response['msg'])
 fastapi.exceptions.HTTPException: 400: Invalid password.
+ERROR 2024-11-06 10:31:16 app.core.logging This is an error message
+ERROR 2024-11-06 11:31:36 app.core.logging This is an error message
+ERROR 2024-11-06 11:33:23 app.core.logging This is an error message
+ERROR 2024-11-06 11:33:39 app.core.logging This is an error message
+ERROR 2024-11-06 11:34:37 app.core.logging This is an error message
+ERROR 2024-11-06 11:35:55 app.core.logging This is an error message
+ERROR 2024-11-06 11:36:18 app.core.logging This is an error message
+ERROR 2024-11-06 11:37:02 app.core.logging This is an error message
+ERROR 2024-11-06 11:37:07 app.core.logging This is an error message
+ERROR 2024-11-06 11:37:29 app.core.logging This is an error message
+ERROR 2024-11-06 11:39:21 app.core.logging This is an error message
+ERROR 2024-11-06 11:39:46 app.core.logging This is an error message
+ERROR 2024-11-06 11:40:06 app.core.logging This is an error message
+ERROR 2024-11-06 11:40:41 app.core.logging This is an error message
+ERROR 2024-11-06 11:40:43 app.core.logging This is an error message
+ERROR 2024-11-06 11:41:09 app.core.logging This is an error message
+ERROR 2024-11-06 11:41:16 app.core.logging This is an error message
+ERROR 2024-11-06 11:41:53 app.core.logging This is an error message
+ERROR 2024-11-06 11:43:42 app.core.logging This is an error message
+ERROR 2024-11-06 11:44:15 app.core.logging This is an error message
+ERROR 2024-11-06 11:44:18 app.core.logging This is an error message
+ERROR 2024-11-06 11:44:38 app.core.logging This is an error message
+ERROR 2024-11-06 11:44:44 app.core.logging This is an error message
+ERROR 2024-11-06 11:44:56 app.core.logging This is an error message
+ERROR 2024-11-06 11:45:01 app.core.logging This is an error message
+ERROR 2024-11-06 11:46:31 app.core.logging This is an error message
+ERROR 2024-11-06 11:49:19 app.core.logging This is an error message
+ERROR 2024-11-06 12:05:59 app.core.logging This is an error message
+ERROR 2024-11-06 12:06:21 app.core.logging This is an error message
+ERROR 2024-11-06 12:06:57 app.core.logging This is an error message
+ERROR 2024-11-06 12:07:06 app.core.logging This is an error message
+ERROR 2024-11-06 12:07:25 app.core.logging This is an error message
+ERROR 2024-11-06 12:07:37 app.core.logging This is an error message
+ERROR 2024-11-06 12:08:16 app.core.logging This is an error message
+ERROR 2024-11-06 12:08:23 app.core.logging This is an error message
+ERROR 2024-11-06 12:08:27 app.core.logging This is an error message
+ERROR 2024-11-06 12:09:52 app.core.logging This is an error message
+ERROR 2024-11-06 12:09:55 app.core.logging This is an error message
+ERROR 2024-11-06 12:10:15 app.core.logging This is an error message
+ERROR 2024-11-06 12:10:26 app.core.logging This is an error message
+ERROR 2024-11-06 12:10:50 app.core.logging This is an error message
+ERROR 2024-11-06 12:11:34 app.core.logging This is an error message
+ERROR 2024-11-06 12:11:45 app.core.logging This is an error message
+ERROR 2024-11-06 12:11:51 app.core.logging This is an error message
+ERROR 2024-11-06 12:11:57 app.core.logging This is an error message
+ERROR 2024-11-06 12:12:10 app.core.logging This is an error message
+ERROR 2024-11-06 12:12:46 app.core.logging This is an error message
+ERROR 2024-11-06 12:12:55 app.core.logging This is an error message
+ERROR 2024-11-06 12:12:59 app.core.logging This is an error message
+ERROR 2024-11-06 12:13:20 app.core.logging This is an error message
+ERROR 2024-11-06 12:13:34 app.core.logging This is an error message
+ERROR 2024-11-06 12:13:49 app.core.logging This is an error message
+ERROR 2024-11-06 12:13:56 app.core.logging This is an error message
+ERROR 2024-11-06 12:14:47 app.core.logging This is an error message
+ERROR 2024-11-06 12:14:59 app.core.logging This is an error message
+ERROR 2024-11-06 12:15:14 app.core.logging This is an error message
+ERROR 2024-11-06 12:21:19 app.core.logging This is an error message
+ERROR 2024-11-06 12:21:25 app.core.logging This is an error message
+ERROR 2024-11-06 12:22:09 app.core.logging This is an error message
+ERROR 2024-11-06 12:22:31 app.core.logging This is an error message
+ERROR 2024-11-06 12:23:01 app.core.logging This is an error message
+ERROR 2024-11-06 12:23:16 app.core.logging This is an error message
+ERROR 2024-11-06 12:23:50 app.core.logging This is an error message
+ERROR 2024-11-06 12:25:03 app.core.logging This is an error message
+ERROR 2024-11-06 12:25:23 app.core.logging This is an error message
+ERROR 2024-11-06 12:27:15 app.core.logging This is an error message
+ERROR 2024-11-06 12:27:48 app.core.logging This is an error message
+ERROR 2024-11-06 12:28:05 app.core.logging This is an error message
+ERROR 2024-11-06 12:28:12 app.core.logging This is an error message
+ERROR 2024-11-06 12:28:19 app.core.logging This is an error message
+ERROR 2024-11-06 12:28:29 app.core.logging This is an error message
+ERROR 2024-11-06 12:29:00 app.core.logging This is an error message
+ERROR 2024-11-06 12:29:09 app.core.logging This is an error message
+ERROR 2024-11-06 12:29:36 app.core.logging This is an error message
+ERROR 2024-11-06 12:29:44 app.core.logging This is an error message
+ERROR 2024-11-06 12:29:56 app.core.logging This is an error message
+ERROR 2024-11-06 12:30:05 app.core.logging This is an error message
+ERROR 2024-11-06 12:30:13 app.core.logging This is an error message
+ERROR 2024-11-06 12:30:24 app.core.logging This is an error message
+ERROR 2024-11-06 12:30:34 app.core.logging This is an error message
+ERROR 2024-11-06 12:30:41 app.core.logging This is an error message
+ERROR 2024-11-06 12:30:49 app.core.logging This is an error message
+ERROR 2024-11-06 12:32:12 app.core.logging This is an error message
+ERROR 2024-11-06 12:32:23 app.core.logging This is an error message
+ERROR 2024-11-06 12:33:00 app.core.logging This is an error message
+ERROR 2024-11-06 12:33:16 app.core.logging This is an error message
+ERROR 2024-11-06 12:33:35 app.core.logging This is an error message
+ERROR 2024-11-06 12:33:49 app.core.logging This is an error message
+ERROR 2024-11-06 12:33:58 app.core.logging This is an error message
+ERROR 2024-11-06 12:34:04 app.core.logging This is an error message
+ERROR 2024-11-06 12:34:23 app.core.logging This is an error message
+ERROR 2024-11-06 12:34:32 app.core.logging This is an error message
+ERROR 2024-11-06 12:35:16 app.core.logging This is an error message
+ERROR 2024-11-06 12:35:38 app.core.logging This is an error message
+ERROR 2024-11-06 12:36:05 app.core.logging This is an error message
+ERROR 2024-11-06 12:36:12 app.core.logging This is an error message
+ERROR 2024-11-06 12:36:20 app.core.logging This is an error message
+ERROR 2024-11-06 12:36:31 app.core.logging This is an error message
+ERROR 2024-11-06 12:36:38 app.core.logging This is an error message
+ERROR 2024-11-06 12:36:46 app.core.logging This is an error message
+ERROR 2024-11-06 12:37:02 app.core.logging This is an error message
+ERROR 2024-11-06 12:38:22 app.core.logging This is an error message
+ERROR 2024-11-06 12:38:33 app.core.logging This is an error message
+ERROR 2024-11-06 12:39:36 app.core.logging This is an error message
+ERROR 2024-11-06 12:43:13 app.core.logging This is an error message
+ERROR 2024-11-06 12:43:42 app.core.logging This is an error message
+ERROR 2024-11-06 12:44:38 app.core.logging This is an error message
+ERROR 2024-11-06 12:49:38 app.core.logging This is an error message
+ERROR 2024-11-06 12:52:34 app.core.logging This is an error message
+ERROR 2024-11-06 12:52:53 app.core.logging This is an error message
+ERROR 2024-11-06 12:53:11 app.core.logging This is an error message
+ERROR 2024-11-06 12:53:18 app.core.logging This is an error message
+ERROR 2024-11-06 12:53:28 app.core.logging This is an error message
+ERROR 2024-11-06 12:53:44 app.core.logging This is an error message
+ERROR 2024-11-06 12:53:54 app.core.logging This is an error message
+ERROR 2024-11-06 12:54:01 app.core.logging This is an error message
+ERROR 2024-11-06 12:54:18 app.core.logging This is an error message
+ERROR 2024-11-06 13:04:05 root Failed to create hostels: name 'select' is not defined
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 19, in create_hostel_route
+    result = await db.execute(select(Hostel.name).where(Hostel.name.in_(hostel_data.names)))
+                              ^^^^^^
+NameError: name 'select' is not defined. Did you forget to import 'select'
+ERROR 2024-11-06 13:04:05 root Unexpected error: 500: Failed to create Hostels
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 19, in create_hostel_route
+    result = await db.execute(select(Hostel.name).where(Hostel.name.in_(hostel_data.names)))
+                              ^^^^^^
+NameError: name 'select' is not defined. Did you forget to import 'select'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 41, in create_hostel_route
+    raise HTTPException(status_code=500, detail="Failed to create Hostels")
+fastapi.exceptions.HTTPException: 500: Failed to create Hostels
+ERROR 2024-11-06 13:04:10 root Failed to create hostels: name 'select' is not defined
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 19, in create_hostel_route
+    result = await db.execute(select(Hostel.name).where(Hostel.name.in_(hostel_data.names)))
+                              ^^^^^^
+NameError: name 'select' is not defined. Did you forget to import 'select'
+ERROR 2024-11-06 13:04:10 root Unexpected error: 500: Failed to create Hostels
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 19, in create_hostel_route
+    result = await db.execute(select(Hostel.name).where(Hostel.name.in_(hostel_data.names)))
+                              ^^^^^^
+NameError: name 'select' is not defined. Did you forget to import 'select'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 41, in create_hostel_route
+    raise HTTPException(status_code=500, detail="Failed to create Hostels")
+fastapi.exceptions.HTTPException: 500: Failed to create Hostels
+ERROR 2024-11-06 13:05:31 app.core.logging This is an error message
+ERROR 2024-11-06 13:05:46 app.core.logging This is an error message
+ERROR 2024-11-06 13:05:51 app.core.logging This is an error message
+ERROR 2024-11-06 13:05:57 root Failed to create hostels: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "hostel" does not exist
+[SQL: SELECT hostel.name 
+FROM hostel 
+WHERE hostel.name IN ($1::VARCHAR, $2::VARCHAR)]
+[parameters: ('Hostel One', 'Hostel Two')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 514, in _prepare_and_execute
+    prepared_stmt, attributes = await adapt_connection._prepare(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 760, in _prepare
+    prepared_stmt = await self._connection.prepare(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 636, in prepare
+    return await self._prepare(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 654, in _prepare
+    stmt = await self._get_statement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 433, in _get_statement
+    statement = await self._protocol.prepare(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg\protocol\protocol.pyx", line 166, in prepare
+asyncpg.exceptions.UndefinedTableError: relation "hostel" does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 572, in execute
+    self._adapt_connection.await_(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 550, in _prepare_and_execute
+    self._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 501, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 784, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.ProgrammingError: <class 'asyncpg.exceptions.UndefinedTableError'>: relation "hostel" does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 19, in create_hostel_route
+    existing_hostel = await db.execute(select(Hostel.name).where(Hostel.name.in_(hostel_data.names)))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\ext\asyncio\session.py", line 461, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 572, in execute
+    self._adapt_connection.await_(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 550, in _prepare_and_execute
+    self._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 501, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 784, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.ProgrammingError: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "hostel" does not exist
+[SQL: SELECT hostel.name 
+FROM hostel 
+WHERE hostel.name IN ($1::VARCHAR, $2::VARCHAR)]
+[parameters: ('Hostel One', 'Hostel Two')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+ERROR 2024-11-06 13:05:57 root Unexpected error: 500: Failed to create Hostels
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 514, in _prepare_and_execute
+    prepared_stmt, attributes = await adapt_connection._prepare(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 760, in _prepare
+    prepared_stmt = await self._connection.prepare(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 636, in prepare
+    return await self._prepare(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 654, in _prepare
+    stmt = await self._get_statement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 433, in _get_statement
+    statement = await self._protocol.prepare(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg\protocol\protocol.pyx", line 166, in prepare
+asyncpg.exceptions.UndefinedTableError: relation "hostel" does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 572, in execute
+    self._adapt_connection.await_(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 550, in _prepare_and_execute
+    self._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 501, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 784, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.ProgrammingError: <class 'asyncpg.exceptions.UndefinedTableError'>: relation "hostel" does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 19, in create_hostel_route
+    existing_hostel = await db.execute(select(Hostel.name).where(Hostel.name.in_(hostel_data.names)))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\ext\asyncio\session.py", line 461, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 572, in execute
+    self._adapt_connection.await_(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 550, in _prepare_and_execute
+    self._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 501, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 784, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.ProgrammingError: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "hostel" does not exist
+[SQL: SELECT hostel.name 
+FROM hostel 
+WHERE hostel.name IN ($1::VARCHAR, $2::VARCHAR)]
+[parameters: ('Hostel One', 'Hostel Two')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 40, in create_hostel_route
+    raise HTTPException(status_code=500, detail="Failed to create Hostels")
+fastapi.exceptions.HTTPException: 500: Failed to create Hostels
+ERROR 2024-11-06 13:08:30 app.core.logging This is an error message
+ERROR 2024-11-06 13:08:34 app.core.logging This is an error message
+ERROR 2024-11-06 13:08:48 app.core.logging This is an error message
+ERROR 2024-11-06 13:09:11 root Failed to create hostels: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "hostel" does not exist
+[SQL: SELECT hostel.name 
+FROM hostel 
+WHERE hostel.name IN ($1::VARCHAR, $2::VARCHAR)]
+[parameters: ('Hostel One', 'Hostel Two')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 514, in _prepare_and_execute
+    prepared_stmt, attributes = await adapt_connection._prepare(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 760, in _prepare
+    prepared_stmt = await self._connection.prepare(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 636, in prepare
+    return await self._prepare(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 654, in _prepare
+    stmt = await self._get_statement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 433, in _get_statement
+    statement = await self._protocol.prepare(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg\protocol\protocol.pyx", line 166, in prepare
+asyncpg.exceptions.UndefinedTableError: relation "hostel" does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 572, in execute
+    self._adapt_connection.await_(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 550, in _prepare_and_execute
+    self._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 501, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 784, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.ProgrammingError: <class 'asyncpg.exceptions.UndefinedTableError'>: relation "hostel" does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 19, in create_hostel_route
+    existing_hostel = await db.execute(select(Hostel.name).where(Hostel.name.in_(hostel_data.names)))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\ext\asyncio\session.py", line 461, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 572, in execute
+    self._adapt_connection.await_(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 550, in _prepare_and_execute
+    self._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 501, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 784, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.ProgrammingError: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "hostel" does not exist
+[SQL: SELECT hostel.name 
+FROM hostel 
+WHERE hostel.name IN ($1::VARCHAR, $2::VARCHAR)]
+[parameters: ('Hostel One', 'Hostel Two')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+ERROR 2024-11-06 13:09:11 root Unexpected error: 500: Failed to create Hostels
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 514, in _prepare_and_execute
+    prepared_stmt, attributes = await adapt_connection._prepare(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 760, in _prepare
+    prepared_stmt = await self._connection.prepare(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 636, in prepare
+    return await self._prepare(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 654, in _prepare
+    stmt = await self._get_statement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 433, in _get_statement
+    statement = await self._protocol.prepare(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg\protocol\protocol.pyx", line 166, in prepare
+asyncpg.exceptions.UndefinedTableError: relation "hostel" does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 572, in execute
+    self._adapt_connection.await_(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 550, in _prepare_and_execute
+    self._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 501, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 784, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.ProgrammingError: <class 'asyncpg.exceptions.UndefinedTableError'>: relation "hostel" does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 19, in create_hostel_route
+    existing_hostel = await db.execute(select(Hostel.name).where(Hostel.name.in_(hostel_data.names)))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\ext\asyncio\session.py", line 461, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 572, in execute
+    self._adapt_connection.await_(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 550, in _prepare_and_execute
+    self._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 501, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 784, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.ProgrammingError: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "hostel" does not exist
+[SQL: SELECT hostel.name 
+FROM hostel 
+WHERE hostel.name IN ($1::VARCHAR, $2::VARCHAR)]
+[parameters: ('Hostel One', 'Hostel Two')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 40, in create_hostel_route
+    raise HTTPException(status_code=500, detail="Failed to create Hostels")
+fastapi.exceptions.HTTPException: 500: Failed to create Hostels
+ERROR 2024-11-06 13:10:19 root Failed to create hostels: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "hostel" does not exist
+[SQL: SELECT hostel.name 
+FROM hostel 
+WHERE hostel.name IN ($1::VARCHAR, $2::VARCHAR)]
+[parameters: ('Hostel One', 'Hostel Two')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 514, in _prepare_and_execute
+    prepared_stmt, attributes = await adapt_connection._prepare(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 760, in _prepare
+    prepared_stmt = await self._connection.prepare(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 636, in prepare
+    return await self._prepare(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 654, in _prepare
+    stmt = await self._get_statement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 433, in _get_statement
+    statement = await self._protocol.prepare(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg\protocol\protocol.pyx", line 166, in prepare
+asyncpg.exceptions.UndefinedTableError: relation "hostel" does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 572, in execute
+    self._adapt_connection.await_(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 550, in _prepare_and_execute
+    self._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 501, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 784, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.ProgrammingError: <class 'asyncpg.exceptions.UndefinedTableError'>: relation "hostel" does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 19, in create_hostel_route
+    existing_hostel = await db.execute(select(Hostel.name).where(Hostel.name.in_(hostel_data.names)))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\ext\asyncio\session.py", line 461, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 572, in execute
+    self._adapt_connection.await_(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 550, in _prepare_and_execute
+    self._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 501, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 784, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.ProgrammingError: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "hostel" does not exist
+[SQL: SELECT hostel.name 
+FROM hostel 
+WHERE hostel.name IN ($1::VARCHAR, $2::VARCHAR)]
+[parameters: ('Hostel One', 'Hostel Two')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+ERROR 2024-11-06 13:10:19 root Unexpected error: 500: Failed to create Hostels
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 514, in _prepare_and_execute
+    prepared_stmt, attributes = await adapt_connection._prepare(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 760, in _prepare
+    prepared_stmt = await self._connection.prepare(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 636, in prepare
+    return await self._prepare(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 654, in _prepare
+    stmt = await self._get_statement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\asyncpg\connection.py", line 433, in _get_statement
+    statement = await self._protocol.prepare(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg\protocol\protocol.pyx", line 166, in prepare
+asyncpg.exceptions.UndefinedTableError: relation "hostel" does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 572, in execute
+    self._adapt_connection.await_(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 550, in _prepare_and_execute
+    self._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 501, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 784, in _handle_exception
+    raise translated_error from error
+sqlalchemy.dialects.postgresql.asyncpg.AsyncAdapt_asyncpg_dbapi.ProgrammingError: <class 'asyncpg.exceptions.UndefinedTableError'>: relation "hostel" does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 19, in create_hostel_route
+    existing_hostel = await db.execute(select(Hostel.name).where(Hostel.name.in_(hostel_data.names)))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\ext\asyncio\session.py", line 461, in execute
+    result = await greenlet_spawn(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 201, in greenlet_spawn
+    result = context.throw(*sys.exc_info())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2362, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\session.py", line 2247, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\orm\context.py", line 305, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1418, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1640, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 2355, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\engine\default.py", line 941, in do_execute
+    cursor.execute(statement, parameters)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 572, in execute
+    self._adapt_connection.await_(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 132, in await_only
+    return current.parent.switch(awaitable)  # type: ignore[no-any-return,attr-defined] # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\util\_concurrency_py3k.py", line 196, in greenlet_spawn
+    value = await result
+            ^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 550, in _prepare_and_execute
+    self._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 501, in _handle_exception
+    self._adapt_connection._handle_exception(error)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\sqlalchemy\dialects\postgresql\asyncpg.py", line 784, in _handle_exception
+    raise translated_error from error
+sqlalchemy.exc.ProgrammingError: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "hostel" does not exist
+[SQL: SELECT hostel.name 
+FROM hostel 
+WHERE hostel.name IN ($1::VARCHAR, $2::VARCHAR)]
+[parameters: ('Hostel One', 'Hostel Two')]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 40, in create_hostel_route
+    raise HTTPException(status_code=500, detail="Failed to create Hostels")
+fastapi.exceptions.HTTPException: 500: Failed to create Hostels
+ERROR 2024-11-06 13:36:03 app.core.logging This is an error message
+ERROR 2024-11-06 13:36:08 app.core.logging This is an error message
+ERROR 2024-11-06 13:36:20 app.core.logging This is an error message
+ERROR 2024-11-06 13:36:21 app.core.logging This is an error message
+ERROR 2024-11-06 13:36:44 root Failed to create hostels: name 'create_hostels' is not defined
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 28, in create_hostel_route
+    new_hostels = await create_hostels(db, hostel_data)
+                        ^^^^^^^^^^^^^^
+NameError: name 'create_hostels' is not defined. Did you mean: 'create_hostel_route'?
+ERROR 2024-11-06 13:36:44 root Unexpected error: 500: Failed to create Hostels
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 28, in create_hostel_route
+    new_hostels = await create_hostels(db, hostel_data)
+                        ^^^^^^^^^^^^^^
+NameError: name 'create_hostels' is not defined. Did you mean: 'create_hostel_route'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 40, in create_hostel_route
+    raise HTTPException(status_code=500, detail="Failed to create Hostels")
+fastapi.exceptions.HTTPException: 500: Failed to create Hostels
+ERROR 2024-11-06 13:36:46 root Failed to create hostels: name 'create_hostels' is not defined
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 28, in create_hostel_route
+    new_hostels = await create_hostels(db, hostel_data)
+                        ^^^^^^^^^^^^^^
+NameError: name 'create_hostels' is not defined. Did you mean: 'create_hostel_route'?
+ERROR 2024-11-06 13:36:46 root Unexpected error: 500: Failed to create Hostels
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 28, in create_hostel_route
+    new_hostels = await create_hostels(db, hostel_data)
+                        ^^^^^^^^^^^^^^
+NameError: name 'create_hostels' is not defined. Did you mean: 'create_hostel_route'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 40, in create_hostel_route
+    raise HTTPException(status_code=500, detail="Failed to create Hostels")
+fastapi.exceptions.HTTPException: 500: Failed to create Hostels
+ERROR 2024-11-06 13:39:16 app.core.logging This is an error message
+ERROR 2024-11-06 13:47:06 app.core.logging This is an error message
+ERROR 2024-11-06 13:47:15 app.core.logging This is an error message
+ERROR 2024-11-06 13:47:20 app.core.logging This is an error message
+ERROR 2024-11-06 13:47:30 app.core.logging This is an error message
+ERROR 2024-11-06 13:47:32 root Failed to create hostels: name 'Hostel' is not defined
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 20, in create_hostel_route
+    existing_hostel = await db.execute(select(Hostel.name).where(Hostel.name.in_(hostel_data.names)))
+                                              ^^^^^^
+NameError: name 'Hostel' is not defined
+ERROR 2024-11-06 13:47:32 root Unexpected error: 500: Failed to create Hostels
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 20, in create_hostel_route
+    existing_hostel = await db.execute(select(Hostel.name).where(Hostel.name.in_(hostel_data.names)))
+                                              ^^^^^^
+NameError: name 'Hostel' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 43, in create_hostel_route
+    raise HTTPException(status_code=500, detail="Failed to create Hostels")
+fastapi.exceptions.HTTPException: 500: Failed to create Hostels
+ERROR 2024-11-06 13:47:34 root Failed to create hostels: name 'Hostel' is not defined
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 20, in create_hostel_route
+    existing_hostel = await db.execute(select(Hostel.name).where(Hostel.name.in_(hostel_data.names)))
+                                              ^^^^^^
+NameError: name 'Hostel' is not defined
+ERROR 2024-11-06 13:47:34 root Unexpected error: 500: Failed to create Hostels
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 20, in create_hostel_route
+    existing_hostel = await db.execute(select(Hostel.name).where(Hostel.name.in_(hostel_data.names)))
+                                              ^^^^^^
+NameError: name 'Hostel' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 43, in create_hostel_route
+    raise HTTPException(status_code=500, detail="Failed to create Hostels")
+fastapi.exceptions.HTTPException: 500: Failed to create Hostels
+ERROR 2024-11-06 13:49:06 app.core.logging This is an error message
+ERROR 2024-11-06 13:49:15 app.core.logging This is an error message
+ERROR 2024-11-06 13:49:17 root Failed to create hostels: name 'select' is not defined
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 19, in create_hostel_route
+    existing_hostel = await db.execute(select(Hostel.name).where(Hostel.name.in_(hostel_data.names)))
+                                       ^^^^^^
+NameError: name 'select' is not defined. Did you forget to import 'select'
+ERROR 2024-11-06 13:49:17 root Unexpected error: 500: Failed to create Hostels
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 19, in create_hostel_route
+    existing_hostel = await db.execute(select(Hostel.name).where(Hostel.name.in_(hostel_data.names)))
+                                       ^^^^^^
+NameError: name 'select' is not defined. Did you forget to import 'select'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 42, in create_hostel_route
+    raise HTTPException(status_code=500, detail="Failed to create Hostels")
+fastapi.exceptions.HTTPException: 500: Failed to create Hostels
+ERROR 2024-11-06 13:50:23 app.core.logging This is an error message
+ERROR 2024-11-06 13:50:28 app.core.logging This is an error message
+ERROR 2024-11-06 13:50:36 app.core.logging This is an error message
+ERROR 2024-11-06 13:50:41 root Failed to create hostels: 1 validation error for HostelCreateSchemas
+names
+  Field required [type=missing, input_value=<Hostel Hostel One (ID: H...4-11-06 13:50:40.779801>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 35, in create_hostel_route
+    "data": [HostelCreateSchemas.from_orm(hstl) for hstl in new_hostels]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateSchemas
+names
+  Field required [type=missing, input_value=<Hostel Hostel One (ID: H...4-11-06 13:50:40.779801>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+ERROR 2024-11-06 13:50:41 root Unexpected error: 500: Failed to create Hostels
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 35, in create_hostel_route
+    "data": [HostelCreateSchemas.from_orm(hstl) for hstl in new_hostels]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateSchemas
+names
+  Field required [type=missing, input_value=<Hostel Hostel One (ID: H...4-11-06 13:50:40.779801>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 42, in create_hostel_route
+    raise HTTPException(status_code=500, detail="Failed to create Hostels")
+fastapi.exceptions.HTTPException: 500: Failed to create Hostels
+ERROR 2024-11-06 13:52:31 app.core.logging This is an error message
+ERROR 2024-11-06 13:52:40 root HTTP error: Hostel names already exist: Hostel One, Hostel Two
+ERROR 2024-11-06 13:52:40 root Unexpected error: 400: Hostel names already exist: Hostel One, Hostel Two
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 46, in create_hostel_route
+    raise he
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 23, in create_hostel_route
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 400: Hostel names already exist: Hostel One, Hostel Two
+ERROR 2024-11-06 13:53:19 app.core.logging This is an error message
+ERROR 2024-11-06 13:53:41 app.core.logging This is an error message
+ERROR 2024-11-06 13:53:44 app.core.logging This is an error message
+ERROR 2024-11-06 13:53:46 app.core.logging This is an error message
+ERROR 2024-11-06 13:54:05 root Failed to create hostels: 'Hostel' object has no attribute 'other_field'
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 40, in create_hostel_route
+    name=hostel.name, other_field=hostel.other_field)
+                                  ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Hostel' object has no attribute 'other_field'
+ERROR 2024-11-06 13:54:05 root Unexpected error: 500: Failed to create Hostels
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 40, in create_hostel_route
+    name=hostel.name, other_field=hostel.other_field)
+                                  ^^^^^^^^^^^^^^^^^^
+AttributeError: 'Hostel' object has no attribute 'other_field'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 49, in create_hostel_route
+    raise HTTPException(status_code=500, detail="Failed to create Hostels")
+fastapi.exceptions.HTTPException: 500: Failed to create Hostels
+ERROR 2024-11-06 13:57:26 app.core.logging This is an error message
+ERROR 2024-11-06 13:58:19 root HTTP error: Hostel names already exist: Hostel 7
+ERROR 2024-11-06 13:58:19 root Unexpected error: 400: Hostel names already exist: Hostel 7
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 49, in create_hostel_route
+    raise he
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 23, in create_hostel_route
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 400: Hostel names already exist: Hostel 7
+ERROR 2024-11-06 14:47:13 app.core.logging This is an error message
+ERROR 2024-11-06 14:47:26 app.core.logging This is an error message
+ERROR 2024-11-06 14:47:42 app.core.logging This is an error message
+ERROR 2024-11-06 14:47:55 app.core.logging This is an error message
+ERROR 2024-11-06 14:48:25 app.core.logging This is an error message
+ERROR 2024-11-06 14:48:37 app.core.logging This is an error message
+ERROR 2024-11-06 14:48:46 app.core.logging This is an error message
+ERROR 2024-11-06 14:48:57 app.core.logging This is an error message
+ERROR 2024-11-06 14:49:09 app.core.logging This is an error message
+ERROR 2024-11-06 14:49:40 app.core.logging This is an error message
+ERROR 2024-11-06 14:49:50 app.core.logging This is an error message
+ERROR 2024-11-06 14:49:54 app.core.logging This is an error message
+ERROR 2024-11-06 14:50:03 app.core.logging This is an error message
+ERROR 2024-11-06 14:50:19 app.core.logging This is an error message
+ERROR 2024-11-06 14:50:30 app.core.logging This is an error message
+ERROR 2024-11-06 14:50:38 app.core.logging This is an error message
+ERROR 2024-11-06 14:50:44 app.core.logging This is an error message
+ERROR 2024-11-06 14:50:53 app.core.logging This is an error message
+ERROR 2024-11-06 14:50:59 app.core.logging This is an error message
+ERROR 2024-11-06 14:51:05 app.core.logging This is an error message
+ERROR 2024-11-06 14:51:10 app.core.logging This is an error message
+ERROR 2024-11-06 14:51:16 app.core.logging This is an error message
+ERROR 2024-11-06 14:51:26 app.core.logging This is an error message
+ERROR 2024-11-06 14:51:34 app.core.logging This is an error message
+ERROR 2024-11-06 14:52:54 root Failed to fetch Hostels: 1 validation error for HostelCreateSchemas
+names
+  Field required [type=missing, input_value=<Hostel Hostel 10 (ID: Ho...4-11-06 13:58:45.420161>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 69, in get_categories_route
+    "data": [HostelCreateSchemas.from_orm(cat) for cat in hostels]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateSchemas
+names
+  Field required [type=missing, input_value=<Hostel Hostel 10 (ID: Ho...4-11-06 13:58:45.420161>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+ERROR 2024-11-06 14:52:54 root Unexpected error: 500: Failed to fetch hostels
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 69, in get_categories_route
+    "data": [HostelCreateSchemas.from_orm(cat) for cat in hostels]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateSchemas
+names
+  Field required [type=missing, input_value=<Hostel Hostel 10 (ID: Ho...4-11-06 13:58:45.420161>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 73, in get_categories_route
+    raise HTTPException(status_code=500, detail="Failed to fetch hostels")
+fastapi.exceptions.HTTPException: 500: Failed to fetch hostels
+ERROR 2024-11-06 14:53:05 root Failed to fetch Hostels: 1 validation error for HostelCreateSchemas
+names
+  Field required [type=missing, input_value=<Hostel Hostel 10 (ID: Ho...4-11-06 13:58:45.420161>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 69, in get_categories_route
+    "data": [HostelCreateSchemas.from_orm(cat) for cat in hostels]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateSchemas
+names
+  Field required [type=missing, input_value=<Hostel Hostel 10 (ID: Ho...4-11-06 13:58:45.420161>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+ERROR 2024-11-06 14:53:05 root Unexpected error: 500: Failed to fetch hostels
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 69, in get_categories_route
+    "data": [HostelCreateSchemas.from_orm(cat) for cat in hostels]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateSchemas
+names
+  Field required [type=missing, input_value=<Hostel Hostel 10 (ID: Ho...4-11-06 13:58:45.420161>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 73, in get_categories_route
+    raise HTTPException(status_code=500, detail="Failed to fetch hostels")
+fastapi.exceptions.HTTPException: 500: Failed to fetch hostels
+ERROR 2024-11-06 14:53:55 root Failed to fetch Hostels: 1 validation error for HostelCreateSchemas
+names
+  Field required [type=missing, input_value=<Hostel Hostel 10 (ID: Ho...4-11-06 13:58:45.420161>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 69, in get_categories_route
+    "data": [HostelCreateSchemas.from_orm(cat) for cat in hostels]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateSchemas
+names
+  Field required [type=missing, input_value=<Hostel Hostel 10 (ID: Ho...4-11-06 13:58:45.420161>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+ERROR 2024-11-06 14:53:55 root Unexpected error: 500: Failed to fetch hostels
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 69, in get_categories_route
+    "data": [HostelCreateSchemas.from_orm(cat) for cat in hostels]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateSchemas
+names
+  Field required [type=missing, input_value=<Hostel Hostel 10 (ID: Ho...4-11-06 13:58:45.420161>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 73, in get_categories_route
+    raise HTTPException(status_code=500, detail="Failed to fetch hostels")
+fastapi.exceptions.HTTPException: 500: Failed to fetch hostels
+ERROR 2024-11-06 15:02:13 app.core.logging This is an error message
+ERROR 2024-11-06 15:02:21 app.core.logging This is an error message
+ERROR 2024-11-06 15:02:25 app.core.logging This is an error message
+ERROR 2024-11-06 15:02:30 app.core.logging This is an error message
+ERROR 2024-11-06 15:02:43 app.core.logging This is an error message
+ERROR 2024-11-06 15:02:57 app.core.logging This is an error message
+ERROR 2024-11-06 15:03:10 app.core.logging This is an error message
+ERROR 2024-11-06 15:03:41 root Failed to fetch Hostels: 1 validation error for HostelCreateModel
+names
+  Field required [type=missing, input_value=<Hostel Hostel 10 (ID: Ho...4-11-06 13:58:45.420161>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 69, in get_categories_route
+    "data": [HostelCreateModel.from_orm(cat) for cat in hostels]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateModel
+names
+  Field required [type=missing, input_value=<Hostel Hostel 10 (ID: Ho...4-11-06 13:58:45.420161>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+ERROR 2024-11-06 15:03:41 root Unexpected error: 500: Failed to fetch hostels
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 69, in get_categories_route
+    "data": [HostelCreateModel.from_orm(cat) for cat in hostels]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateModel
+names
+  Field required [type=missing, input_value=<Hostel Hostel 10 (ID: Ho...4-11-06 13:58:45.420161>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 73, in get_categories_route
+    raise HTTPException(status_code=500, detail="Failed to fetch hostels")
+fastapi.exceptions.HTTPException: 500: Failed to fetch hostels
+ERROR 2024-11-06 15:08:41 app.core.logging This is an error message
+ERROR 2024-11-06 15:08:54 app.core.logging This is an error message
+ERROR 2024-11-06 15:09:01 app.core.logging This is an error message
+ERROR 2024-11-06 15:10:53 app.core.logging This is an error message
+ERROR 2024-11-06 15:11:05 app.core.logging This is an error message
+ERROR 2024-11-06 15:15:53 app.core.logging This is an error message
+ERROR 2024-11-06 15:16:04 app.core.logging This is an error message
+ERROR 2024-11-06 15:16:10 app.core.logging This is an error message
+ERROR 2024-11-06 15:16:18 app.core.logging This is an error message
+ERROR 2024-11-06 15:16:23 app.core.logging This is an error message
+ERROR 2024-11-06 15:16:28 app.core.logging This is an error message
+ERROR 2024-11-06 15:16:33 app.core.logging This is an error message
+ERROR 2024-11-06 15:16:38 app.core.logging This is an error message
+ERROR 2024-11-06 15:16:43 app.core.logging This is an error message
+ERROR 2024-11-06 15:16:48 app.core.logging This is an error message
+ERROR 2024-11-06 15:16:54 app.core.logging This is an error message
+ERROR 2024-11-06 15:16:59 app.core.logging This is an error message
+ERROR 2024-11-06 15:17:05 app.core.logging This is an error message
+ERROR 2024-11-06 15:17:12 app.core.logging This is an error message
+ERROR 2024-11-06 15:17:17 app.core.logging This is an error message
+ERROR 2024-11-06 15:17:23 app.core.logging This is an error message
+ERROR 2024-11-06 15:17:56 app.core.logging This is an error message
+ERROR 2024-11-06 15:18:04 app.core.logging This is an error message
+ERROR 2024-11-06 15:18:13 app.core.logging This is an error message
+ERROR 2024-11-06 15:20:51 app.core.logging This is an error message
+ERROR 2024-11-06 15:21:33 root Failed to fetch Hostel: name 'category_id' is not defined
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 82, in get_hostel_by_id_route
+    hostel = await get_hostel_by_id(db, category_id)
+                                        ^^^^^^^^^^^
+NameError: name 'category_id' is not defined
+ERROR 2024-11-06 15:21:33 root Unexpected error: 500: Failed to fetch hostel
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 82, in get_hostel_by_id_route
+    hostel = await get_hostel_by_id(db, category_id)
+                                        ^^^^^^^^^^^
+NameError: name 'category_id' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 97, in get_hostel_by_id_route
+    raise HTTPException(status_code=500, detail="Failed to fetch hostel")
+fastapi.exceptions.HTTPException: 500: Failed to fetch hostel
+ERROR 2024-11-06 15:21:47 root Failed to fetch Hostel: name 'category_id' is not defined
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 82, in get_hostel_by_id_route
+    hostel = await get_hostel_by_id(db, category_id)
+                                        ^^^^^^^^^^^
+NameError: name 'category_id' is not defined
+ERROR 2024-11-06 15:21:47 root Unexpected error: 500: Failed to fetch hostel
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 82, in get_hostel_by_id_route
+    hostel = await get_hostel_by_id(db, category_id)
+                                        ^^^^^^^^^^^
+NameError: name 'category_id' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 97, in get_hostel_by_id_route
+    raise HTTPException(status_code=500, detail="Failed to fetch hostel")
+fastapi.exceptions.HTTPException: 500: Failed to fetch hostel
+ERROR 2024-11-06 15:26:24 root Failed to fetch Hostel: name 'category_id' is not defined
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 82, in get_hostel_by_id_route
+    hostel = await get_hostel_by_id(db, category_id)
+                                        ^^^^^^^^^^^
+NameError: name 'category_id' is not defined
+ERROR 2024-11-06 15:26:24 root Unexpected error: 500: Failed to fetch hostel
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 82, in get_hostel_by_id_route
+    hostel = await get_hostel_by_id(db, category_id)
+                                        ^^^^^^^^^^^
+NameError: name 'category_id' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 97, in get_hostel_by_id_route
+    raise HTTPException(status_code=500, detail="Failed to fetch hostel")
+fastapi.exceptions.HTTPException: 500: Failed to fetch hostel
+ERROR 2024-11-06 15:26:44 app.core.logging This is an error message
+ERROR 2024-11-06 15:27:57 root Failed to fetch Hostel: name 'hostel_ids' is not defined
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 82, in get_hostel_by_id_route
+    hostel = await get_hostel_by_id(db, hostel_ids)
+                                        ^^^^^^^^^^
+NameError: name 'hostel_ids' is not defined. Did you mean: 'hostel_id'?
+ERROR 2024-11-06 15:27:57 root Unexpected error: 500: Failed to fetch hostel
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 82, in get_hostel_by_id_route
+    hostel = await get_hostel_by_id(db, hostel_ids)
+                                        ^^^^^^^^^^
+NameError: name 'hostel_ids' is not defined. Did you mean: 'hostel_id'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 97, in get_hostel_by_id_route
+    raise HTTPException(status_code=500, detail="Failed to fetch hostel")
+fastapi.exceptions.HTTPException: 500: Failed to fetch hostel
+ERROR 2024-11-06 15:28:57 app.core.logging This is an error message
+ERROR 2024-11-06 15:29:02 root Failed to fetch Hostel: 1 validation error for HostelCreateModel
+names
+  Field required [type=missing, input_value=<Hostel Hostel One (ID: H...4-11-06 13:50:40.779801>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 90, in get_hostel_by_id_route
+    "data": HostelCreateModel.from_orm(hostel)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateModel
+names
+  Field required [type=missing, input_value=<Hostel Hostel One (ID: H...4-11-06 13:50:40.779801>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+ERROR 2024-11-06 15:29:02 root Unexpected error: 500: Failed to fetch hostel
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 90, in get_hostel_by_id_route
+    "data": HostelCreateModel.from_orm(hostel)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateModel
+names
+  Field required [type=missing, input_value=<Hostel Hostel One (ID: H...4-11-06 13:50:40.779801>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 97, in get_hostel_by_id_route
+    raise HTTPException(status_code=500, detail="Failed to fetch hostel")
+fastapi.exceptions.HTTPException: 500: Failed to fetch hostel
+ERROR 2024-11-06 15:29:04 root Failed to fetch Hostel: 1 validation error for HostelCreateModel
+names
+  Field required [type=missing, input_value=<Hostel Hostel One (ID: H...4-11-06 13:50:40.779801>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 90, in get_hostel_by_id_route
+    "data": HostelCreateModel.from_orm(hostel)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateModel
+names
+  Field required [type=missing, input_value=<Hostel Hostel One (ID: H...4-11-06 13:50:40.779801>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+ERROR 2024-11-06 15:29:04 root Unexpected error: 500: Failed to fetch hostel
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 90, in get_hostel_by_id_route
+    "data": HostelCreateModel.from_orm(hostel)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateModel
+names
+  Field required [type=missing, input_value=<Hostel Hostel One (ID: H...4-11-06 13:50:40.779801>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 97, in get_hostel_by_id_route
+    raise HTTPException(status_code=500, detail="Failed to fetch hostel")
+fastapi.exceptions.HTTPException: 500: Failed to fetch hostel
+ERROR 2024-11-06 15:32:23 app.core.logging This is an error message
+ERROR 2024-11-06 15:32:43 app.core.logging This is an error message
+ERROR 2024-11-06 15:32:51 root Failed to fetch Hostel: 1 validation error for HostelCreateModel
+names
+  Field required [type=missing, input_value=<Hostel Hostel One (ID: H...4-11-06 13:50:40.779801>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 90, in get_hostel_by_id_route
+    "data": HostelCreateModel.from_orm(hostel)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateModel
+names
+  Field required [type=missing, input_value=<Hostel Hostel One (ID: H...4-11-06 13:50:40.779801>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+ERROR 2024-11-06 15:32:51 root Unexpected error: 500: Failed to fetch hostel
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 90, in get_hostel_by_id_route
+    "data": HostelCreateModel.from_orm(hostel)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateModel
+names
+  Field required [type=missing, input_value=<Hostel Hostel One (ID: H...4-11-06 13:50:40.779801>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 97, in get_hostel_by_id_route
+    raise HTTPException(status_code=500, detail="Failed to fetch hostel")
+fastapi.exceptions.HTTPException: 500: Failed to fetch hostel
+ERROR 2024-11-06 15:42:55 app.core.logging This is an error message
+ERROR 2024-11-06 15:43:09 app.core.logging This is an error message
+ERROR 2024-11-06 15:43:24 app.core.logging This is an error message
+ERROR 2024-11-06 15:46:35 app.core.logging This is an error message
+ERROR 2024-11-06 15:46:45 app.core.logging This is an error message
+ERROR 2024-11-06 15:47:53 app.core.logging This is an error message
+ERROR 2024-11-06 15:48:09 app.core.logging This is an error message
+ERROR 2024-11-06 15:48:17 app.core.logging This is an error message
+ERROR 2024-11-06 15:48:26 app.core.logging This is an error message
+ERROR 2024-11-06 15:48:40 app.core.logging This is an error message
+ERROR 2024-11-06 15:48:57 root HTTP error: Hostel names already exist: Hostel 10
+ERROR 2024-11-06 15:48:57 root Unexpected error: 400: Hostel names already exist: Hostel 10
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 49, in create_hostel_route
+    raise he
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 23, in create_hostel_route
+    raise HTTPException(
+fastapi.exceptions.HTTPException: 400: Hostel names already exist: Hostel 10
+ERROR 2024-11-06 15:49:43 root Failed to fetch Hostels: name 'hstl' is not defined
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 69, in get_categories_route
+    "data": [HostelModel.from_orm(hstl) for hostel in hostels]
+                                  ^^^^
+NameError: name 'hstl' is not defined
+ERROR 2024-11-06 15:49:43 root Unexpected error: 500: Failed to fetch hostels
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 69, in get_categories_route
+    "data": [HostelModel.from_orm(hstl) for hostel in hostels]
+                                  ^^^^
+NameError: name 'hstl' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 74, in get_categories_route
+    raise HTTPException(status_code=500, detail="Failed to fetch hostels")
+fastapi.exceptions.HTTPException: 500: Failed to fetch hostels
+ERROR 2024-11-06 15:49:44 root Failed to fetch Hostels: name 'hstl' is not defined
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 69, in get_categories_route
+    "data": [HostelModel.from_orm(hstl) for hostel in hostels]
+                                  ^^^^
+NameError: name 'hstl' is not defined
+ERROR 2024-11-06 15:49:44 root Unexpected error: 500: Failed to fetch hostels
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 69, in get_categories_route
+    "data": [HostelModel.from_orm(hstl) for hostel in hostels]
+                                  ^^^^
+NameError: name 'hstl' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 74, in get_categories_route
+    raise HTTPException(status_code=500, detail="Failed to fetch hostels")
+fastapi.exceptions.HTTPException: 500: Failed to fetch hostels
+ERROR 2024-11-06 15:50:55 app.core.logging This is an error message
+ERROR 2024-11-06 15:50:57 root Failed to fetch Hostels: 1 validation error for HostelModel
+cat_id
+  Field required [type=missing, input_value=<Hostel Hostel 13 (ID: Ho...4-11-06 15:49:05.880200>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 69, in get_categories_route
+    "data": [HostelModel.from_orm(hostel) for hostel in hostels]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelModel
+cat_id
+  Field required [type=missing, input_value=<Hostel Hostel 13 (ID: Ho...4-11-06 15:49:05.880200>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+ERROR 2024-11-06 15:50:57 root Unexpected error: 500: Failed to fetch hostels
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 69, in get_categories_route
+    "data": [HostelModel.from_orm(hostel) for hostel in hostels]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelModel
+cat_id
+  Field required [type=missing, input_value=<Hostel Hostel 13 (ID: Ho...4-11-06 15:49:05.880200>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 74, in get_categories_route
+    raise HTTPException(status_code=500, detail="Failed to fetch hostels")
+fastapi.exceptions.HTTPException: 500: Failed to fetch hostels
+ERROR 2024-11-06 15:52:49 app.core.logging This is an error message
+ERROR 2024-11-06 15:52:58 app.core.logging This is an error message
+ERROR 2024-11-06 15:53:54 app.core.logging This is an error message
+ERROR 2024-11-06 15:53:58 root Failed to fetch Hostel: 1 validation error for HostelCreateModel
+names
+  Field required [type=missing, input_value=<Hostel Hostel One (ID: H...4-11-06 13:50:40.779801>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 88, in get_hostel_by_id_route
+    "data": HostelCreateModel.from_orm(hostel)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateModel
+names
+  Field required [type=missing, input_value=<Hostel Hostel One (ID: H...4-11-06 13:50:40.779801>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+ERROR 2024-11-06 15:53:58 root Unexpected error: 500: Failed to fetch hostel
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 88, in get_hostel_by_id_route
+    "data": HostelCreateModel.from_orm(hostel)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 1237, in from_orm
+    return cls.model_validate(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 568, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for HostelCreateModel
+names
+  Field required [type=missing, input_value=<Hostel Hostel One (ID: H...4-11-06 13:50:40.779801>, input_type=Hostel]
+    For further information visit https://errors.pydantic.dev/2.8/v/missing
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 95, in get_hostel_by_id_route
+    raise HTTPException(status_code=500, detail="Failed to fetch hostel")
+fastapi.exceptions.HTTPException: 500: Failed to fetch hostel
+ERROR 2024-11-06 15:54:45 app.core.logging This is an error message
+ERROR 2024-11-06 15:55:09 root HTTP error: Hostel not found
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 82, in get_hostel_by_id_route
+    raise HTTPException(status_code=404, detail="Hostel not found")
+fastapi.exceptions.HTTPException: 404: Hostel not found
+ERROR 2024-11-06 15:55:09 root Unexpected error: 404: Hostel not found
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 92, in get_hostel_by_id_route
+    raise he
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 82, in get_hostel_by_id_route
+    raise HTTPException(status_code=404, detail="Hostel not found")
+fastapi.exceptions.HTTPException: 404: Hostel not found
+ERROR 2024-11-06 15:55:16 app.core.logging This is an error message
+ERROR 2024-11-06 15:56:45 app.core.logging This is an error message
+ERROR 2024-11-06 15:56:52 app.core.logging This is an error message
+ERROR 2024-11-06 15:57:20 app.core.logging This is an error message
+ERROR 2024-11-06 15:57:26 app.core.logging This is an error message
+ERROR 2024-11-06 15:58:06 app.core.logging This is an error message
+ERROR 2024-11-06 16:11:14 app.core.logging This is an error message
+ERROR 2024-11-06 16:11:59 app.core.logging This is an error message
+ERROR 2024-11-06 16:12:07 app.core.logging This is an error message
+ERROR 2024-11-06 16:12:24 app.core.logging This is an error message
+ERROR 2024-11-06 16:15:11 app.core.logging This is an error message
+ERROR 2024-11-06 16:15:26 app.core.logging This is an error message
+ERROR 2024-11-06 16:16:13 app.core.logging This is an error message
+ERROR 2024-11-06 16:17:03 app.core.logging This is an error message
+ERROR 2024-11-06 16:17:11 app.core.logging This is an error message
+ERROR 2024-11-06 16:18:09 app.core.logging This is an error message
+ERROR 2024-11-06 16:21:47 app.core.logging This is an error message
+ERROR 2024-11-06 16:22:02 app.core.logging This is an error message
+ERROR 2024-11-06 16:22:16 app.core.logging This is an error message
+ERROR 2024-11-06 16:22:25 app.core.logging This is an error message
+ERROR 2024-11-06 16:22:36 app.core.logging This is an error message
+ERROR 2024-11-06 16:22:40 app.core.logging This is an error message
+ERROR 2024-11-06 16:22:45 app.core.logging This is an error message
+ERROR 2024-11-06 16:22:51 app.core.logging This is an error message
+ERROR 2024-11-06 16:22:57 app.core.logging This is an error message
+ERROR 2024-11-06 16:23:08 app.core.logging This is an error message
+ERROR 2024-11-06 16:23:14 app.core.logging This is an error message
+ERROR 2024-11-06 16:23:27 app.core.logging This is an error message
+ERROR 2024-11-06 16:23:33 app.core.logging This is an error message
+ERROR 2024-11-06 16:23:46 app.core.logging This is an error message
+ERROR 2024-11-06 16:24:09 app.core.logging This is an error message
+ERROR 2024-11-06 16:24:29 app.core.logging This is an error message
+ERROR 2024-11-06 16:24:35 app.core.logging This is an error message
+ERROR 2024-11-06 16:24:45 app.core.logging This is an error message
+ERROR 2024-11-06 16:24:49 app.core.logging This is an error message
+ERROR 2024-11-06 16:24:54 app.core.logging This is an error message
+ERROR 2024-11-06 16:25:12 app.core.logging This is an error message
+ERROR 2024-11-06 16:25:18 app.core.logging This is an error message
+ERROR 2024-11-06 16:25:27 app.core.logging This is an error message
+ERROR 2024-11-06 16:25:33 app.core.logging This is an error message
+ERROR 2024-11-06 16:25:41 app.core.logging This is an error message
+ERROR 2024-11-06 16:25:53 app.core.logging This is an error message
+ERROR 2024-11-06 16:25:59 app.core.logging This is an error message
+ERROR 2024-11-06 16:26:10 app.core.logging This is an error message
+ERROR 2024-11-06 16:26:18 app.core.logging This is an error message
+ERROR 2024-11-06 16:26:29 app.core.logging This is an error message
+ERROR 2024-11-06 16:26:48 app.core.logging This is an error message
+ERROR 2024-11-06 16:26:56 app.core.logging This is an error message
+ERROR 2024-11-06 16:27:04 app.core.logging This is an error message
+ERROR 2024-11-06 16:27:12 app.core.logging This is an error message
+ERROR 2024-11-06 16:27:28 app.core.logging This is an error message
+ERROR 2024-11-06 16:27:35 app.core.logging This is an error message
+ERROR 2024-11-06 16:27:42 app.core.logging This is an error message
+ERROR 2024-11-06 16:27:52 app.core.logging This is an error message
+ERROR 2024-11-06 16:28:06 app.core.logging This is an error message
+ERROR 2024-11-06 16:28:21 app.core.logging This is an error message
+ERROR 2024-11-06 16:28:28 app.core.logging This is an error message
+ERROR 2024-11-06 16:28:35 app.core.logging This is an error message
+ERROR 2024-11-06 16:29:24 root Failed to update hostel: name 'update_hostel' is not defined
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 94, in update_hostel_route
+    updated_hostel = await update_hostel(db, hostel_id, hostel_data)
+                           ^^^^^^^^^^^^^
+NameError: name 'update_hostel' is not defined. Did you mean: 'create_hostel'?
+ERROR 2024-11-06 16:29:24 root Unexpected error: 500: Failed to update hostel
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 94, in update_hostel_route
+    updated_hostel = await update_hostel(db, hostel_id, hostel_data)
+                           ^^^^^^^^^^^^^
+NameError: name 'update_hostel' is not defined. Did you mean: 'create_hostel'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 110, in update_hostel_route
+    raise HTTPException(status_code=500, detail="Failed to update hostel")
+fastapi.exceptions.HTTPException: 500: Failed to update hostel
+ERROR 2024-11-06 16:30:10 app.core.logging This is an error message
+ERROR 2024-11-06 16:30:15 app.core.logging This is an error message
+ERROR 2024-11-06 16:30:20 root Failed to update hostel with ID 1: name 'hostle' is not defined
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\hostel_services.py", line 90, in update_hostel
+    hostle.name = hostel_data.name
+    ^^^^^^
+NameError: name 'hostle' is not defined. Did you mean: 'hostel'?
+ERROR 2024-11-06 16:30:20 root HTTP error: Failed to update hostel
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\hostel_services.py", line 90, in update_hostel
+    hostle.name = hostel_data.name
+    ^^^^^^
+NameError: name 'hostle' is not defined. Did you mean: 'hostel'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 94, in update_hostel_route
+    updated_hostel = await update_hostel(db, hostel_id, hostel_data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\hostel_services.py", line 100, in update_hostel
+    raise HTTPException(status_code=500, detail="Failed to update hostel")
+fastapi.exceptions.HTTPException: 500: Failed to update hostel
+ERROR 2024-11-06 16:30:20 root Unexpected error: 500: Failed to update hostel
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\hostel_services.py", line 90, in update_hostel
+    hostle.name = hostel_data.name
+    ^^^^^^
+NameError: name 'hostle' is not defined. Did you mean: 'hostel'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\core\database.py", line 23, in get_db
+    yield session
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 107, in update_hostel_route
+    raise he
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\routes\hostel_routes.py", line 94, in update_hostel_route
+    updated_hostel = await update_hostel(db, hostel_id, hostel_data)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Fast_API\pg-hostel-management\backend\app\services\hostel_services.py", line 100, in update_hostel
+    raise HTTPException(status_code=500, detail="Failed to update hostel")
+fastapi.exceptions.HTTPException: 500: Failed to update hostel
+ERROR 2024-11-06 16:30:55 app.core.logging This is an error message
+ERROR 2024-11-06 16:31:07 app.core.logging This is an error message
+ERROR 2024-11-06 16:35:18 app.core.logging This is an error message
+ERROR 2024-11-06 16:35:38 app.core.logging This is an error message
+ERROR 2024-11-06 16:35:46 app.core.logging This is an error message
+ERROR 2024-11-06 16:36:06 app.core.logging This is an error message
+ERROR 2024-11-06 16:36:10 app.core.logging This is an error message
+ERROR 2024-11-06 16:40:04 app.core.logging This is an error message
+ERROR 2024-11-06 16:40:41 app.core.logging This is an error message
+ERROR 2024-11-06 16:41:10 app.core.logging This is an error message
+ERROR 2024-11-06 16:41:18 app.core.logging This is an error message
+ERROR 2024-11-06 16:41:22 app.core.logging This is an error message
+ERROR 2024-11-06 16:41:31 app.core.logging This is an error message
+ERROR 2024-11-06 16:41:40 app.core.logging This is an error message
+ERROR 2024-11-06 16:41:46 app.core.logging This is an error message
+ERROR 2024-11-06 16:41:51 app.core.logging This is an error message
+ERROR 2024-11-06 16:41:58 app.core.logging This is an error message
+ERROR 2024-11-06 16:42:09 app.core.logging This is an error message
+ERROR 2024-11-06 16:42:17 app.core.logging This is an error message
+ERROR 2024-11-06 16:42:23 app.core.logging This is an error message
+ERROR 2024-11-06 16:42:33 app.core.logging This is an error message
+ERROR 2024-11-06 16:42:41 app.core.logging This is an error message
+ERROR 2024-11-06 16:42:46 app.core.logging This is an error message
+ERROR 2024-11-06 16:42:56 app.core.logging This is an error message
+ERROR 2024-11-06 16:43:09 app.core.logging This is an error message
+ERROR 2024-11-06 16:43:17 app.core.logging This is an error message
+ERROR 2024-11-06 16:43:25 app.core.logging This is an error message
+ERROR 2024-11-06 16:43:31 app.core.logging This is an error message
+ERROR 2024-11-06 16:43:42 app.core.logging This is an error message
+ERROR 2024-11-06 16:43:49 app.core.logging This is an error message
+ERROR 2024-11-06 16:43:56 app.core.logging This is an error message
+ERROR 2024-11-06 16:44:04 app.core.logging This is an error message
+ERROR 2024-11-06 16:44:11 app.core.logging This is an error message
+ERROR 2024-11-06 16:44:18 app.core.logging This is an error message
+ERROR 2024-11-06 16:44:29 app.core.logging This is an error message
+ERROR 2024-11-06 16:44:36 app.core.logging This is an error message
+ERROR 2024-11-06 16:44:45 app.core.logging This is an error message
+ERROR 2024-11-06 16:47:10 app.core.logging This is an error message
+ERROR 2024-11-06 16:47:14 app.core.logging This is an error message
+ERROR 2024-11-06 16:47:21 app.core.logging This is an error message

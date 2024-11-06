@@ -6,7 +6,7 @@ from app.core.logging import logging
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import settings
 import uvicorn
-from app.routes import user
+from app.routes import user,hostel_routes
 
 app = FastAPI(title="PG Hostel Application",docs_url="/api_v1/docs", redoc_url="/api_v1/redoc")
 
@@ -14,11 +14,12 @@ app = FastAPI(title="PG Hostel Application",docs_url="/api_v1/docs", redoc_url="
 app.mount("/media", StaticFiles(directory=MEDIA_DIR), name="media")
 
 app.include_router(user.router, prefix="/api/v1/newuserregister", tags=["Users"])
+app.include_router(hostel_routes.router, prefix="/api/v1/hostels", tags=["HostelsList"])
 
 
 @app.get("/")
 async def root():
-    return {"message": "Hi, I am FastApi-JWT_Auth. Awesome - Your setup is done & working."}
+    return {"message": "Hi, I am FastApi-Pg-Hostel_management. Awesome - Your setup is done & working."}
 
 @app.on_event("startup")
 async def startup_event():

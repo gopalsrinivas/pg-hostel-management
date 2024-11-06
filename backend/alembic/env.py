@@ -1,13 +1,15 @@
 from app.core.database import Base
 import sys
 import os
-from app.models.user import User
-
 from logging.config import fileConfig
 from sqlalchemy import pool
 from sqlalchemy.ext.asyncio import create_async_engine
 from alembic import context
 import asyncio
+
+from app.models.user import User
+from app.models.hostels_model import Hostel
+
 
 # Add the project directory (one level up from alembic) to sys.path
 sys.path.insert(0, os.path.abspath(

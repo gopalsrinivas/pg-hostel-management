@@ -60,14 +60,12 @@ async def send_otp_email(background_tasks, name: str, email: str, otp_code: int)
             body=otp_body,
             subtype="html"
         )
-
         # Send email in background
         background_tasks.add_task(fast_mail.send_message, message)
         logging.info(f"OTP email sent to {email}")
     except Exception as e:
         logging.error(f"Error sending OTP email: {str(e)}")
         raise HTTPException(status_code=500, detail="Error sending OTP email")
-
 
 async def verify_otp(email: str, otp: str) -> bool:
     try:
